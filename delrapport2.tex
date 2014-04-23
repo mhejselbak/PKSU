@@ -6,6 +6,30 @@
 \usepackage{verbatim} % så man kan skrive ren tekst
 \usepackage[all]{xy} % den sidste (avancerede) formel i dokumentet
 \usepackage{graphicx}
+\usepackage{listings}
+
+\usepackage{color}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=Java,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true
+  tabsize=3
+}
+
 
 \title{ProjektKursus Systemudvikling 2014\\Delrapport 2}
 \author{}
@@ -22,7 +46,7 @@ Instruktør: Kasper Passov
 Vi har valgt at udarbejde et projekt for  ”BMX-Butikken”, det er en butik der har specialiseret sig indenfor BMX sporten, som er placeret i københavn.  De sælger alt indenfor BMX, som indebærer alt fra tøj og sko, til cykler og dele. Udover en fysisk butik på nørrebrogade, har bmxbutikken også en online webshop som ligger på www.bmxbutikken.dk.
 Projektet går ud på at lave en applikation til smartphones. Denne skal hjælpe bmx kørerer med at finde nye steder at køre på, som før var forbeholdt de lokale, derudover vil applikationen også vise  brugerne hvor bmx-butikken ligger og eventuelle samarbejdspartnere.
 Ideen med applikationen er at den skal appelere til bmx kørere, dette kan både være lokale som vil udforske deres by yderligere, eller folk fra andre dele af landet på besøg i København samt såkaldte bmx eller skate turister. Applikationen Vil hovedsageligt dreje sig om københavnsområdet.
-Vi vil bygge appen ved hjælp af programmerings sproget JAVA og bruge værktøjer som "android developer tools".
+Vi vil bygge appen op ved hjælp af javascript, html og css. Det kommer til at fungere som en hjemmeside, som appen blot kommer til at åbne i en mobil venlig udgave.
 
 \section{IT-projektets formål og rammer}
 Følgende model er en FACTOR analyse af projektet og giver en kort og konkret beskrivelse af rammerne for projektet.
@@ -33,7 +57,6 @@ Følgende model er en FACTOR analyse af projektet og giver en kort og konkret be
 \pagebreak
 
 \section{Kravspecifikation for IT-løsningen}
-Følgende punkter:\\
 (a) De funktionelle og ikke-funktionelle krav til jeres system\\\\
 Funktionelle krav:\\
 Upload af billeder\\
@@ -45,14 +68,97 @@ Markers\\
 Rutevejledning\\
 Bruger lokation\\
 Rating system\\
-Mulighed for at oprette sig som bruger\\
 BMX-Butikken\\\\
 Ikke funktionelle krav:\\
 Appens sprog skal være på engelsk\\
-Bruger venligt UI\\\\
+Bruger venligt UI
+\pagebreak\\
 (b) En use case model, der beskriver system-funktionaliteten. Der ønskes et højniveau-diagram,
 som giver overblik over hvilke use cases de forskellige aktører har.\\
+\begin{figure}[htb]
+\begin{center}
+\includegraphics[scale = 0.65]{ASD}
+\end{center}
+\end{figure}
+
+Højniveau diagram der skal illustrere de forskellige aktører
+\pagebreak\\
 (c) Tre specificerede use cases, som er særlig vigtige i jeres system, se fx OOSE figur 4-22.\\
+\setlength\parindent{0pt}
+\section*{Use-cases}
+\subsection*{Find spot}
+\hrule\vspace{5mm}
+\textit{Use case name:} FindSpot\\
+\hrule\vspace{5mm}
+\textit{Actor:} en bruger der gerne vil finde et spot\\
+\hrule\vspace{5mm}
+\textit{Entry condition:} brugeren åbner appen\\
+\hrule\vspace{5mm}
+\textit{Flow of events:}
+\begin{enumerate}
+\item Brugeren bliver præsenteret for et kort med sin egen positition i centrum
+\item brugere kan frit vælge imellem de spots der er på kortet
+\item efter brugeren har valgt et spot vil han blive videreført til en side hvor han kan se oplysninger om spottet samt billeder
+\end{enumerate}
+\hrule\vspace{5mm}
+\textit{Exit condition:} Brugeren kan få kørselsvejledning til det spot han har valgt\\
+\hrule\vspace{5mm}
+\newpage
+\subsection*{Tilføj spot}
+\hrule\vspace{5mm}
+\textit{Use case name:} AddSpot\\
+\hrule\vspace{5mm}
+\textit{Actor:} en bruger der gerne vil tilføje et spot\\
+\hrule\vspace{5mm}
+\textit{Entry condition:} brugeren åbner appen\\
+\hrule\vspace{5mm}
+\textit{Flow of events:}
+\begin{enumerate}
+\item Brugeren vælger tilføj spot fanen i applikationen
+\item Brugeren kan tilføje billeder, koordinater og informationer omkring spottet
+\item Når brugeren tilføjer spottet vil han blive sendt tilbage med mulighed for at tilføje et nyt spot
+\end{enumerate}
+\hrule\vspace{5mm}
+\textit{Exit condition:} Spottet bliver sendt til godkendelse hos administratoren\\
+\hrule\vspace{5mm}
+\newpage
+\subsection*{Ændre indstillinger}
+\hrule\vspace{5mm}
+\textit{Use case name:} ChangeCondition\\
+\hrule\vspace{5mm}
+\textit{Actor:} en bruger der gerne vil ændre indstillingerne\\
+\hrule\vspace{5mm}
+\textit{Entry condition:} brugeren åbner appen\\
+\hrule\vspace{5mm}
+\textit{Flow of events:}
+\begin{enumerate}
+\item brugeren vælger indstillinger, efter at have åbnet applikationen
+\item brugeren bliver præsenteret for de forskellige indstillinger han kan vælge
+\item når brugeren han ændret indstillinger er der en ok knap som tilføjer indstillingerne
+\end{enumerate}
+\hrule\vspace{5mm}
+\textit{Exit condition:} Brugeren kan nu bruge applikationen med de nye indstillinger. f.eks. radius på kortet.\\
+\hrule\vspace{5mm}
+\newpage
+\subsection*{Find butik}
+\hrule\vspace{5mm}
+\textit{Use case name:} FindShop\\
+\hrule\vspace{5mm}
+\textit{Actor:} en bruger der gerne vil finde en butik\\
+\hrule\vspace{5mm}
+\textit{Entry condition:} brugeren åbner appen\\
+\hrule\vspace{5mm}
+\textit{Flow of events:}
+\begin{enumerate}
+\item Brugeren vælger butikker i menuen
+\item brugere kan frit vælge imellem de butikker der er på kortet
+\item efter brugeren har valgt en butik vil han blive videreført til en side hvor han kan se oplysninger om butikken samt billeder
+\end{enumerate}
+\hrule\vspace{5mm}
+\textit{Exit condition:} Brugeren kan få kørselsvejledning til den butik han har valgt\\
+\hrule\vspace{5mm}
+\pagebreak
+
 (d) Et klassediagram over jeres problemområde (solution-domain).\\
 (e) Sekvens-diagrammer over de 3 use-cases specificeret i punkt (c).\\
 Husk at alle diagrammer skal være fulgt af tekstbeskrivelser, der gør diagrammerne fuldt
@@ -107,7 +213,18 @@ Går ud på at når brugerne finder en fejl under en test, skal fejlene udbedres
 Resten af artiklen omhandler disse 3 teoretiske metoder i forhold til virkeligheden. Der lægges vægt på at de nævnte metoder virker intuitive for en programmør/designer når de bliver læst højt, men flere tests viser at metoderne måske ikke er så intuitive alligevel. Undersøgelsen viser nemlig at meget få mener at netop disse metoder er nogle af de hovedpunkter man skal overveje når man skal udvikle og evaluere et nyt system. Derudover sammenlignes denne protokol også med andre som "get it right, the first time" og deciderede design guidelines. \\\\
 Konkret bliver det pointeret at det er stortset umuligt at "get it right the first time", det ville nemlig indebære at der var blevet lavet et perfekt systemdesign fra starten, samt at man ignorede eventuelle erfaringer man gjorde sig om brugeren og systemet undervejs i projektet. Generelle guidelines ses som værende ufuldstændige og problematiske. Hvilket kommer af at design guidelines netop er generelle og altså ikke tager højde for nogen konkrete situationer der måtte opstå og derfor kommer designeren til at skulle træffe de fleste beslutninger selv.\\\\
 Det vi i gruppen mener der er værd at tage med fra denne artikel er selve ideen om at gøre et system brugervenligt, nemt og intuitivt. Vi er enige om at et gennemført system der er nemt at bruge, er et system der i højere grad vil blive brugt. For at trække paraleller til vores eget projekt, så har vi indtil videre kun været i tæt dialog omkring funktionalitet med vores kunde og ikke snakket meget om selve systemets interface. Dermed må vi også erkende at selvom metoderne nu virker intuitive, oplagte og at netop disse metoder er blevet prædiket flere gange til forskellige forelæsninger, endda i forskelle fag. Så er metoderne alligevel ikke kommet intuitivt og vi må derfor bestræbe os på at få en dialog igang med nogle slutbrugere, der kan evaluere på vores foreløbige systemdesign og måske forbedre det. På den måde kan vi implementere de 3 metoder og få gang i en "design, test og evaluerings" cyklus og løbende forbedre vores system imens vi nærmer os et slutprodukt.\\\\
+\pagebreak
 
+\subsection{A rational design process: How and why to fake it.}
+
+Artiklen handler om den ideelle måde at designe programmer på. Den er delt i 3 nogenlunde klare dele. Første del omhandler den ideelle rationale designproces og hvorfor den ikke kan opnås. Anden del er forfatternes eksempel på en designproces. Og trejde del omhandler styrken af forfatternes designproces mod nutidige metoder.\\\\
+Den ideelle designproces\\
+Artiklen starter ud med at fortælle om den ideelle rationale designproces, hvor en designproces næsten kan sammenlignes med et matematiske bevis, hvor i man kan følge en logisk tråd fra start til slut. Herefter klargører den hvorfor dette stort ser ikke er en mulig måde at udføre designprocessen på. Artiklen argumentere at de logiske skridt ikke kan følges f.eks pga. kravende til programmet kan ændre sig løbende eller at menneskelige fejl opstår. Efterfølgende forklares hvorfor det er god ide at tilnærme sig en sig en sådan designproces, selvom den ikke er mulig at opnå.\\\\
+Designproces eksemplet\\
+Artiklen udlægger herefter et eksempel på en rationel designproces man kan bruge. Gennem 7 punkter forklares der hvordan man skal dokumentere og sørge for at kravende er gode for designprocessen, hvordan man skal bryde programmet ned i moduler som er overkommelige og sørge for modulernes indbyrdes funktioner. Det forklares at stort set hele processen er dokumentation som klargører hvad der skal gøres, og at det derfor er nemmere at lave de logiske rationalle skridt som skal tages.\\\\
+Forfatternes proces mod nutidige metoder\\
+Til sidst forklarer artiklen om nutidig dokumentation og problemerne ved det. Nutidig dokumentation lider under at programmøre betragter dokumentation som noget overflødigt, og derfor er dokumentationen ukomplet og upræcis. Derefter slås det fast hvor vigtig god dokumentation er for den ideelle designprocess.\\\\ \pagebreak\\
+Det vi i gruppen mener der er værd at tage med fra denne artikel er selve ideen om at bruge en designproces, som nærmer sig den logiske og rationelle proces der er beskrevet i starten af artiklen. Hvis man kan finde en nogenlunde standart måde at design sine programmer er det helt klart fordelagtigt. Eksemplet der er beskrevet virker meget gennemtænkt og brugbart. Designprocessen foreslået i artiklen ligner meget den proces som vi skal bruge i vores delrapporter. Det ligner også meget det som er blevet gennemgået i vores undervisning og vi forsøger at følge den efter bedste formåen.
 
 \end{document}
 
