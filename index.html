@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+   <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?sensor=false">
+    </script>
+    </script>
+    <script type="text/javascript">
+      function initialize() {
+        var mapOptions = {
+          center: new google.maps.LatLng(55.698343, 12.543104),
+          zoom: 12
+        };
+        var map = new google.maps.Map(document.getElementById("map-canvas"),
+            mapOptions);
+        //Punkt
+        var bmxbutikken = new google.maps.Marker({
+          position: new google.maps.LatLng(55.698343, 12.543104),
+          map: map,
+          title: "Bmx Butikken"
+        });
+          var contentString = 'Fælledparken'
+      ;
+        var infowindow = new google.maps.InfoWindow({
+            content: contentString
+        });
+
+        var faelledparken = new google.maps.Marker({
+          position: new google.maps.LatLng(55.700334,12.563027),
+          map: map,
+          title: "Fælledparken"
+        });
+          google.maps.event.addListener(faelledparken, 'click', function() {
+         infowindow.open(map,faelledparken);
+     });
+
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+  </head>
+  <body>
+    <div id="menucontainer">
+    <div class="menu">
+   <ul>
+      <li><a href="#">Spots</a></li>
+      <li><a href="#">Shops</a></li>
+      <li><a href="#">Add spot</a></li>
+      <li><a href="#">Settings</a></li>
+      <li><a href="#">Search</a></li>
+      
+   </ul>    
+ </div>
+</div>
+    <div id="map-canvas"/>
+  </body>
+</html>
