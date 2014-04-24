@@ -1,0 +1,179 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath} % flere matematikkommandoer
+\usepackage[utf8]{inputenc} % æøå
+\usepackage[T1]{fontenc} % mere æøå
+\usepackage[danish]{babel} % orddeling
+\usepackage{listings}
+\lstdefinelanguage{JavaScript}{
+  morekeywords={typeof, new, true, false, catch, function, return, null, catch, switch, var, if, in, while, do, else, case, break},
+  morecomment=[s]{/*}{*/},
+  morecomment=[l]//,
+  morestring=[b]",
+  morestring=[b]'
+}
+\lstdefinelanguage{HTML5}{
+        language=html,
+        sensitive=true, 
+        alsoletter={<>=-},
+        otherkeywords={
+        % HTML tags
+        <html>, <head>, <title>, </title>, <meta, />, </head>, <body>,
+        <canvas, \/canvas>, <script>, </script>, </body>, </html>, <!, html>, <style>, </style>, ><
+        },  
+        ndkeywords={
+        % General
+        =,
+        % HTML attributes
+        charset=, id=, width=, height=,
+        % CSS properties
+        border:, transform:, -moz-transform:, transition-duration:, transition-property:, transition-timing-function:
+        },  
+        morecomment=[s]{<!--}{-->},
+        tag=[s]
+}
+\lstset{%
+    % Basic design
+    backgroundcolor=\color{editorGray},
+    basicstyle={\small\ttfamily},   
+    frame=l,
+    % Line numbers
+    xleftmargin={0.75cm},
+    numbers=left,
+    stepnumber=1,
+    firstnumber=1,
+    numberfirstline=true,
+    % Code design   
+    keywordstyle=\color{blue}\bfseries,
+    commentstyle=\color{darkgray}\ttfamily,
+    ndkeywordstyle=\color{editorGreen}\bfseries,
+    stringstyle=\color{editorOcher},
+    % Code
+    language=HTML5,
+    alsolanguage=JavaScript,
+    alsodigit={.:;},
+    tabsize=2,
+    showtabs=false,
+    showspaces=false,
+    showstringspaces=false,
+    extendedchars=true,
+    breaklines=true,        
+    % Support for German umlauts
+    literate=%
+    {Ö}{{\"O}}1
+    {Ä}{{\"A}}1
+    {Ü}{{\"U}}1
+    {ß}{{\ss}}1
+    {ü}{{\"u}}1
+    {ä}{{\"a}}1
+    {ö}{{\"o}}1
+}
+\usepackage{color}
+\definecolor{editorGray}{rgb}{0.95, 0.95, 0.95}
+\definecolor{editorOcher}{rgb}{1, 0.5, 0} % #FF7F00 -> rgb(239, 169, 0)
+\definecolor{editorGreen}{rgb}{0, 0.5, 0} % #007C00 -> rgb(0, 124, 0)
+\usepackage{upquote}
+\begin{document}
+
+\section*{HTML og javascript}
+\begin{lstlisting}
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+   <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?sensor=false">
+    </script>
+    </script>
+    <script type="text/javascript">
+      function initialize() {
+        var mapOptions = {
+          center: new google.maps.LatLng(55.698343, 12.543104),
+          zoom: 12
+        };
+        var map = new google.maps.Map(document.getElementById("map-canvas"),
+            mapOptions);
+        var bmxbutikken = new google.maps.Marker({
+          position: new google.maps.LatLng(55.698343, 12.543104),
+          map: map,
+          title: "Bmx Butikken"
+        });
+          var contentString = 'Faelledparken'
+      ;
+        var infowindow = new google.maps.InfoWindow({
+            content: contentString
+        });
+
+        var faelledparken = new google.maps.Marker({
+          position: new google.maps.LatLng(55.700334,12.563027),
+          map: map,
+          title: "Faelledparken"
+        });
+          google.maps.event.addListener(faelledparken, 'click', function() {
+         infowindow.open(map,faelledparken);
+     });
+
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+  </head>
+  <body>
+    <div id="menucontainer">
+    <div class="menu">
+   <ul>
+      <li><a href="#">Spots</a></li>
+      <li><a href="#">Shops</a></li>
+      <li><a href="#">Add spot</a></li>
+      <li><a href="#">Settings</a></li>
+      <li><a href="#">Search</a></li>
+      
+   </ul>    
+ </div>
+</div>
+    <div id="map-canvas"/>
+  </body>
+</html>
+
+\end{lstlisting}
+\section*{CSS}
+\begin{lstlisting}
+html { 
+	height: 100%;
+	background-color:lightslategrey;
+}
+body { 
+	height: 100%; 
+}
+#menucontainer {
+	height:50px;
+}
+.menu {
+
+	display: table;
+	margin: 0 auto;
+}
+
+ul, li {
+	list-style:none;
+	display: inline;
+}
+li {
+	padding-left:20px;
+	padding-right:20px;
+	font-size:30px;
+	border-left: 1px solid #000;
+	
+}
+li:last-child { border-right: 1px solid #000; }
+a {
+	color:black;
+	text-decoration:none;
+}
+#map-canvas { 
+	height: 100%;
+	
+}
+
+\end{lstlisting}
+
+\end{document}

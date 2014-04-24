@@ -7,6 +7,74 @@
 \usepackage[all]{xy} % den sidste (avancerede) formel i dokumentet
 \usepackage{graphicx}
 \usepackage{listings}
+\lstdefinelanguage{JavaScript}{
+  morekeywords={typeof, new, true, false, catch, function, return, null, catch, switch, var, if, in, while, do, else, case, break},
+  morecomment=[s]{/*}{*/},
+  morecomment=[l]//,
+  morestring=[b]",
+  morestring=[b]'
+}
+\lstdefinelanguage{HTML5}{
+        language=html,
+        sensitive=true, 
+        alsoletter={<>=-},
+        otherkeywords={
+        % HTML tags
+        <html>, <head>, <title>, </title>, <meta, />, </head>, <body>,
+        <canvas, \/canvas>, <script>, </script>, </body>, </html>, <!, html>, <style>, </style>, ><
+        },  
+        ndkeywords={
+        % General
+        =,
+        % HTML attributes
+        charset=, id=, width=, height=,
+        % CSS properties
+        border:, transform:, -moz-transform:, transition-duration:, transition-property:, transition-timing-function:
+        },  
+        morecomment=[s]{<!--}{-->},
+        tag=[s]
+}
+\lstset{%
+    % Basic design
+    backgroundcolor=\color{editorGray},
+    basicstyle={\small\ttfamily},   
+    frame=l,
+    % Line numbers
+    xleftmargin={0.75cm},
+    numbers=left,
+    stepnumber=1,
+    firstnumber=1,
+    numberfirstline=true,
+    % Code design   
+    keywordstyle=\color{blue}\bfseries,
+    commentstyle=\color{darkgray}\ttfamily,
+    ndkeywordstyle=\color{editorGreen}\bfseries,
+    stringstyle=\color{editorOcher},
+    % Code
+    language=HTML5,
+    alsolanguage=JavaScript,
+    alsodigit={.:;},
+    tabsize=2,
+    showtabs=false,
+    showspaces=false,
+    showstringspaces=false,
+    extendedchars=true,
+    breaklines=true,        
+    % Support for German umlauts
+    literate=%
+    {Ö}{{\"O}}1
+    {Ä}{{\"A}}1
+    {Ü}{{\"U}}1
+    {ß}{{\ss}}1
+    {ü}{{\"u}}1
+    {ä}{{\"a}}1
+    {ö}{{\"o}}1
+}
+\usepackage{color}
+\definecolor{editorGray}{rgb}{0.95, 0.95, 0.95}
+\definecolor{editorOcher}{rgb}{1, 0.5, 0} % #FF7F00 -> rgb(239, 169, 0)
+\definecolor{editorGreen}{rgb}{0, 0.5, 0} % #007C00 -> rgb(0, 124, 0)
+\usepackage{upquote}
 
 \usepackage{color}
 \definecolor{dkgreen}{rgb}{0,0.6,0}
@@ -86,7 +154,7 @@ Som det ses er der 2 aktører, brugeren og Ejeren. Brugeren kan benytter de fors
 (c) Tre specificerede use cases, som er særlig vigtige i jeres system, se fx OOSE figur 4-22.\\
 \setlength\parindent{0pt}
 \section*{Use-cases}
-\subsection*{Find spot}
+\subsection*{Få rutevejledning til et spot}
 \hrule\vspace{5mm}
 \textit{Use case name:} FindSpot\\
 \hrule\vspace{5mm}
@@ -96,12 +164,13 @@ Som det ses er der 2 aktører, brugeren og Ejeren. Brugeren kan benytter de fors
 \hrule\vspace{5mm}
 \textit{Flow of events:}
 \begin{enumerate}
-\item Brugeren bliver præsenteret for et kort med sin egen positition i centrum
-\item brugere kan frit vælge imellem de spots der er på kortet
-\item efter brugeren har valgt et spot vil han blive videreført til en side hvor han kan se oplysninger om spottet samt billeder
+\item Brugeren bliver præsenteret for et kort med sin egen positition i centrum og en menu linje i toppen
+\item Brugeren trykker på en "marker" på kortet, der sender ham videre til en info side om netop det spot
+\item Brugeren trykker på "get directions" og bliver ført til rutevejlednings funktionen med nogle passende ruter
+\item Brugeren trykker her på "start" hvorefter kørselsvejledningen starter
 \end{enumerate}
 \hrule\vspace{5mm}
-\textit{Exit condition:} Brugeren kan få kørselsvejledning til det spot han har valgt\\
+\textit{Exit condition:} Brugeren ser nu et kort med ruten og får løbende information om hvilken vej denne skal gå\\
 \hrule\vspace{5mm}
 \newpage
 \subsection*{Tilføj spot}
@@ -114,12 +183,11 @@ Som det ses er der 2 aktører, brugeren og Ejeren. Brugeren kan benytter de fors
 \hrule\vspace{5mm}
 \textit{Flow of events:}
 \begin{enumerate}
-\item Brugeren vælger tilføj spot fanen i applikationen
-\item Brugeren kan tilføje billeder, koordinater og informationer omkring spottet
-\item Når brugeren tilføjer spottet vil han blive sendt tilbage med mulighed for at tilføje et nyt spot
+\item Brugeren trykker på knappen "Add spot", der sender ham videre til en udfyldelses formular
+\item Brugeren udfylder formularen og gemmer denne, formularen sendes derefter til godkendelse hos administratoren
 \end{enumerate}
 \hrule\vspace{5mm}
-\textit{Exit condition:} Spottet bliver sendt til godkendelse hos administratoren\\
+\textit{Exit condition:} Brugeren sendes retur til forsiden\\
 \hrule\vspace{5mm}
 \newpage
 \subsection*{Ændre indstillinger}
@@ -132,43 +200,55 @@ Som det ses er der 2 aktører, brugeren og Ejeren. Brugeren kan benytter de fors
 \hrule\vspace{5mm}
 \textit{Flow of events:}
 \begin{enumerate}
-\item brugeren vælger indstillinger, efter at have åbnet applikationen
-\item brugeren bliver præsenteret for de forskellige indstillinger han kan vælge
-\item når brugeren han ændret indstillinger er der en ok knap som tilføjer indstillingerne
+\item Brugeren trykker på indstillinger, der sender brugeren videre til en ny side
+\item Brugeren bliver præsenteret for de forskellige indstillinger han kan vælge
+\item Når brugeren han ændret indstillinger er der en ok knap som tilføjer indstillingerne
 \end{enumerate}
 \hrule\vspace{5mm}
-\textit{Exit condition:} Brugeren kan nu bruge applikationen med de nye indstillinger. f.eks. radius på kortet.\\
+\textit{Exit condition:} Indstillingerne er nu i funktion og brugeren sendes tilbage til forsiden\\
 \hrule\vspace{5mm}
 \pagebreak
 
 (d) Et klassediagram over jeres problemområde (solution-domain).\\
 (e) Sekvens-diagrammer over de 3 use-cases specificeret i punkt (c).\\
 Husk at alle diagrammer skal være fulgt af tekstbeskrivelser, der gør diagrammerne fuldt
-forståelige også for læsere uden særligt domænekendskab.
+forståelige også for læsere uden særligt domænekendskab.\\
+\begin{figure}[h]
+\includegraphics[scale = 0.4]{rutevejledning}
+\end{figure}
+
+\begin{figure}[h]
+\includegraphics[scale = 0.4]{addspotdia}
+\end{figure}
+
+\begin{figure}[h]
+\includegraphics[scale = 0.4]{indstillinger}
+\end{figure}
+
+
+\pagebreak
 
 \section{Systemdesign sammenfatning}
 Kapitlet resumerer jeres foreløbige system-design så kort og klart som muligt. Samtidig
-udpeger I de vigtigste udestående design- og implementationsopgaver.
+udpeger I de vigtigste udestående design- og implementationsopgaver.\\
+
+Vi har valgt at bygge applikationen op webbaseret i html, css og javascript. Hele implementeringen af Google maps foregår med javascript, hvor vi så bagefter vil lave en android webview app så vi kan tilføje applikationen på google play store. vi mangler at implementere alt andet end kortet samt indholdet.
 
 \section{Program- og systemtest}
 Dokumenter jeres foreløbige test af IT-løsningen. I kapitlet sammenfattes hovedresultaterne af
 jeres test-aktiviteter; mens test plan, test case specification, test incident report og test report
 summary placeres som bilag.
 
-
-\section{Brugergrænseflade og interaktionsdesign}
-(a) Præsenter skærmbilleder af de mest interessante dele af jeres brugergrænseflade.\\\\
-
-\begin{figure}[h]
-\includegraphics[scale = 0.25]{screen1}
-\end{figure}
-\begin{figure}[h]
-\includegraphics[scale = 0.25]{screen2}
-\end{figure}
-\begin{figure}[h]
-\includegraphics[scale = 0.25]{screen3}
-\end{figure}
 \pagebreak
+\section{Brugergrænseflade og interaktionsdesign}
+(a) Præsenter skærmbilleder af de mest interessante dele af jeres brugergrænseflade.
+
+\begin{figure}[h]
+\includegraphics[scale = 0.3]{screen1}
+\end{figure}
+
+Billedet viser vores foreløbige hjemmeside der blot indeholder en menu uden funktioner, samt et kort med "spots" på den måde som vi vil præsentere dem. \\
+
 (b) Illustrer flowet/dynamikken i brugerinteraktionen mellem skærmbillederne.\\
 (c) En audio-visuel præsentation af brugergrænsefladen af den seneste kørende prototype.\\
 Formatet vælger I frit, fx en video der illustrerer IT-løsningen med vigtige use cases, en serie
@@ -176,11 +256,15 @@ screenshots med speak, slideshow med forklarende tekst. Dog skal det i alle tilf
 et YouTube link og være uploadet som en ”skjult video”.\\
 (d) Resultatet af seneste tænke-højt forsøg gennemført med een eller flere af jeres brugere.
 
-
+\pagebreak
 \section{Versionstyring}
 Til aflevering: Som bilag skal vedlægges jeres nuværende commit-log samt jeres
-programkode. Kommentér kort (ca 1/2 side) de vigtigste ændringer, der er sket i programkoden.
+programkode. Kommentér kort (ca 1/2 side) de vigtigste ændringer, der er sket i programkoden.\\
 
+Det første udkast til systemet blev skrevet med java/google developer tools som vi havde planlagt det. Men efter mange timers forsøg, måtte vi erkende det måske var en uoverkommelig opgave. Vi er derfor gået over til at lave appen webbaseret og bruge værktøjer som javascript, css og html. Derfor har vi kun 1.udgave klar, da vi ikke er nået længere på nuværende tidspunkt. 
+
+
+\pagebreak
 \section{Projektsamarbejdet}
 Til aflevering: Beskriv konkret og oplysende hvordan det går med samarbejdet med brugerne
 og med arbejdet internt i gruppen. Herunder skal bl.a. oplyses antallet af møder med brugerne under
@@ -188,9 +272,17 @@ projektforløbet (fx på en tidslinje), mødeformen i gruppen, samt hvorledes je
 dokumentationsform fungerer. Hvorledes prioriterer og styrer I projektindsatsen, så I sikrer
 fremdrift på de felter, som er mest risikable/afgørende for et succesfuldt resultat? Herunder, beskriv
 og diskuter:\\
+
 (a) Hvad går godt?\\
+Det interne arbejde i gruppen fungerer godt. Alle medlemmer i gruppen deltager aktivt, engageret og møder til tiden på de aftalte møde dage. Selve arbejdet prøver vi at fordele imellem os alt efter interesse og det sikrer en god stabil arbejds indsats.\\
+
 (b) Hvad går mindre godt?\\
-(c) Hvad vil I gøre for at effektivisere jeres udviklingsarbejde?
+
+Vi har haft uventede problemer hvad angår systemdesignet da vi har måttet ændre kurs og gå over i en webbaseret udgave. Det har betydet at vi har haft nogle arbejdsspildtimer og vi er derfor ikke noget helt så langt som planlagt.\\
+
+(c) Hvad vil I gøre for at effektivisere jeres udviklingsarbejde?\\
+
+I det vi tog skridtet fra android app til webbaseret app, har vi taget de første skridt i effektiviseringen. Derudover regner vi med at kunne begynde at arbejde selvstændigt på enkelte dele af systemet når vi har fået den første prototype helt op at køre. Det skullle bevirke at det bliver nemmere for de enkelte individer i gruppen at få plads i deres skema, til at få arbejdet på projektet og dermed få arbejdet flere timer. 
 
 \pagebreak
 \section{Review}
@@ -203,7 +295,7 @@ Går ud på at der i udviklings processen skal indlægges tid til at lave slutbr
 Iterative design\\
 Går ud på at når brugerne finder en fejl under en test, skal fejlene udbedres. Det betyder så at produktet skal igennem en ny design fase, testing, "measurement". Disse 3 faser gentages så ofte som dette måtte være nødvendigt for at opnå det ønskede niveau af funktionalitet, brugervenlighed og hvad man ellers måtte prioritere.
 \\\\
-Resten af artiklen omhandler disse 3 teoretiske metoder i forhold til virkeligheden. Der lægges vægt på at de nævnte metoder virker intuitive for en programmør/designer når de bliver læst højt, men flere tests viser at metoderne måske ikke er så intuitive alligevel. Undersøgelsen viser nemlig at meget få mener at netop disse metoder er nogle af de hovedpunkter man skal overveje når man skal udvikle og evaluere et nyt system. Derudover sammenlignes denne protokol også med andre som "get it right, the first time" og deciderede design guidelines. \\\\
+Resten af artiklen omhandler disse 3 teoretiske metoder i forhold til virkeligheden. Der lægges vægt på at de nævnte metoder virker intuitive for en programmør/designer når de bliver læst højt, men flere tests viser at metoderne måske ikke er så intuitive alligevel. Undersøgelsen viser nemlig at meget få mener at netop disse metoder er nogle af de hovedpunkter man skal overveje når man skal udvikle og evaluere et nyt system. \\\\Derudover sammenlignes denne protokol også med andre som "get it right, the first time" og deciderede design guidelines. \\\\
 Konkret bliver det pointeret at det er stortset umuligt at "get it right the first time", det ville nemlig indebære at der var blevet lavet et perfekt systemdesign fra starten, samt at man ignorede eventuelle erfaringer man gjorde sig om brugeren og systemet undervejs i projektet. Generelle guidelines ses som værende ufuldstændige og problematiske. Hvilket kommer af at design guidelines netop er generelle og altså ikke tager højde for nogen konkrete situationer der måtte opstå og derfor kommer designeren til at skulle træffe de fleste beslutninger selv.\\\\
 Det vi i gruppen mener der er værd at tage med fra denne artikel er selve ideen om at gøre et system brugervenligt, nemt og intuitivt. Vi er enige om at et gennemført system der er nemt at bruge, er et system der i højere grad vil blive brugt. For at trække paraleller til vores eget projekt, så har vi indtil videre kun været i tæt dialog omkring funktionalitet med vores kunde og ikke snakket meget om selve systemets interface. Dermed må vi også erkende at selvom metoderne nu virker intuitive, oplagte og at netop disse metoder er blevet prædiket flere gange til forskellige forelæsninger, endda i forskelle fag. Så er metoderne alligevel ikke kommet intuitivt og vi må derfor bestræbe os på at få en dialog igang med nogle slutbrugere, der kan evaluere på vores foreløbige systemdesign og måske forbedre det. På den måde kan vi implementere de 3 metoder og få gang i en "design, test og evaluerings" cyklus og løbende forbedre vores system imens vi nærmer os et slutprodukt.\\\\
 \pagebreak
@@ -219,5 +311,120 @@ Forfatternes proces mod nutidige metoder\\
 Til sidst forklarer artiklen om nutidig dokumentation og problemerne ved det. Nutidig dokumentation lider under at programmøre betragter dokumentation som noget overflødigt, og derfor er dokumentationen ukomplet og upræcis. Derefter slås det fast hvor vigtig god dokumentation er for den ideelle designprocess.\\\\ \pagebreak\\
 Det vi i gruppen mener der er værd at tage med fra denne artikel er selve ideen om at bruge en designproces, som nærmer sig den logiske og rationelle proces der er beskrevet i starten af artiklen. Hvis man kan finde en nogenlunde standart måde at design sine programmer er det helt klart fordelagtigt. Eksemplet der er beskrevet virker meget gennemtænkt og brugbart. Designprocessen foreslået i artiklen ligner meget den proces som vi skal bruge i vores delrapporter. Det ligner også meget det som er blevet gennemgået i vores undervisning og vi forsøger at følge den efter bedste formåen.
 
+\newpage
+
+\section{Bilag}
+
+\subsection{Commitlog}
+\begin{figure}[h]
+\includegraphics[scale = 0.5]{commitlog}
+\end{figure}
+
+\newpage
+\subsection*{HTML og javascript}
+\begin{lstlisting}
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+   <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?sensor=false">
+    </script>
+    </script>
+    <script type="text/javascript">
+      function initialize() {
+        var mapOptions = {
+          center: new google.maps.LatLng(55.698343, 12.543104),
+          zoom: 12
+        };
+        var map = new google.maps.Map(document.getElementById("map-canvas"),
+            mapOptions);
+        var bmxbutikken = new google.maps.Marker({
+          position: new google.maps.LatLng(55.698343, 12.543104),
+          map: map,
+          title: "Bmx Butikken"
+        });
+          var contentString = 'Faelledparken'
+      ;
+        var infowindow = new google.maps.InfoWindow({
+            content: contentString
+        });
+
+        var faelledparken = new google.maps.Marker({
+          position: new google.maps.LatLng(55.700334,12.563027),
+          map: map,
+          title: "Faelledparken"
+        });
+          google.maps.event.addListener(faelledparken, 'click', function() {
+         infowindow.open(map,faelledparken);
+     });
+
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+  </head>
+  <body>
+    <div id="menucontainer">
+    <div class="menu">
+   <ul>
+      <li><a href="#">Spots</a></li>
+      <li><a href="#">Shops</a></li>
+      <li><a href="#">Add spot</a></li>
+      <li><a href="#">Settings</a></li>
+      <li><a href="#">Search</a></li>
+      
+   </ul>    
+ </div>
+</div>
+    <div id="map-canvas"/>
+  </body>
+</html>
+
+\end{lstlisting}
+
+\newpage
+
+\subsection*{CSS}
+\begin{lstlisting}
+html { 
+	height: 100%;
+	background-color:lightslategrey;
+}
+body { 
+	height: 100%; 
+}
+#menucontainer {
+	height:50px;
+}
+.menu {
+
+	display: table;
+	margin: 0 auto;
+}
+
+ul, li {
+	list-style:none;
+	display: inline;
+}
+li {
+	padding-left:20px;
+	padding-right:20px;
+	font-size:30px;
+	border-left: 1px solid #000;
+	
+}
+li:last-child { border-right: 1px solid #000; }
+a {
+	color:black;
+	text-decoration:none;
+}
+#map-canvas { 
+	height: 100%;
+	
+}
+
+\end{lstlisting}
 \end{document}
+
 
