@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.11.18)  24 APR 2014 12:21
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.11.18)  7 MAY 2014 11:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -772,22 +772,26 @@ File: factor.png Graphic file (type png)
 Package pdftex.def Info: factor.png used on input line 122.
 (pdftex.def)             Requested size: 286.06804pt x 170.63707pt.
  [2 <./factor.png>]
-<umodel.png, id=14, 433.62pt x 473.77pt>
+Underfull \hbox (badness 10000) in paragraph at lines 128--142
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--142
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--142
+
+ []
+
+[3] <umodel.png, id=17, 433.62pt x 473.77pt>
 File: umodel.png Graphic file (type png)
  <use umodel.png>
 Package pdftex.def Info: umodel.png used on input line 147.
 (pdftex.def)             Requested size: 281.84966pt x 307.94685pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--150
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--150
-
- []
-
-[3]
 Underfull \hbox (badness 10000) in paragraph at lines 151--156
 
  []
@@ -884,34 +888,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 232--234
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--239
+
+ []
+
 [9 <./indstillinger.jpg>] <screen1.png, id=42, 963.6pt x 541.02126pt>
 File: screen1.png Graphic file (type png)
 
 <use screen1.png>
-Package pdftex.def Info: screen1.png used on input line 247.
+Package pdftex.def Info: screen1.png used on input line 250.
 (pdftex.def)             Requested size: 289.08223pt x 162.30762pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--251
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
 
  []
 
 [10 <./screen1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 261--263
+Underfull \hbox (badness 10000) in paragraph at lines 264--266
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 269--275
+Underfull \hbox (badness 10000) in paragraph at lines 271--277
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 276--278
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 279--280
+Underfull \hbox (badness 10000) in paragraph at lines 278--280
 
  []
 
@@ -925,63 +929,68 @@ Underfull \hbox (badness 10000) in paragraph at lines 283--284
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--286
+
+ []
+
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 290--302
+Underfull \hbox (badness 10000) in paragraph at lines 292--304
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--302
+Underfull \hbox (badness 10000) in paragraph at lines 292--304
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--302
+Underfull \hbox (badness 10000) in paragraph at lines 292--304
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--302
+Underfull \hbox (badness 10000) in paragraph at lines 292--304
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--302
+Underfull \hbox (badness 10000) in paragraph at lines 292--304
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--302
+Underfull \hbox (badness 10000) in paragraph at lines 292--304
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--302
+Underfull \hbox (badness 10000) in paragraph at lines 292--304
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--302
+Underfull \hbox (badness 10000) in paragraph at lines 292--304
 
  []
 
 [13] [14]
-Underfull \hbox (badness 10000) in paragraph at lines 305--313
+Underfull \hbox (badness 10000) in paragraph at lines 307--315
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--313
+Underfull \hbox (badness 10000) in paragraph at lines 307--315
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--313
+Underfull \hbox (badness 10000) in paragraph at lines 307--315
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--313
+Underfull \hbox (badness 10000) in paragraph at lines 307--315
 
  []
 
@@ -989,21 +998,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 305--313
 File: commitlog.png Graphic file (type png)
 
 <use commitlog.png>
-Package pdftex.def Info: commitlog.png used on input line 320.
+Package pdftex.def Info: commitlog.png used on input line 322.
 (pdftex.def)             Requested size: 396.98215pt x 331.73856pt.
 
-Overfull \hbox (6.98215pt too wide) in paragraph at lines 320--321
+Overfull \hbox (6.98215pt too wide) in paragraph at lines 322--323
 [][] 
  []
 
 [17 <./commitlog.png>]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 325.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 327.
 
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 348
+LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 350
 .
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/ts1cmtt.fd
@@ -1028,7 +1037,7 @@ r/sfrm1440.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/cm-super/
 sfrm2074.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sf
 ti1200.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sftt
 1095.pfb>
-Output written on delrapport2.pdf (20 pages, 458013 bytes).
+Output written on delrapport2.pdf (20 pages, 459211 bytes).
 PDF statistics:
  108 PDF objects out of 1000 (max. 8388607)
  71 compressed objects within 1 object stream

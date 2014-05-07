@@ -107,7 +107,7 @@
 Gruppemedlemmer:\\
 Kenneth Christensen: 02 08 93\\Michael Jensen: 01 07 93\\Rune Pedersen: 01 11 82\\Rasmus Hansen: 03 12 92
 \\\\
-Instruktør: Kasper Passov
+Instructor: Kasper Passov
 
 \pagebreak
 \section{Abstract}
@@ -127,19 +127,19 @@ Følgende model er en FACTOR analyse af projektet og giver en kort og konkret be
 \section{Kravspecifikation for IT-løsningen}
 (a) De funktionelle og ikke-funktionelle krav til jeres system\\\\
 Funktionelle krav:\\
-Upload af billeder\\
-Menu\\
+Upload af billeder\\ Uploader billeder fra brugerens enhed, til mysql databasen ved hjælp af php\\
+Menu\\ Har ved hjælp af javascript lavet en funktion som viser en ny div øverst på skærmen med indholdet af det pågældende menupunkt, på den måde vil brugeren aldrig blive ført videre til en ny side.\\
 Streetspots\\
 Skatesparks\\
-Markers\\
-Rutevejledning\\
-Bruger lokation\\
-Rating system\\
+Markers\\ For hvert spot der bliver loadet fra mysql databasen, bliver der lavet en marker med lidt information om spottet og billeder.\\
+Rutevejledning\\ Vejleder brugeren til det pågældende punkt på kortet ved hjælp af google maps.\\
+Bruger lokation\\ Finder brugerens lokation vedhjælp af HTML5 og den indbyggede funktion der hedder geolocation, brugeren skal give tilladelse til at programmet må se brugerens lokation.\\
 BMX-Butikken\\\\
 Ikke funktionelle krav:\\
-Appens sprog skal være på engelsk\\
-Bruger venligt UI
+Appens sprog skal være på engelsk\\ Så den kan bruges af turister, men samtidig af de lokale da de fleste i miljøet snakker engelsk.\\
+Bruger venligt UI\\ så alle kan finde ud af at bruge programmet.\\
 \pagebreak\\
+
 (b) En use case model, der beskriver system-funktionaliteten. Der ønskes et højniveau-diagram,
 som giver overblik over hvilke use cases de forskellige aktører har.\\
 \begin{figure}[htb]
@@ -232,7 +232,10 @@ forståelige også for læsere uden særligt domænekendskab.\\
 Kapitlet resumerer jeres foreløbige system-design så kort og klart som muligt. Samtidig
 udpeger I de vigtigste udestående design- og implementationsopgaver.\\
 
-Vi har valgt at bygge applikationen op webbaseret i html, css og javascript. Hele implementeringen af Google maps foregår med javascript, hvor vi så bagefter vil lave en android webview app så vi kan tilføje applikationen på google play store. vi mangler at implementere alt andet end kortet samt indholdet.
+Vores plan vedrørende udviklingen af appen har indtil nu, været at bygge appen op i java med android developer tools. Det gav os en del udfordring, da vi ikke kunne få den simpleste udgave til at køre på en simulator. De mange timer og forsøg har gjort at vi følte os nødsaget til at gøre projektet mindre omfattende. 
+\\\\
+Derfor har vi valgt at bygge applikationen op webbaseret i html, css, javascript og mySQL, hvilket er programmer og metoder vi har erfaring med i forvejen. 
+Hele implementeringen af Google maps foregår med javascript(altså som en hjemmeside), hvor vi så bagefter vil lave en android webview app, så vi kan tilføje applikationen på google play store. vi mangler at implementere alt andet end kortet på nuværende tidspunkt.
 
 \section{Program- og systemtest}
 Dokumenter jeres foreløbige test af IT-løsningen. I kapitlet sammenfattes hovedresultaterne af
@@ -261,7 +264,6 @@ et YouTube link og være uploadet som en ”skjult video”.\\
 Til aflevering: Som bilag skal vedlægges jeres nuværende commit-log samt jeres
 programkode. Kommentér kort (ca 1/2 side) de vigtigste ændringer, der er sket i programkoden.\\
 
-Det første udkast til systemet blev skrevet med java/google developer tools som vi havde planlagt det. Men efter mange timers forsøg, måtte vi erkende det måske var en uoverkommelig opgave. Vi er derfor gået over til at lave appen webbaseret og bruge værktøjer som javascript, css og html. Derfor har vi kun 1.udgave klar, da vi ikke er nået længere på nuværende tidspunkt. 
 
 
 \pagebreak
