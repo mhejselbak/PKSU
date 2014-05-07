@@ -1,0 +1,10 @@
+Sekdia1:
+Brugeren starter App'en på sin telefon. App'en viser kort interfacen og brugeren vælger et spot fra kortet. 
+App'en henter spot informationerne fra database og viser dem i et overlay.
+Sekdia2:
+Brugeren starter App'en på sin telefon. App'en viser kort interfacen og brugeren vælger add spot fra menuen.
+App'en viser en add spot formular. Brugeren udfylder formularen med spot informationerne og submiter den.
+App'en sender spotet til databasen.
+Sekdia3:
+Brugeren starter App'en på sin telefon. App'en viser kort interfacen og brugeren vælger settings fra menuen.
+App'en viser en radius slider. Brugeren vælger en radius og og submiter den. App'en gemmer den nye radius.
