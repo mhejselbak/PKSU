@@ -1,14 +1,14 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.11.18)  8 MAY 2014 14:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.5.7)  8 MAY 2014 14:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **delrapport2.tex
 (./delrapport2.tex
 LaTeX2e <2011/06/27>
-Babel <3.9f> and hyphenation patterns for 78 languages loaded.
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/article.cls
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/size12.clo
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -23,24 +23,24 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsmath.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks14
 \ex@=\dimen103
 ))
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen104
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count87
@@ -81,19 +81,19 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/inputenc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks19
 \inpenc@posthook=\toks20
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/utf8.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/t1enc.dfu
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
 File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -243,7 +243,7 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/ot1enc.dfu
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
 File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -274,7 +274,7 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/omsenc.dfu
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
 File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -298,40 +298,39 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/t1enc.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-(/usr/local/texlive/2013/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2013/05/16 v3.9f The Babel package
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2013/12/03 3.9h The Babel package
 
-(/usr/local/texlive/2013/texmf-dist/tex/generic/babel-danish/danish.ldf
+(/usr/share/texlive/texmf-dist/tex/generic/babel-danish/danish.ldf
 Language: danish 2009/09/19 v1.3r Danish support from the babel system
 
-(/usr/local/texlive/2013/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2013/05/16 v3.9f Babel common definitions
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2013/12/03 3.9h Babel common definitions
 \babel@savecnt=\count99
 \U@D=\dimen112
 )
 Package babel Info: Making " an active character on input line 82.
 ))
-(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/verbatim.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks21
 \verbatim@line=\toks22
 \verbatim@in@stream=\read1
 )
-(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xy.sty
-(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xy.tex Bootstrap'ing:
-catcodes, docmode,
-(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xyrecat.tex)
-(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xyidioms.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/xypic/xy.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xypic/xy.tex Bootstrap'ing:
+catcodes, docmode, (/usr/share/texlive/texmf-dist/tex/generic/xypic/xyrecat.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/xypic/xyidioms.tex)
 
- Xy-pic version 3.8.8 <2012/05/24>
- Copyright (c) 1991-2011 by Kristoffer H. Rose <krisrose@tug.org>
+ Xy-pic version 3.8.9 <2013/10/06>
+ Copyright (c) 1991-2013 by Kristoffer H. Rose <krisrose@tug.org> and others
  Xy-pic is free software: see the User's Guide for details.
 
 Loading kernel: messages; fonts; allocations: state,
@@ -383,15 +382,15 @@ utility macros; pictures: \xy, positions,
  decorations;
 kernel objects: directionals, circles, text; options; algorithms: directions,
 edges, connections;  Xy-pic loaded)
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-Package: xy 2012/05/24 Xy-pic version 3.8.8
+Package: xy 2013/10/06 Xy-pic version 3.8.9
 
-(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xyall.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xypic/xyall.tex
  Xy-pic option: All features v.3.8
-(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xycurve.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xypic/xycurve.tex
  Xy-pic option: Curve and Spline extension v.3.12 curve,
 \crv@cnt@=\count104
 \crvpts@=\toks27
@@ -403,21 +402,21 @@ Package: xy 2012/05/24 Xy-pic version 3.8.8
  circles,
 \L@=\dimen145
  loaded)
-(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xyframe.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xypic/xyframe.tex
  Xy-pic option: Frame and Bracket extension v.3.14 loaded)
-(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xycmtip.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xypic/xycmtip.tex
  Xy-pic option: Computer Modern tip extension v.3.7
-(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xytips.tex
- Xy-pic option: More Tips extension v.3.9 loaded) loaded)
-(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xyline.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xypic/xytips.tex
+ Xy-pic option: More Tips extension v.3.11 loaded) loaded)
+(/usr/share/texlive/texmf-dist/tex/generic/xypic/xyline.tex
  Xy-pic option: Line styles extension v.3.10
 \xylinethick@=\dimen146
  loaded)
-(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xyrotate.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xypic/xyrotate.tex
  Xy-pic option: Rotate and Scale extension v.3.8 loaded)
-(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xycolor.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xypic/xycolor.tex
  Xy-pic option: Colour extension v.3.11 loaded)
-(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xymatrix.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xypic/xymatrix.tex
  Xy-pic option: Matrix feature v.3.14
 \Row=\count105
 \Col=\count106
@@ -427,46 +426,46 @@ Package: xy 2012/05/24 Xy-pic version 3.8.8
 \qcount@@=\count108
 \matrixsize@=\count109
  loaded)
-(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xyarrow.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xypic/xyarrow.tex
  Xy-pic option: Arrow and Path feature v.3.9 path, \ar, loaded)
-(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xygraph.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xypic/xygraph.tex
  Xy-pic option: Graph feature v.3.11 loaded) loaded)
-(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xypdf.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xypic/xypdf.tex
  Xy-pic option: PDF driver v.1.7 Xy-pic pdf driver: `color' extension support
-(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xypdf-co.tex loaded)
+(/usr/share/texlive/texmf-dist/tex/generic/xypic/xypdf-co.tex loaded)
 Xy-pic pdf driver: `curve' extension support
-(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xypdf-cu.tex loaded)
+(/usr/share/texlive/texmf-dist/tex/generic/xypic/xypdf-cu.tex loaded)
 Xy-pic pdf driver: `frame' extension support
-(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xypdf-fr.tex loaded)
+(/usr/share/texlive/texmf-dist/tex/generic/xypic/xypdf-fr.tex loaded)
 Xy-pic pdf driver: `line' extension support
-(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xypdf-li.tex loaded)
+(/usr/share/texlive/texmf-dist/tex/generic/xypic/xypdf-li.tex loaded)
 Xy-pic pdf driver: `rotate' extension support
-(/usr/local/texlive/2013/texmf-dist/tex/generic/xypic/xypdf-ro.tex loaded)
-loaded)) (/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xypic/xypdf-ro.tex loaded) loaded))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks30
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count110
@@ -474,7 +473,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen147
 \Gin@req@width=\dimen148
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/listings.sty
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count111
 \lst@gtempboxa=\box32
 \lst@token=\toks31
@@ -488,36 +487,40 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \lst@lineno=\count116
 \lst@maxwidth=\dimen152
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
 \c@lstnumber=\count117
 \lst@skipnumbers=\count118
 \lst@framebox=\box33
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2007/02/22 1.4 listings configuration
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2013/08/26 1.5b listings configuration
 ))
-Package: listings 2007/02/22 1.4 (Carsten Heinz)
+Package: listings 2013/08/26 1.5b (Carsten Heinz)
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2004/09/05 1.3 listings language file
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/color.sty
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/color.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/upquote/upquote.sty
+(/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/textcomp.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -532,12 +535,12 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/ts1enc.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/ts1enc.dfu
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu
 File: ts1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
@@ -672,35 +675,34 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 ))
-(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2004/09/05 1.3 listings language file
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
 (./delrapport2.aux)
 \openout1 = `delrapport2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 105.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 105.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 106.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 106.
 
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 105.
-Package xypdf Info: Line width: 0.47998pt on input line 105.
+LaTeX Font Info:    ... okay on input line 106.
+Package xypdf Info: Line width: 0.47998pt on input line 106.
 
-(/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count119
 \scratchdimen=\dimen153
@@ -713,11 +715,11 @@ Package xypdf Info: Line width: 0.47998pt on input line 105.
 \MPnumerator=\count123
 \makeMPintoPDFobject=\count124
 \everyMPtoPDFconversion=\toks33
-) (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -726,22 +728,22 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 ))
-(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -753,234 +755,230 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \c@lstlisting=\count125
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 108.
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--111
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+Underfull \hbox (badness 10000) in paragraph at lines 108--113
 
  []
 
 [1
 
-{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<factor.png, id=9, 572.1375pt x 341.275pt>
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<factor.png, id=10, 572.1375pt x 341.275pt>
 File: factor.png Graphic file (type png)
  <use factor.png>
-Package pdftex.def Info: factor.png used on input line 122.
+Package pdftex.def Info: factor.png used on input line 124.
 (pdftex.def)             Requested size: 286.06804pt x 170.63707pt.
  [2 <./factor.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 128--142
+Underfull \hbox (badness 10000) in paragraph at lines 139--141
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--142
-
+Overfull \hbox (24.86539pt too wide) in paragraph at lines 142--146
+\T1/cmr/m/n/12 Systemet skal væ-re kom-pa-ti-belt med bå-de com-pu-te-re og te-
+le-fo-ner.[Implementation
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--142
+Underfull \hbox (badness 10000) in paragraph at lines 142--146
 
  []
 
-[3] <usecasemodel.jpg, id=17, 514.92375pt x 297.11pt>
+[3] <usecasemodel.jpg, id=20, 514.92375pt x 297.11pt>
 File: usecasemodel.jpg Graphic file (type jpg)
  <use usecasemodel.jpg>
-Package pdftex.def Info: usecasemodel.jpg used on input line 147.
+Package pdftex.def Info: usecasemodel.jpg used on input line 151.
 (pdftex.def)             Requested size: 386.19186pt x 222.83194pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--156
+Underfull \hbox (badness 10000) in paragraph at lines 155--160
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--156
+Underfull \hbox (badness 10000) in paragraph at lines 155--160
 
  []
 
 [4 <./usecasemodel.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 161--162
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 163--164
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 176--177
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--189
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 193--194
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 197--198
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
 
  []
 
-[7] <sekdia1.jpg, id=33, 665.48625pt x 418.56375pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
+
+ []
+
+[7] <sekdia1.jpg, id=35, 665.48625pt x 418.56375pt>
 File: sekdia1.jpg Graphic file (type jpg)
  <use sekdia1.jpg>
-Package pdftex.def Info: sekdia1.jpg used on input line 216.
+Package pdftex.def Info: sekdia1.jpg used on input line 220.
 (pdftex.def)             Requested size: 332.74231pt x 209.28136pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--218
+Underfull \hbox (badness 10000) in paragraph at lines 214--222
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--218
+Underfull \hbox (badness 10000) in paragraph at lines 214--222
 
  []
 
-[8 <./sekdia1.jpg>] <sekdia2.jpg, id=38, 720.6925pt x 508.90125pt>
+[8 <./sekdia1.jpg>] <sekdia2.jpg, id=39, 720.6925pt x 508.90125pt>
 File: sekdia2.jpg Graphic file (type jpg)
 
 <use sekdia2.jpg>
-Package pdftex.def Info: sekdia2.jpg used on input line 225.
+Package pdftex.def Info: sekdia2.jpg used on input line 229.
 (pdftex.def)             Requested size: 360.34537pt x 254.45pt.
  [9 <./sekdia2.jpg>]
-<sekdia3.jpg, id=42, 591.20876pt x 458.71375pt>
+<sekdia3.jpg, id=43, 591.20876pt x 458.71375pt>
 File: sekdia3.jpg Graphic file (type jpg)
  <use sekdia3.jpg>
-Package pdftex.def Info: sekdia3.jpg used on input line 236.
+Package pdftex.def Info: sekdia3.jpg used on input line 240.
 (pdftex.def)             Requested size: 295.60365pt x 229.35631pt.
  [10 <./sekdia3.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 247--249
+Underfull \hbox (badness 10000) in paragraph at lines 251--253
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--254
+Underfull \hbox (badness 10000) in paragraph at lines 254--258
 
  []
 
-[11] <screen1.png, id=49, 963.6pt x 541.02126pt>
+[11] <screen1.png, id=50, 963.6pt x 541.02126pt>
 File: screen1.png Graphic file (type png)
  <use screen1.png>
-Package pdftex.def Info: screen1.png used on input line 265.
+Package pdftex.def Info: screen1.png used on input line 269.
 (pdftex.def)             Requested size: 289.08223pt x 162.30762pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--278
+Underfull \hbox (badness 10000) in paragraph at lines 272--282
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--278
+Underfull \hbox (badness 10000) in paragraph at lines 272--282
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--278
+Underfull \hbox (badness 10000) in paragraph at lines 272--282
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--278
+Underfull \hbox (badness 10000) in paragraph at lines 272--282
 
  []
 
 
-Overfull \hbox (17.1684pt too wide) in paragraph at lines 268--278
+Overfull \hbox (17.1684pt too wide) in paragraph at lines 272--282
 \T1/cmr/m/n/12 Search: Kom-mer frem med et sø-ge-felt hvor man kan sø-ge på spo
 ts via navn/zipco-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--278
+Underfull \hbox (badness 10000) in paragraph at lines 272--282
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 279--284
+Underfull \hbox (badness 10000) in paragraph at lines 283--288
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 279--284
+Underfull \hbox (badness 10000) in paragraph at lines 283--288
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 279--284
+Underfull \hbox (badness 10000) in paragraph at lines 283--288
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 279--284
+Underfull \hbox (badness 10000) in paragraph at lines 283--288
 
  []
 
 [12 <./screen1.png>] [13]
-Underfull \hbox (badness 10000) in paragraph at lines 287--289
+Underfull \hbox (badness 10000) in paragraph at lines 291--293
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--294
+Underfull \hbox (badness 10000) in paragraph at lines 294--298
 
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 300--306
+Underfull \hbox (badness 10000) in paragraph at lines 304--310
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--309
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 310--311
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 312--313
+Underfull \hbox (badness 10000) in paragraph at lines 311--313
 
  []
 
@@ -989,93 +987,97 @@ Underfull \hbox (badness 10000) in paragraph at lines 314--315
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--319
+
+ []
+
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 321--333
+Underfull \hbox (badness 10000) in paragraph at lines 325--337
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--333
+Underfull \hbox (badness 10000) in paragraph at lines 325--337
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--333
+Underfull \hbox (badness 10000) in paragraph at lines 325--337
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--333
+Underfull \hbox (badness 10000) in paragraph at lines 325--337
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--333
+Underfull \hbox (badness 10000) in paragraph at lines 325--337
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--333
+Underfull \hbox (badness 10000) in paragraph at lines 325--337
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--333
+Underfull \hbox (badness 10000) in paragraph at lines 325--337
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--333
+Underfull \hbox (badness 10000) in paragraph at lines 325--337
 
  []
 
 [16] [17]
-Underfull \hbox (badness 10000) in paragraph at lines 336--344
+Underfull \hbox (badness 10000) in paragraph at lines 340--348
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--344
+Underfull \hbox (badness 10000) in paragraph at lines 340--348
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--344
+Underfull \hbox (badness 10000) in paragraph at lines 340--348
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--344
+Underfull \hbox (badness 10000) in paragraph at lines 340--348
 
  []
 
 [18] [19]
-Underfull \hbox (badness 10000) in paragraph at lines 350--369
+Underfull \hbox (badness 10000) in paragraph at lines 354--373
 
  []
 
 [20] (./delrapport2.aux) ) 
 Here is how much of TeX's memory you used:
- 7626 strings out of 493315
- 99897 string characters out of 6137903
- 233594 words of memory out of 5000000
- 10914 multiletter control sequences out of 15000+600000
- 15923 words of font info for 48 fonts, out of 8000000 for 9000
+ 7727 strings out of 493304
+ 100815 string characters out of 6139872
+ 235216 words of memory out of 5000000
+ 11015 multiletter control sequences out of 15000+600000
+ 16260 words of font info for 49 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,8n,58p,3243b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/c
-m-super/cm-super-t1.enc}</usr/local/texlive/2013/texmf-dist/fonts/type1/public/
-cm-super/sfbx1200.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/cm
--super/sfbx1440.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/cm-s
-uper/sfbx1728.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/cm-sup
-er/sfrm1200.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/cm-super
-/sfrm1440.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/cm-super/s
-frm2074.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sft
-i1200.pfb>
-Output written on delrapport2.pdf (20 pages, 320209 bytes).
+ 38i,8n,58p,3243b,277s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t
+1.enc}</usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/te
+xmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/publ
+ic/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200
+.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/tex
+mf/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf/fonts/type1/publi
+c/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.
+pfb>
+Output written on delrapport2.pdf (20 pages, 351483 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
+ 108 PDF objects out of 1000 (max. 8388607)
+ 71 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

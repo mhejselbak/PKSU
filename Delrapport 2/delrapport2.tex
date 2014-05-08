@@ -7,6 +7,7 @@
 \usepackage[all]{xy} % den sidste (avancerede) formel i dokumentet
 \usepackage{graphicx}
 \usepackage{listings}
+\usepackage{url}
 \lstdefinelanguage{JavaScript}{
   morekeywords={typeof, new, true, false, catch, function, return, null, catch, switch, var, if, in, while, do, else, case, break},
   morecomment=[s]{/*}{*/},
@@ -104,6 +105,7 @@
 
 \begin{document}
 \maketitle
+\url{www.kennethchristensen.dk} Her kan man se vores projekt.\\
 Gruppemedlemmer:\\
 Kenneth Christensen: 02 08 93\\Michael Jensen: 01 07 93\\Rune Pedersen: 01 11 82\\Rasmus Hansen: 03 12 92
 \\\\
@@ -125,19 +127,21 @@ Følgende model er en FACTOR analyse af projektet og giver en kort og konkret be
 \pagebreak
 
 \section{Kravspecifikation for IT-løsningen}
-(a) De funktionelle og ikke-funktionelle krav til jeres system\\\\
-Funktionelle krav:\\
-Upload af billeder\\ Uploader billeder fra brugerens enhed, til mysql databasen ved hjælp af php\\
-Menu\\ Har ved hjælp af javascript lavet en funktion som viser en ny div øverst på skærmen med indholdet af det pågældende menupunkt, på den måde vil brugeren aldrig blive ført videre til en ny side.\\
-Streetspots\\
-Skatesparks\\
-Markers\\ For hvert spot der bliver loadet fra mysql databasen, bliver der lavet en marker med lidt information om spottet og billeder.\\
-Rutevejledning\\ Vejleder brugeren til det pågældende punkt på kortet ved hjælp af google maps.\\
-Bruger lokation\\ Finder brugerens lokation vedhjælp af HTML5 og den indbyggede funktion der hedder geolocation, brugeren skal give tilladelse til at programmet må se brugerens lokation.\\
-BMX-Butikken\\\\
-Ikke funktionelle krav:\\
-Appens sprog skal være på engelsk\\ Så den kan bruges af turister, men samtidig af de lokale da de fleste i miljøet snakker engelsk.\\
-Bruger venligt UI\\ så alle kan finde ud af at bruge programmet.\\
+\subsection*{Funktionelle krav}
+\textbf{Add spot} \\ Tilføjer et spot til Databasen hvor der måske kan være et billede med.\\
+\textbf{Menu}\\ Indeholder 5 ting du kan trykke på der kan vejlede bruger: Spots, shops, settings, Add spot, Search\\
+\textbf{Streetspots}\\ Viser brugeren en liste over de forskellige spots.\\
+\textbf{Markers}\\ Viser på kortet 3 ting: Brugerens lokation, spots og bmxbutikkens lokation\\
+\textbf{Rutevejledning}\\ Vejleder brugeren til det pågældende punkt på kortet ved hjælp af google maps.\\
+\textbf{Bruger lokation}\\ Finder brugerens lokation.\\
+\textbf{Shops}\\ Centrerer kortet på bmxbutikken.
+\subsection*{Ikke funktionelle krav:}
+\textbf{Sprog}\\ Siden skal være på engelsk, så den kan bruges af turister, men samtidig af de lokale da de fleste i miljøet snakker engelsk.\\
+\textbf{Bruger venligt UI}\\ Nemt og intuitivt for brugeren at komme rundt.\\
+\subsection*{Constraints}
+Systemet skal være kompatibelt med både computere og telefoner.[Implementation requirement]\\
+Kortet skal vise en marker ved bmxbutikken[User Interface Requirement]\\
+Koden skal være skrevet i php/javascript/html/mysql.[Implementation requirement]\\
 \pagebreak\\
 
 (b) En use case model, der beskriver system-funktionaliteten. Der ønskes et højniveau-diagram,
@@ -310,7 +314,7 @@ Det interne arbejde i gruppen fungerer godt. Alle medlemmer i gruppen deltager a
 (b) Hvad går mindre godt?\\
 
 Vi har haft uventede problemer hvad angår systemdesignet da vi har måttet ændre kurs og gå over i en webbaseret udgave. Det har betydet at vi har haft nogle arbejdsspildtimer og vi er derfor ikke noget helt så langt som planlagt.\\
-
+KENNETH SKAL SLUKKE SIN TELEFON.\\
 (c) Hvad vil I gøre for at effektivisere jeres udviklingsarbejde?\\
 
 I det vi tog skridtet fra android app til webbaseret app, har vi taget de første skridt i effektiviseringen. Derudover regner vi med at kunne begynde at arbejde selvstændigt på enkelte dele af systemet når vi har fået den første prototype helt op at køre. Det skullle bevirke at det bliver nemmere for de enkelte individer i gruppen at få plads i deres skema, til at få arbejdet på projektet og dermed få arbejdet flere timer. 
