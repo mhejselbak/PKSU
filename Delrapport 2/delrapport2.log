@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.11.18)  7 MAY 2014 14:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.11.18)  8 MAY 2014 14:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -786,11 +786,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 128--142
 
  []
 
-[3] <Umodel.png, id=17, 433.62pt x 473.77pt>
-File: Umodel.png Graphic file (type png)
- <use Umodel.png>
-Package pdftex.def Info: Umodel.png used on input line 147.
-(pdftex.def)             Requested size: 281.84966pt x 307.94685pt.
+[3] <usecasemodel.jpg, id=17, 514.92375pt x 297.11pt>
+File: usecasemodel.jpg Graphic file (type jpg)
+ <use usecasemodel.jpg>
+Package pdftex.def Info: usecasemodel.jpg used on input line 147.
+(pdftex.def)             Requested size: 386.19186pt x 222.83194pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 151--156
 
@@ -801,7 +801,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 151--156
 
  []
 
-[4 <./Umodel.png>]
+[4 <./usecasemodel.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 159--160
 
  []
@@ -1057,7 +1057,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 350--369
 [20] (./delrapport2.aux) ) 
 Here is how much of TeX's memory you used:
  7626 strings out of 493315
- 99867 string characters out of 6137903
+ 99897 string characters out of 6137903
  233594 words of memory out of 5000000
  10914 multiletter control sequences out of 15000+600000
  15923 words of font info for 48 fonts, out of 8000000 for 9000
@@ -1072,7 +1072,7 @@ er/sfrm1200.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/cm-super
 /sfrm1440.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/cm-super/s
 frm2074.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sft
 i1200.pfb>
-Output written on delrapport2.pdf (20 pages, 369216 bytes).
+Output written on delrapport2.pdf (20 pages, 320209 bytes).
 PDF statistics:
  104 PDF objects out of 1000 (max. 8388607)
  68 compressed objects within 1 object stream
