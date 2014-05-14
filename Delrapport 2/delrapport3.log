@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.5.7)  14 MAY 2014 10:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.5.7)  14 MAY 2014 11:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -680,167 +680,202 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--118
 
  []
 
-[7] <sekdia1.jpg, id=34, 665.48625pt x 418.56375pt>
+[7] <cd.jpg, id=34, 454.69875pt x 437.635pt>
+File: cd.jpg Graphic file (type jpg)
+ <use cd.jpg>
+Package pdftex.def Info: cd.jpg used on input line 123.
+(pdftex.def)             Requested size: 227.34882pt x 218.81696pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--125
+
+ []
+
+[8 <./cd.jpg>] <sekdia1.jpg, id=38, 665.48625pt x 418.56375pt>
 File: sekdia1.jpg Graphic file (type jpg)
- <use sekdia1.jpg>
-Package pdftex.def Info: sekdia1.jpg used on input line 127.
+
+<use sekdia1.jpg>
+Package pdftex.def Info: sekdia1.jpg used on input line 130.
 (pdftex.def)             Requested size: 332.74231pt x 209.28136pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--129
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--129
-
- []
-
-[8 <./sekdia1.jpg>] <sekdia2.jpg, id=38, 720.6925pt x 508.90125pt>
+ [9 <./sekdia1.jpg>]
+<sekdia2.jpg, id=42, 720.6925pt x 508.90125pt>
 File: sekdia2.jpg Graphic file (type jpg)
-
-<use sekdia2.jpg>
-Package pdftex.def Info: sekdia2.jpg used on input line 136.
+ <use sekdia2.jpg>
+Package pdftex.def Info: sekdia2.jpg used on input line 139.
 (pdftex.def)             Requested size: 360.34537pt x 254.45pt.
- [9 <./sekdia2.jpg>]
-<sekdia3.jpg, id=42, 591.20876pt x 458.71375pt>
+ [10 <./sekdia2.jpg>] <sekdia3.jpg, id=46, 591.20876pt x 458.71375pt>
 File: sekdia3.jpg Graphic file (type jpg)
  <use sekdia3.jpg>
-Package pdftex.def Info: sekdia3.jpg used on input line 147.
+Package pdftex.def Info: sekdia3.jpg used on input line 150.
 (pdftex.def)             Requested size: 295.60365pt x 229.35631pt.
- [10 <./sekdia3.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 158--160
+
+[11 <./sekdia3.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 161--163
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--165
+Underfull \hbox (badness 10000) in paragraph at lines 164--168
 
  []
 
-[11] <screen1.png, id=49, 963.6pt x 541.02126pt>
+[12] <screen1.png, id=53, 1371.1225pt x 770.88pt>
 File: screen1.png Graphic file (type png)
  <use screen1.png>
-Package pdftex.def Info: screen1.png used on input line 176.
-(pdftex.def)             Requested size: 289.08223pt x 162.30762pt.
+Package pdftex.def Info: screen1.png used on input line 179.
+(pdftex.def)             Requested size: 411.33992pt x 231.26578pt.
 
-<slider.png, id=50, 1371.1225pt x 770.88pt>
+Overfull \hbox (21.33992pt too wide) in paragraph at lines 179--180
+[][] 
+ []
+
+<slider.png, id=55, 1371.1225pt x 770.88pt>
 File: slider.png Graphic file (type png)
  <use slider.png>
-Package pdftex.def Info: slider.png used on input line 182.
+Package pdftex.def Info: slider.png used on input line 185.
 (pdftex.def)             Requested size: 287.94421pt x 161.88957pt.
 
-<Addspot.png, id=52, 1371.1225pt x 770.88pt>
+<Addspot.png, id=56, 1371.1225pt x 770.88pt>
 File: Addspot.png Graphic file (type png)
  <use Addspot.png>
-Package pdftex.def Info: Addspot.png used on input line 191.
+Package pdftex.def Info: Addspot.png used on input line 194.
 (pdftex.def)             Requested size: 287.94421pt x 161.88957pt.
 
-<Search.png, id=53, 1371.1225pt x 770.88pt>
+<Search.png, id=57, 1371.1225pt x 770.88pt>
 File: Search.png Graphic file (type png)
  <use Search.png>
-Package pdftex.def Info: Search.png used on input line 197.
+Package pdftex.def Info: Search.png used on input line 200.
 (pdftex.def)             Requested size: 287.94421pt x 161.88957pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--200
+Underfull \hbox (badness 10000) in paragraph at lines 182--203
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--200
+Underfull \hbox (badness 10000) in paragraph at lines 182--203
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--200
+Underfull \hbox (badness 10000) in paragraph at lines 182--203
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--200
+Underfull \hbox (badness 10000) in paragraph at lines 182--203
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--200
+Underfull \hbox (badness 10000) in paragraph at lines 182--203
 
  []
 
-[12 <./screen1.png> <./slider.png>] [13 <./Addspot.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 201--206
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 201--206
+[13 <./screen1.png> <./slider.png>] [14 <./Addspot.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 204--209
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--206
+Underfull \hbox (badness 10000) in paragraph at lines 204--209
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--206
+Underfull \hbox (badness 10000) in paragraph at lines 204--209
 
  []
 
-[14 <./Search.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 209--211
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--216
 
  []
 
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 216.
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--216
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--216
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--216
+
+ []
+
+[15 <./Search.png>] [16]
+Underfull \hbox (badness 10000) in paragraph at lines 219--221
+
+ []
+
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 226.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 212--217
+Underfull \hbox (badness 10000) in paragraph at lines 222--227
 
  []
 
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 220--226
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 227--229
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 230--236
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--231
+Underfull \hbox (badness 10000) in paragraph at lines 237--239
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--233
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--235
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
 
  []
 
-[16]
-Overfull \hbox (130.80745pt too wide) in paragraph at lines 244--279
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
+
+ []
+
+[18]
+Overfull \hbox (130.80745pt too wide) in paragraph at lines 254--289
 \T1/cmr/m/n/12 * <a8c5bbd> 2014-05-07 [ru-ne-franch] Mer-ge branch 'ma-ster' of
  htt-ps://github.com/mhejselbak/PKSU 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--279
+Underfull \hbox (badness 10000) in paragraph at lines 254--289
 
  []
 
-[17] [18] (./delrapport3.aux) ) 
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 292--296
+
+ []
+
+[20] [21] (./delrapport3.aux) ) 
 Here is how much of TeX's memory you used:
- 7083 strings out of 493304
- 91027 string characters out of 6139872
+ 7089 strings out of 493304
+ 91090 string characters out of 6139872
  205296 words of memory out of 5000000
- 10395 multiletter control sequences out of 15000+600000
+ 10400 multiletter control sequences out of 15000+600000
  16260 words of font info for 49 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,7n,32p,3243b,269s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -852,10 +887,10 @@ m1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/shar
 e/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf/fonts/type1/
 public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt
 1200.pfb>
-Output written on delrapport3.pdf (18 pages, 1412753 bytes).
+Output written on delrapport3.pdf (21 pages, 1811286 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
- 67 compressed objects within 1 object stream
+ 120 PDF objects out of 1000 (max. 8388607)
+ 74 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
