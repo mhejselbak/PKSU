@@ -1,0 +1,181 @@
+<!DOCTYPE html >
+<html>
+  <head>
+     <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <title>SpotGuiden</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<script src="galleria/galleria-1.3.5.min.js"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+    <script type="text/javascript">
+function toggle(target){
+    
+  var artz = document.getElementsByClassName('header');
+  var targ = document.getElementById(target);  
+  var isVis = targ.style.display=='block';
+    
+  // hide all
+  for(var i=0;i<artz.length;i++){
+     artz[i].style.display = 'none';
+  }
+  // toggle current
+  targ.style.display = isVis?'none':'block';
+    
+  return false;
+}
+
+    var customIcons = {
+      restaurant: {
+        icon: 'http://labs.google.com/ridefinder/images/mm_20_blue.png'
+      },
+      bar: {
+        icon: 'http://labs.google.com/ridefinder/images/mm_20_red.png'
+      }
+    };  
+
+
+
+    function load() {
+      var mapOptions = {
+        center: new google.maps.LatLng(55.676097, 12.568337),
+      zoom: 12,
+      mapTypeId: 'roadmap'
+    };
+      //Laver kortet
+      var map = new google.maps.Map(document.getElementById("map"), mapOptions); 
+      var infoWindow = new google.maps.InfoWindow;
+
+      // Change this depending on the name of your PHP file
+      downloadUrl("phpsqlajax_genxml3.php", function(data) {
+        var xml = data.responseXML;
+        var markers = xml.documentElement.getElementsByTagName("marker");
+        for (var i = 0; i < markers.length; i++) {
+          var name = markers[i].getAttribute("name");
+          var address = markers[i].getAttribute("address");
+          var type = markers[i].getAttribute("type");
+          var photo = markers[i].getAttribute("picture");
+          var point = new google.maps.LatLng(
+              parseFloat(markers[i].getAttribute("lat")),
+              parseFloat(markers[i].getAttribute("lng")));
+          var html = "<h1>" + name + "</h1> <br/>" + 
+          "<img src=\"" + photo + "\"><br>" +
+          address;
+          var html1 = '<div id="contentinfo">' +
+          			  ' din idiot ' +
+        			  '</div>';
+
+
+
+
+
+
+
+          var icon = customIcons[type] || {};
+          var marker = new google.maps.Marker({
+            map: map,
+            position: point,
+            icon: icon.icon
+          });
+          bindInfoWindow(marker, map, infoWindow, html1);
+        }
+      });
+        //Nuværende lokation
+  if(navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(function(position) {
+      var pos = new google.maps.LatLng(position.coords.latitude,
+                                       position.coords.longitude);
+  //Nuværende lokations
+
+      var infowindow = new google.maps.Marker({
+        map: map,
+        position: pos,
+        content: 'Your current location'
+      });
+
+
+      map.setCenter(pos);
+    }, function() {
+      handleNoGeolocation(true);
+    });
+  } else {
+    // Browser doesn't support Geolocation
+    handleNoGeolocation(false);
+  }
+    }
+
+    function bindInfoWindow(marker, map, infoWindow, html1) {
+      google.maps.event.addListener(marker, 'click', function() {
+        infoWindow.setContent(html1);
+        infoWindow.open(map, marker);
+        google.maps.event.addListener(marker, 'domready', function() {
+
+        });
+      });
+    }
+
+    function downloadUrl(url, callback) {
+      var request = window.ActiveXObject ?
+          new ActiveXObject('Microsoft.XMLHTTP') :
+          new XMLHttpRequest;
+
+      request.onreadystatechange = function() {
+        if (request.readyState == 4) {
+          request.onreadystatechange = doNothing;
+          callback(request, request.status);
+        }
+      };
+
+      request.open('GET', url, true);
+      request.send(null);
+    }
+
+    function doNothing() {}
+
+
+  </script>
+
+  </head>
+
+  <body onload="load()">
+ <div id="container"> 
+  <div id="nav"> 
+
+      <li class="settings"><a href="#" onclick="toggle('settings');"></a></li>
+<li><a href="#">SPOTS</a></li>
+   <li><a href="#">SHOPS</a></li>
+    <li><a href="#" onclick="toggle('add');">ADD SPOT</a></li>
+      <li class="search"><a href="#" onclick="toggle('search');"></a></li>
+    </div> 
+    </div>
+    <div id:"menucontainer">
+         <div class="header" id="search" style="display:none;">
+          <form>
+             <input type="text" name="search">
+          </form>
+
+         </div>
+  <div class="header" id="settings" style="display:none;">
+             <input type="range" id="setDistance" min="0" max="100" step="1" value="0">
+          </form></div>
+           <div class="header" id="add" style="display:none;">
+          <form><table class="center"><tr><td>
+            Name <input type="text" name="name"></td></tr>
+            <tr><td>Adress  <input type="text" name="adress"></td></tr>
+            <tr><td>City <input type="text" name="city"></td></tr>
+            <tr><td>Zip<input type="text" name="zip"></td></tr>
+             <tr><td> <form id="upload_form" enctype="multipart/form-data" method="post" action="upload.php"></td></tr>
+                <tr><td><input type="button" value="Upload" onclick="startUploading()" /></td></tr>
+
+
+             
+          </form>
+</table>
+         </div>
+    </div>
+
+    <div id="map"></div>
+   
+  </body>
+</html>
