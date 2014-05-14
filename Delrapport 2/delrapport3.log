@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.5.7)  14 MAY 2014 10:08
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.5.7)  14 MAY 2014 10:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -501,8 +501,7 @@ Package: listings 2013/08/26 1.5b (Carsten Heinz)
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-No file delrapport3.aux.
+) (./delrapport3.aux)
 \openout1 = `delrapport3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -518,6 +517,7 @@ LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 Package xypdf Info: Line width: 0.47998pt on input line 14.
+
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count119
@@ -576,243 +576,271 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \c@lstlisting=\count125
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 16.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-Underfull \hbox (badness 10000) in paragraph at lines 16--21
+Underfull \hbox (badness 10000) in paragraph at lines 16--20
 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<factor.png, id=10, 572.1375pt x 341.275pt>
+<factor.png, id=9, 572.1375pt x 341.275pt>
 File: factor.png Graphic file (type png)
  <use factor.png>
-Package pdftex.def Info: factor.png used on input line 32.
+Package pdftex.def Info: factor.png used on input line 31.
 (pdftex.def)             Requested size: 286.06804pt x 170.63707pt.
  [2 <./factor.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 47--49
+Underfull \hbox (badness 10000) in paragraph at lines 46--48
 
  []
 
 
-Overfull \hbox (24.86539pt too wide) in paragraph at lines 50--54
+Overfull \hbox (24.86539pt too wide) in paragraph at lines 49--53
 \T1/cmr/m/n/12 Systemet skal væ-re kom-pa-ti-belt med bå-de com-pu-te-re og te-
 le-fo-ner.[Implementation
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--54
+Underfull \hbox (badness 10000) in paragraph at lines 49--53
 
  []
 
-[3] <usecasemodel.jpg, id=20, 514.92375pt x 297.11pt>
+[3] <usecasemodel.jpg, id=19, 514.92375pt x 297.11pt>
 File: usecasemodel.jpg Graphic file (type jpg)
  <use usecasemodel.jpg>
-Package pdftex.def Info: usecasemodel.jpg used on input line 59.
+Package pdftex.def Info: usecasemodel.jpg used on input line 58.
 (pdftex.def)             Requested size: 386.19186pt x 222.83194pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--68
+Underfull \hbox (badness 10000) in paragraph at lines 62--67
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--68
+Underfull \hbox (badness 10000) in paragraph at lines 62--67
 
  []
 
 [4 <./usecasemodel.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
 
  []
 
-[7] <sekdia1.jpg, id=35, 665.48625pt x 418.56375pt>
+[7] <sekdia1.jpg, id=34, 665.48625pt x 418.56375pt>
 File: sekdia1.jpg Graphic file (type jpg)
  <use sekdia1.jpg>
-Package pdftex.def Info: sekdia1.jpg used on input line 128.
+Package pdftex.def Info: sekdia1.jpg used on input line 127.
 (pdftex.def)             Requested size: 332.74231pt x 209.28136pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--130
+Underfull \hbox (badness 10000) in paragraph at lines 121--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--130
+Underfull \hbox (badness 10000) in paragraph at lines 121--129
 
  []
 
-[8 <./sekdia1.jpg>] <sekdia2.jpg, id=39, 720.6925pt x 508.90125pt>
+[8 <./sekdia1.jpg>] <sekdia2.jpg, id=38, 720.6925pt x 508.90125pt>
 File: sekdia2.jpg Graphic file (type jpg)
 
 <use sekdia2.jpg>
-Package pdftex.def Info: sekdia2.jpg used on input line 137.
+Package pdftex.def Info: sekdia2.jpg used on input line 136.
 (pdftex.def)             Requested size: 360.34537pt x 254.45pt.
  [9 <./sekdia2.jpg>]
-<sekdia3.jpg, id=43, 591.20876pt x 458.71375pt>
+<sekdia3.jpg, id=42, 591.20876pt x 458.71375pt>
 File: sekdia3.jpg Graphic file (type jpg)
  <use sekdia3.jpg>
-Package pdftex.def Info: sekdia3.jpg used on input line 148.
+Package pdftex.def Info: sekdia3.jpg used on input line 147.
 (pdftex.def)             Requested size: 295.60365pt x 229.35631pt.
  [10 <./sekdia3.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 159--161
+Underfull \hbox (badness 10000) in paragraph at lines 158--160
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--166
+Underfull \hbox (badness 10000) in paragraph at lines 161--165
 
  []
 
-[11] <screen1.png, id=50, 963.6pt x 541.02126pt>
+[11] <screen1.png, id=49, 963.6pt x 541.02126pt>
 File: screen1.png Graphic file (type png)
  <use screen1.png>
-Package pdftex.def Info: screen1.png used on input line 177.
+Package pdftex.def Info: screen1.png used on input line 176.
 (pdftex.def)             Requested size: 289.08223pt x 162.30762pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--190
+<slider.png, id=50, 1371.1225pt x 770.88pt>
+File: slider.png Graphic file (type png)
+ <use slider.png>
+Package pdftex.def Info: slider.png used on input line 182.
+(pdftex.def)             Requested size: 287.94421pt x 161.88957pt.
+
+<Addspot.png, id=52, 1371.1225pt x 770.88pt>
+File: Addspot.png Graphic file (type png)
+ <use Addspot.png>
+Package pdftex.def Info: Addspot.png used on input line 191.
+(pdftex.def)             Requested size: 287.94421pt x 161.88957pt.
+
+<Search.png, id=53, 1371.1225pt x 770.88pt>
+File: Search.png Graphic file (type png)
+ <use Search.png>
+Package pdftex.def Info: Search.png used on input line 197.
+(pdftex.def)             Requested size: 287.94421pt x 161.88957pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--200
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--190
+Underfull \hbox (badness 10000) in paragraph at lines 179--200
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--190
+Underfull \hbox (badness 10000) in paragraph at lines 179--200
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--190
+Underfull \hbox (badness 10000) in paragraph at lines 179--200
 
  []
 
 
-Overfull \hbox (17.1684pt too wide) in paragraph at lines 180--190
-\T1/cmr/m/n/12 Search: Kom-mer frem med et sø-ge-felt hvor man kan sø-ge på spo
-ts via navn/zipco-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 180--190
+Underfull \hbox (badness 10000) in paragraph at lines 179--200
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 191--196
+[12 <./screen1.png> <./slider.png>] [13 <./Addspot.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 201--206
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--196
+Underfull \hbox (badness 10000) in paragraph at lines 201--206
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--196
+Underfull \hbox (badness 10000) in paragraph at lines 201--206
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--196
+Underfull \hbox (badness 10000) in paragraph at lines 201--206
 
  []
 
-[12 <./screen1.png>] [13]
-Underfull \hbox (badness 10000) in paragraph at lines 199--201
+[14 <./Search.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 209--211
 
  []
 
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 216.
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--206
-
- []
-
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 212--218
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 219--221
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+Underfull \hbox (badness 10000) in paragraph at lines 212--217
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 220--226
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--227
+Underfull \hbox (badness 10000) in paragraph at lines 227--229
 
  []
 
-[15] [16] (./delrapport3.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--235
+
+ []
+
+[16]
+Overfull \hbox (130.80745pt too wide) in paragraph at lines 244--279
+\T1/cmr/m/n/12 * <a8c5bbd> 2014-05-07 [ru-ne-franch] Mer-ge branch 'ma-ster' of
+ htt-ps://github.com/mhejselbak/PKSU 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--279
+
+ []
+
+[17] [18] (./delrapport3.aux) ) 
 Here is how much of TeX's memory you used:
- 7066 strings out of 493304
- 90783 string characters out of 6139872
- 204296 words of memory out of 5000000
- 10383 multiletter control sequences out of 15000+600000
+ 7083 strings out of 493304
+ 91027 string characters out of 6139872
+ 205296 words of memory out of 5000000
+ 10395 multiletter control sequences out of 15000+600000
  16260 words of font info for 49 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,7n,32p,3243b,269s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -824,10 +852,10 @@ m1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/shar
 e/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf/fonts/type1/
 public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt
 1200.pfb>
-Output written on delrapport3.pdf (16 pages, 341608 bytes).
+Output written on delrapport3.pdf (18 pages, 1412753 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
+ 108 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -13,7 +13,6 @@
 
 \begin{document}
 \maketitle
-\url{www.kennethchristensen.dk} Her kan man se vores projekt.\\
 Gruppemedlemmer:\\
 Kenneth Christensen: 02 08 93\\Michael Jensen: 01 07 93\\Rune Pedersen: 01 11 82\\Rasmus Hansen: 03 12 92
 \\\\
@@ -179,33 +178,49 @@ Vi har tænkt os at teste det ved at få nogen mennesker til at lave think-aloud
 
 Billedet viser vores foreløbige hjemmeside der blot indeholder en menu uden funktioner, samt et kort med "spots" på den måde som vi vil præsentere dem. \\ \\
 Settings: 
+\begin{figure}[h]
+\includegraphics[scale = 0.21]{slider}
+\end{figure}\\
 Når man trykker på settings kommer der en slider, som der kan bestemme hvor stor en radius siden skla loade spots fra, vurderet fra brugerens nuværende position.\\\\
 Spots: 
 Når du trykker her kommer der en liste frem over alle de forskellige spots som man herefter trykke på dem. Dette vil centrerer dem på kortet.\\\\
-Shops: 
-Centrerer kortet på BMXButikken.\\\\
-Add spot: 
+Shops: \\
+Centrerer kortet på BMXButikken.\\ \\
+Add spot:
+\begin{figure}[h]
+\includegraphics[scale = 0.21]{Addspot}
+\end{figure}\\ 
 Når der trykkes på dette kommer der en formular frem som man skal udfylde med: Name, Address, City, zip og billede.\\
-Search: Kommer frem med et søgefelt hvor man kan søge på spots via navn/zipcode/by.\\
+\pagebreak
+Search: 
+\begin{figure}[h]
+\includegraphics[scale = 0.21]{Search}
+\end{figure}\\
+Kommer frem med et søgefelt hvor man kan søge på spots via navn/zipcode/by.\\
 
 (b) Illustrer flowet/dynamikken i brugerinteraktionen mellem skærmbillederne.\\
 Dette vil blive udfyldt i delrapport 3 eller 4 hvor vi er kommet længere med programmet.\\\\
-(c) En audio-visuel præsentation af brugergrænsefladen af den seneste kørende prototype.\\\\
+(c) En audio-visuel præsentation af brugergrænsefladen af den seneste kørende prototype.\\
+Dette punkt vil vi udfylde til delrapport 4 da vores projekt gerne skulle være færdig eller have mere funktionalitet på dette tidspunkt\\
 (d) Resultatet af seneste tænke-højt forsøg gennemført med een eller flere af jeres brugere.\\\\
-Dette punkt vil blive udfyldt til delrapport 3 da vi har aftale med flere brugere.\\
+\subsection{Tænk højt øvelser}
+Henning: Find det spot nærmest dig.\\
+Umiddelbart kan jeg se at jeg er den store pil, og lige ved siden af den store pil er der en lille pil, så den vil jeg prøve at trykke på, hov der åbnede et vindue hvor der står fælledparken.\\\\
+Bøge: Find Bmxbutikkens marker på kortet\\
+Jeg prøver at trykke på en rød først og kan se at det er en skatepark, så jeg prøver den blå pil og der var bmxbutikken.\\\\
+Lars: Ændrer indstillingerne.\\
+Der er 2 tandhjul det må være indstillinger, så der trykker jeg og så kan jeg trække frem og tilbage på slideren og se flere eller færre spots.\\\\
 
 \pagebreak
 \section{Versionstyring}
 Til aflevering: Som bilag skal vedlægges jeres nuværende commit-log samt jeres
 programkode. Kommentér kort (ca 1/2 side) de vigtigste ændringer, der er sket i programkoden.\\
 
-Det første udkast til systemet blev skrevet med java/google developer tools som vi havde planlagt det. Men efter mange timers forsøg, måtte vi erkende det måske var en uoverkommelig opgave.\\
-Vi er derfor gået over til at lave appen webbaseret og bruge javascript, css, php, html og mySQL til at snakke med en database. Vi har nu fået det opdateret så den finder spots fra databasen. \\
-\\
-Derudover er vi også gået igang med at lave en app til android som der loader hjemmesiden ned så folk også kan bruge som app hvis de vil det. Denne vil også loade mappet så det ligger på deres telefon så de i princippet også kan bruge kortet uden net, som vil gøre det muligt for dem stadig at se alle spots men ikke kunne tilføje og ændre på indstillinger.
-
-
-
+Vi har nu fået opdateret vores hjemmeside så istedet for der står settings og search er der nu kommet to forskellige ikoner som alle brugere kender, forstørrelsesglas og tandhjul. Der er ikke kommet noget funktionalitet bag det men designet til disse to knapper er nu kommet på. \\
+Vi har fået opdateret vores database med flere spots og gjort det muligt for vores hjemmeside at der sker noget når der bliver trykket på en marker. Det der sker nu er at der kommer et info vindue op, med en addresse og et billede af spottet.\\
+Vores app til at kunne køre hjemmesiden på android er næsten færdig.\\
+Det eneste problem vi har omkring dette er at den ikke er kompatibel med at få en brugers position men dette vil altid blive et problem når nu den skal køre kunne køre offline.\\
+Vores midlertidige projekt kan ses på \url{www.kennethchristensen.dk} det kan godt det stemmer over med hvad vi har beskrevet i rapporten da der stadig arbejdes videre på det.\\
 
 \pagebreak
 \section{Projektsamarbejdet}
@@ -222,7 +237,7 @@ Det interne arbejde i gruppen fungerer godt. Alle medlemmer i gruppen deltager a
 (b) Hvad går mindre godt?\\
 
 Vi har haft uventede problemer hvad angår systemdesignet da vi har måttet ændre kurs og gå over i en webbaseret udgave. Det har betydet at vi har haft nogle arbejdsspildtimer og vi er derfor ikke noget helt så langt som planlagt.\\
-KENNETH SKAL SLUKKE SIN TELEFON.\\
+
 (c) Hvad vil I gøre for at effektivisere jeres udviklingsarbejde?\\
 
 I det vi tog skridtet fra android app til webbaseret app, har vi taget de første skridt i effektiviseringen. Derudover regner vi med at kunne begynde at arbejde selvstændigt på enkelte dele af systemet når vi har fået den første prototype helt op at køre. Det skullle bevirke at det bliver nemmere for de enkelte individer i gruppen at få plads i deres skema, til at få arbejdet på projektet og dermed få arbejdet flere timer. 
@@ -233,5 +248,48 @@ I det vi tog skridtet fra android app til webbaseret app, har vi taget de først
 \section{Bilag}
 
 \subsection{Commitlog}
+* <73f7798> 2014-05-14 [mhejselbak]  (HEAD, master) delrapport 3 tilføjet \\
+* <8fff4f0> 2014-05-14 [mhejselbak]  delrapport 3 tilføjet \\
+* <a9c842d> 2014-05-08 [rasmus03]  (origin/master, origin/HEAD) Genupload af delrapport \\
+* <d58b7ea> 2014-05-08 [mhejselbak]  Delrapport 2 genafl tilfoejet \\
+* <2572462> 2014-05-08 [rasmus03]  Tilføjede en ny usecasemodel \\
+* <04acdab> 2014-05-07 [rasmus03]  Mindre opdateringer til delrapport 2 - intet nyt \\
+* <533b5cb> 2014-05-07 [mhejselbak]  added more to part 5 \\
+* <c5d6de6> 2014-05-07 [runefranch]  updateret delrapport \\
+* <c4bdcc5> 2014-05-07 [rasmus03]  Opdaterede delrapport 2 med nye sekvensdiagrammer \\
+* <e4f926b> 2014-05-07 [rasmus03]  Tilføjede gruppe reviews (igen) \\
+*   <a8c5bbd> 2014-05-07 [runefranch]  Merge branch 'master' of https://github.com/mhejselbak/PKSU \\
+|\textbackslash   \\
+* | <95229b4> 2014-05-07 [runefranch]  Sekvens diagram \\
+| * <d3ad6bd> 2014-05-07 [rasmus03]  Flyttede log.log til den rette mappe\\
+|/  \\
+* <a0eb8ab> 2014-05-07 [mhejselbak]  Deleted style.css and edited delrapport2 \\
+* <3db9ac0> 2014-05-07 [rasmus03]  Opdaterede tekst i delrapport 2 \\
+* <b4614f0> 2014-04-28 [mhejselbak]  CSS til hjemmeside \\
+* <d0c4133> 2014-04-28 [rasmus03]  Tilføjede første udlæg til den webbaserede android application \\
+* <ba05d40> 2014-04-28 [rasmus03]  Tilføjede vores review af “Mood” \\
+* <1da40ab> 2014-04-24 [rasmus03]  Updaterede filer til delrapport 2 \\
+* <89ae7a4> 2014-04-24 [rasmus03]  Commitlog billede \\
+* <6f57d2e> 2014-04-24 [rasmus03]  Tilføjede vores udkast til hjemmesiden \\
+* <2077057> 2014-04-24 [runefranch]  Nyt sekvens diagram \\
+* <a006ca4> 2014-04-24 [runefranch]  sidste sekvens diagram \\ 
+* <f2ad5a2> 2014-04-23 [rasmus03]  Updated files and added screenshots \\
+* <c201cd9> 2014-04-23 [runefranch]  sekvens diagram \\
+* <ee33ad2> 2014-04-23 [rasmus03]  Opdaterede delrapport2 med 2/2 review og use-cases. \\
+* <592de43> 2014-04-23 [runefranch]  reviewartikel \\
+* <e77b576> 2014-04-23 [rasmus03]  FACTOR model - Bruges i delrapport 2 \\
+* <599276d> 2014-04-23 [rasmus03]  Delrapport 2 - Består af punkt 1, 2 og 1/2 review \\
+* <b2271ec> 2014-04-22 [mhejselbak]  Prototype \\
+* <6e1b71b> 2014-04-10 [runefranch]  review update \\
+* <d81beae> 2014-04-09 [runefranch]  Review \\
+* <19705bc> 2014-04-03 [mhejselbak]  Initial commit \\
+\subsection{Referater}
+
+\subsection*{Referat fra sidste møde med kunde}
+Møde med Travis den 8/6\\
+Vi mødtes med travis i bmxbutikken eller som deres butik på nørrebrogade hedder "pedal & Co" Her fremviste vi vores program til ham og snakkede om forbedringer og evt ekstra funktionalitet, vi diskuterede også hvilken slags spots der skulle op og om man evt. skulle holde nogle spots hemmelige for brugerene for at ikke opfordre små børn til at hoppe over hegn f.eks.\\
+Han var rigtig tilfreds med resultatet af programmet indtil videre, og glædede sig til at det blev færdig, så han kunne få det ud til den danske bmx scene. Han havde dog også nogle ting, som han synes vi skulle tænke ekstra over. Han synes bla. ikke at hjemmesiden var helt inuitiv nok han kom med et eksempel med den lille gule mand og google street view, hvor at en erfaren bruger af google maps ved at man skal trække den gule mand ned på kortet, vil en bruger der ikke er vand til google maps ikke kende den funktionalitet. Derfor ville han gerne have en knap inde i infowindows med streetview, så en bruger af appen også trykke på en knap indei  infowindowet og se googles billeder af spottet.\\
+Derudover snakkede vi også om at få brugere til at bruge hjemmesiden, hvor vi blev enige om at det var vigtigt at starte med en database med en del spots, simpelthen for at få brugerne til at bruge hjemmesiden. Derudover hvis der først er brugere på siden vil de forhåbentlig også selv uploade deres egne lokale spots og på den måde kan spotguiden udvide sig til at være national, da der kommer massere af bmx'ere og skatere fra Jylland til hovedstaden for at køre\\
+
 
 \end{document}
