@@ -22,7 +22,7 @@ Instructor: Kasper Passov
 \section{Abstract}
 We have choosen to work on a project for a local bike shop called "bmx-butikken". Bmxbutikken is specialised in the freestyle BMX community. They sell all you need as a BMX rider, which is everything from cloths and shoes to complete bikes and parts. They have a phsyical shop on Nørrebrogade, and a webshop at \url{www.bmxbutikken.dk}. The project regards a Spotguide app for all devices, programmed as a web application. This site is supposed to help local riders to find new places to ride, and foreigners to find any places to ride and hook up with the local crew. The app can also show you where bmx-butikken is located if you need a spare part. The application is designed for all bmx riders mainly in Copenhagen, but spots can be uploaded from anywhere. \\\\
 \section{IT-projektets formål og rammer}
-Følgende model er en FACTOR analyse af projektet og giver en kort og konkret beskrivelse af rammerne for projektet(Figur 1).
+Følgende model er en FACTOR analyse af projektet og giver en kort og konkret beskrivelse af rammerne for projektet.
 
 \begin{center}
   \begin{tabular}{| l | c |}
@@ -61,8 +61,8 @@ Kortet skal vise en marker ved bmxbutikken[User Interface Requirement]\\
 Koden skal være skrevet i php/javascript/html/mysql.[Implementation requirement]\\
 \pagebreak\\
 
-(b) En use case model, der beskriver system-funktionaliteten. Der ønskes et højniveau-diagram,
-som giver overblik over hvilke use cases de forskellige aktører har.\\
+\textit{(b) En use case model, der beskriver system-funktionaliteten. Der ønskes et højniveau-diagram,
+som giver overblik over hvilke use cases de forskellige aktører har}\\
 \begin{figure}[htb]
 \begin{center}
 \includegraphics[scale = 0.75]{usecasemodel}
@@ -72,7 +72,7 @@ som giver overblik over hvilke use cases de forskellige aktører har.\\
 Højniveau diagram der skal illustrere de forskellige aktører\\\\
 Som det ses er der 2 aktører, brugeren og Ejeren. Brugeren kan benytter de forskellige funktioner i appen, og ejeren redigere og kontrollere uploads og spots. 
 \pagebreak\\
-(c) Tre specificerede use cases, som er særlig vigtige i jeres system, se fx OOSE figur 4-22.\\
+\textit{(c) Tre specificerede use cases, som er særlig vigtige i jeres system}\\
 \setlength\parindent{0pt}
 \section*{Use-cases}
 \subsection*{Få information om et spot}
@@ -128,12 +128,12 @@ Som det ses er der 2 aktører, brugeren og Ejeren. Brugeren kan benytter de fors
 \hrule\vspace{5mm}
 \pagebreak
 
-(d) Et klassediagram over jeres problemområde (solution-domain).\\\\
+\textit{(d) Et klassediagram over jeres problemområde (solution-domain)}\\\\
 \begin{figure}[h]
 \includegraphics[scale = 0.5]{cd}
 \end{figure}\\\\
 \newpage
-(e) Sekvens-diagrammer over de 3 use-cases specificeret i punkt (c).\\
+\textit{(e) Sekvens-diagrammer over de 3 use-cases specificeret i punkt (c)}\\
 Husk at alle diagrammer skal være fulgt af tekstbeskrivelser, der gør diagrammerne fuldt
 forståelige også for læsere uden særligt domænekendskab.\\
 \begin{figure}[h]
@@ -168,8 +168,8 @@ App'en viser en radius slider. Brugeren vælger en radius og og submiter den. Ap
 \pagebreak
 
 \section{Systemdesign sammenfatning}
-Kapitlet resumerer jeres foreløbige system-design så kort og klart som muligt. Samtidig
-udpeger I de vigtigste udestående design- og implementationsopgaver.\\
+\textit{Kapitlet resumerer jeres foreløbige system-design så kort og klart som muligt. Samtidig
+udpeger I de vigtigste udestående design- og implementationsopgaver}.\\
 
 Vores plan vedrørende udviklingen af appen har indtil nu, været at bygge appen op i java med android developer tools. Det gav os en del udfordring, da vi ikke kunne få den simpleste udgave til at køre på en simulator. De mange timer og forsøg har gjort at vi følte os nødsaget til at gøre projektet mindre omfattende. 
 \\\\
@@ -177,13 +177,13 @@ Derfor har vi valgt at bygge applikationen op webbaseret i html, css, javascript
 Hele implementeringen af Google maps foregår med javascript(altså som en hjemmeside), hvor vi så bagefter vil lave en android webview app, så vi kan tilføje applikationen på google play store. vi mangler at implementere alt andet end kortet på nuværende tidspunkt.
 
 \section{Program- og systemtest}
-Dokumenter jeres foreløbige test af IT-løsningen. I kapitlet sammenfattes hovedresultaterne af
+\textit{Dokumenter jeres foreløbige test af IT-løsningen. I kapitlet sammenfattes hovedresultaterne af
 jeres test-aktiviteter; mens test plan, test case specification, test incident report og test report
-summary placeres som bilag.\\
+summary placeres som bilag}.\\\\
 Vi har tænkt os at teste det ved at få nogen mennesker til at lave think-aloud mens de prøver hjemmesiden. Dette kommer snart til at ske og vil være med i delrapport 3. Derudover vil vi selfølgelig selv teste løbenede på diverse funktioner som vi får lavet til hjemmesiden for at sikre os at det kører som det skal.
 \pagebreak
 \section{Brugergrænseflade og interaktionsdesign}
-(a) Præsenter skærmbilleder af de mest interessante dele af jeres brugergrænseflade.
+\textit{(a) Præsenter skærmbilleder af de mest interessante dele af jeres brugergrænseflade}
 
 \begin{figure}[h]
 \includegraphics[scale = 0.3]{screen1}
@@ -211,23 +211,24 @@ Search:
 \end{figure}\\
 Kommer frem med et søgefelt hvor man kan søge på spots via navn/zipcode/by.\\
 
-(b) Illustrer flowet/dynamikken i brugerinteraktionen mellem skærmbillederne.\\
+\textit{(b) Illustrer flowet/dynamikken i brugerinteraktionen mellem skærmbillederne}\\\\
 Dette vil blive udfyldt i delrapport 3 eller 4 hvor vi er kommet længere med programmet.\\\\
-(c) En audio-visuel præsentation af brugergrænsefladen af den seneste kørende prototype.\\
-Dette punkt vil vi udfylde til delrapport 4 da vores projekt gerne skulle være færdig eller have mere funktionalitet på dette tidspunkt\\
-(d) Resultatet af seneste tænke-højt forsøg gennemført med een eller flere af jeres brugere.\\\\
+\textit{(c) En audio-visuel præsentation af brugergrænsefladen af den seneste kørende prototype}\\\\
+Dette punkt vil vi udfylde til delrapport 4 da vores projekt gerne skulle være færdig eller have mere funktionalitet på dette tidspunkt
+\newpage
+\textit{(d) Resultatet af seneste tænke-højt forsøg gennemført med een eller flere af jeres brugere}
 \subsection{Tænk højt øvelser}
-Henning: Find det spot nærmest dig.\\
+Jesper: Find det spot nærmest dig.\\
 Umiddelbart kan jeg se at jeg er den store pil, og lige ved siden af den store pil er der en lille pil, så den vil jeg prøve at trykke på, hov der åbnede et vindue hvor der står fælledparken.\\\\
-Bøge: Find Bmxbutikkens marker på kortet\\
+Sebastian: Find Bmxbutikkens marker på kortet\\
 Jeg prøver at trykke på en rød først og kan se at det er en skatepark, så jeg prøver den blå pil og der var bmxbutikken.\\\\
-Lars: Ændrer indstillingerne.\\
+Kenneth: Ændrer indstillingerne.\\
 Der er 2 tandhjul det må være indstillinger, så der trykker jeg og så kan jeg trække frem og tilbage på slideren og se flere eller færre spots.\\\\
 
 \pagebreak
 \section{Versionstyring}
-Til aflevering: Som bilag skal vedlægges jeres nuværende commit-log samt jeres
-programkode. Kommentér kort (ca 1/2 side) de vigtigste ændringer, der er sket i programkoden.\\
+\textit{Som bilag skal vedlægges jeres nuværende commit-log samt jeres
+programkode. Kommentér kort (ca 1/2 side) de vigtigste ændringer, der er sket i programkoden}\\
 
 Vi har nu fået opdateret vores hjemmeside så istedet for der står settings og search er der nu kommet to forskellige ikoner som alle brugere kender, forstørrelsesglas og tandhjul. Der er ikke kommet noget funktionalitet bag det men designet til disse to knapper er nu kommet på. \\
 Vi har fået opdateret vores database med flere spots og gjort det muligt for vores hjemmeside at der sker noget når der bliver trykket på en marker. Det der sker nu er at der kommer et info vindue op, med en addresse og et billede af spottet.\\
@@ -237,21 +238,21 @@ Vores midlertidige projekt kan ses på \url{www.kennethchristensen.dk} det kan g
 
 \pagebreak
 \section{Projektsamarbejdet}
-Til aflevering: Beskriv konkret og oplysende hvordan det går med samarbejdet med brugerne
+\textit{Beskriv konkret og oplysende hvordan det går med samarbejdet med brugerne
 og med arbejdet internt i gruppen. Herunder skal bl.a. oplyses antallet af møder med brugerne under
 projektforløbet (fx på en tidslinje), mødeformen i gruppen, samt hvorledes jeres referat- og
 dokumentationsform fungerer. Hvorledes prioriterer og styrer I projektindsatsen, så I sikrer
 fremdrift på de felter, som er mest risikable/afgørende for et succesfuldt resultat? Herunder, beskriv
-og diskuter:\\
+og diskuter:}\\
 
-(a) Hvad går godt?\\
+\textit{(a) Hvad går godt?}\\
 Det interne arbejde i gruppen fungerer godt. Alle medlemmer i gruppen deltager aktivt, engageret og møder til tiden på de aftalte møde dage. Selve arbejdet prøver vi at fordele imellem os alt efter interesse og det sikrer en god stabil arbejds indsats.\\
 
-(b) Hvad går mindre godt?\\
+\textit{(b) Hvad går mindre godt?}\\
 
 Vi har haft uventede problemer hvad angår systemdesignet da vi har måttet ændre kurs og gå over i en webbaseret udgave. Det har betydet at vi har haft nogle arbejdsspildtimer og vi er derfor ikke noget helt så langt som planlagt.\\
 
-(c) Hvad vil I gøre for at effektivisere jeres udviklingsarbejde?\\
+\textit{(c) Hvad vil I gøre for at effektivisere jeres udviklingsarbejde?}\\
 
 I det vi tog skridtet fra android app til webbaseret app, har vi taget de første skridt i effektiviseringen. Derudover regner vi med at kunne begynde at arbejde selvstændigt på enkelte dele af systemet når vi har fået den første prototype helt op at køre. Det skullle bevirke at det bliver nemmere for de enkelte individer i gruppen at få plads i deres skema, til at få arbejdet på projektet og dermed få arbejdet flere timer. 
 
