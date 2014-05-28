@@ -8,4 +8,5 @@
 \contentsline {section}{\numberline {7}Versionstyring}{20}
 \contentsline {section}{\numberline {8}Projektsamarbejdet}{21}
 \contentsline {section}{\numberline {9}Review}{22}
-\contentsline {section}{\numberline {10}Bilag}{26}
+\contentsline {section}{\numberline {10}Litteratur}{26}
+\contentsline {section}{\numberline {11}Bilag}{27}

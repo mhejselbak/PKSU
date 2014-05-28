@@ -208,7 +208,8 @@ udpeger I de vigtigste udestående design- og implementationsopgaver}.\\
 Vores plan vedrørende udviklingen af appen har indtil nu, været at bygge appen op i java med android developer tools. Det gav os en del udfordring, da vi ikke kunne få den simpleste udgave til at køre på en simulator. De mange timer og forsøg har gjort at vi følte os nødsaget til at gøre projektet mindre omfattende. 
 \\\\
 Derfor har vi valgt at bygge applikationen op webbaseret i html, css, javascript og mySQL, hvilket er programmer og metoder vi har erfaring med i forvejen. 
-Hele implementeringen af Google maps foregår med javascript(altså som en hjemmeside), hvor vi så bagefter vil lave en android webview app, så vi kan tilføje applikationen på google play store. vi mangler at implementere alt andet end kortet på nuværende tidspunkt.
+Hele implementeringen af Google maps foregår med javascript(altså som en hjemmeside), hvor vi så bagefter vil lave en android webview app, så vi kan tilføje applikationen på google play store. vi mangler at implementere alt andet end kortet på nuværende tidspunkt.\\
+Vi arbejder med hjemmesidens server gennem en ftp via programmet filezilla. Serveren er bygget op med phpmyadmin og kører mySQL, dette bruger vi til at hente spots udfra databasen og derefter indsætte på kortet. Altså vi henter alt data udfra databasen som vi skal bruge til kortet. Til diverse funktioner vi har køres der forskellige queries i mySQL til at få de resultater ud som vi gerne vil have. Disse vil typisk være skrevet i PHP eller javascript.
 
 \section{Program- og systemtest}
 \textit{Dokumenter jeres foreløbige test af IT-løsningen. I kapitlet sammenfattes hovedresultaterne af
@@ -319,6 +320,48 @@ Brooks proklamerer yderligere at der er forskel på gode system udviklere og fan
 Brooks nævner blandt andet at han er stor fortaler for object orienteret programmering og ser store muligheder i udviklingen af dette. Han mener at OOP, sammen med et høj niveau programmerings sprog, kunne resulterer i at mindske både "accidential complexity" og "essentual complexity" og dermed være en mulig "silver bullet".\\\\
 Vi (gruppen), mener imidlertid ikke at dette er tilfældet da kompleksiteten ikke kan simpliciferes ved hjælp af disse værktøjer, men blot bedre kontrolleres. Vi ser derfor OOP som en teknologi, et koncept altså en måde at angribe et givent problem på. Konceptet tilbyder værktøjer der kan forbedrer et design og derigennem gøre det nemmere at håndterer kompleksiteten, men udvikleren kan ligeså godt ende med et dårligt design der forværrer problemet og dermed kompleksiteten. Så kort sagt, hvis ikke konceptet bruges "rigtigt", risikerer du blot at yderligere besværliggøre opgaven. Vi konstaterer derfor at OOP ikke er en løsning til kompleksitet, men et (af flere) redskaber til at kontrollerer det, hvis udvikleren evner dette.
 \pagebreak
+\section{Litteratur}
+\begingroup
+\renewcommand{\section}[2]{}%
+%\renewcommand{\chapter}[2]{}% for other classes
+  \begin{thebibliography}{1}
+  \bibitem{Bog} Bruegge, Bernd and Dutoi, Allen H.{\em Object-Oriented Software Engineering Using UML, Patterns, and Java. Third Edition}  2010.
+
+  \bibitem{OOAD}  L. Mathiassen, A. Munk-Madsen, P. A. Nielsen and J. Stage. {\em Object-Oriented Analysis and Design kap 1} 2000
+
+  \bibitem{Scrum} Sutherland, Jeff {\em Scrum Handbook} ?
+  
+  \bibitem{EP} Highsmith, Jim {\em Extreme Programming} 2000 Cutter Consortium
+
+  \bibitem{Silverbullet} Brooks {\em No Silver Bullet
+  } 1986
+
+  \bibitem{Mock} Kyng, Morten and Ehn, Pelle {\em Mocking-it-up} 1991
+  
+  \bibitem{TA} Molich, Rolf{\em User Testing, Discount User Testing} 2003
+
+  \bibitem{Coop} Frøkjær, Erik and Hornbæk, Kasper {\em Cooperative Usability Testing} 2005
+  
+  \bibitem{Fake} Parnas, David Lorge and Clements, Paul C {\em A Rational Design Process...How and Why to Fake IT} 1986
+    
+  \bibitem{Naur} ? {\em Naur Programming As Theory Building} 1985
+      
+  \bibitem{MAD} Michael Christensen, Andy Crabtree, Christian Heide Damm, Klaus Marius
+Hansen, Ole Lehrmann Madsen, Pernille Marqvardsen, Preben Mogensen, Elmer
+Sandvad, Lennert Sloth, Michael Thomsen {\em The M.A.D. experience} 1998
+   
+  \bibitem{Design} Gould, John D. and Lewis, Clayton {\em Designing for Usability:
+Key Principles and
+What Designers Think} 1985
+
+  \bibitem{Must} Bødker, Kensing and Simonsen {\em The must book Kap. 9} 2004
+      
+  \bibitem{UX} Klein, Laura {\em UX for Lean Startups} 2013
+            
+  \bibitem{Testing} Sestoft,Peter  {\em Systematic Software Testing} 2008
+      
+  \end{thebibliography}
+  \endgroup
 \section{Bilag}
 
 \subsection*{Commitlog}
