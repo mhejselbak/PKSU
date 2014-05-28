@@ -5,8 +5,14 @@
 \contentsline {section}{\numberline {4}Systemdesign sammenfatning}{16}
 \contentsline {section}{\numberline {5}Program- og systemtest}{17}
 \contentsline {section}{\numberline {6}Brugergr\IeC {\ae }nseflade og interaktionsdesign}{18}
-\contentsline {section}{\numberline {7}Versionstyring}{21}
-\contentsline {section}{\numberline {8}Projektsamarbejdet}{22}
-\contentsline {section}{\numberline {9}Review}{23}
-\contentsline {section}{\numberline {10}Litteratur}{27}
-\contentsline {section}{\numberline {11}Bilag}{28}
+\contentsline {paragraph}{Start side}{18}
+\contentsline {paragraph}{Spot information}{19}
+\contentsline {paragraph}{Indstillinger}{20}
+\contentsline {paragraph}{S\IeC {\o }g}{21}
+\contentsline {paragraph}{Butikker}{22}
+\contentsline {paragraph}{Spots}{23}
+\contentsline {section}{\numberline {7}Versionstyring}{25}
+\contentsline {section}{\numberline {8}Projektsamarbejdet}{26}
+\contentsline {section}{\numberline {9}Review}{27}
+\contentsline {section}{\numberline {10}Litteratur}{31}
+\contentsline {section}{\numberline {11}Bilag}{32}
