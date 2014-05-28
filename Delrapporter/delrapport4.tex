@@ -81,7 +81,7 @@ som giver overblik over hvilke use cases de forskellige aktører har}\\
 Højniveau diagram der skal illustrere de forskellige aktører\\\\
 Som det ses er der 2 aktører, brugeren og System administratoren. Brugeren kan benytter de forskellige funktioner i appen, og ejeren redigere og kontrollere uploads og spots. 
 
-\pagebreak\\
+\pagebreak
 \textit{(c) Tre specificerede use cases, som er særlig vigtige i jeres system}\\
 \setlength\parindent{0pt}
 \section*{Use-cases}
@@ -101,6 +101,10 @@ Som det ses er der 2 aktører, brugeren og System administratoren. Brugeren kan 
 \hrule\vspace{5mm}
 \textit{Exit condition:} Brugeren ser nu et pop-up vindue med information om spottet.\\
 \hrule\vspace{5mm}
+Dette use-case beskriver en bruger som gerne vil have nogen information om et specifikt spot. Brugeren åbner app'en på 
+sin telefon og bliver præsenteret med kort-interfacen. Kort-interfacen er kort over brugerens position med en menu-bar 
+i toppen. På kortet vil der være faner som repræsenteret spots. Bruger trykker på fanen for det spot han gerne vil have
+informationer og app'en viser så disse information i et pop-up vindue henover kortet.
 \newpage
 \subsection*{Tilføj spot}
 \hrule\vspace{5mm}
@@ -118,6 +122,11 @@ Som det ses er der 2 aktører, brugeren og System administratoren. Brugeren kan 
 \hrule\vspace{5mm}
 \textit{Exit condition:} Brugeren sendes retur til forsiden\\
 \hrule\vspace{5mm}
+Dette use-case beskriver en bruger som gerne vil tilføje et spot til app'en. Brugeren åbner app'en på sin telefon og 
+bliver præsenteret med kort-interfacen. Kort-interfacen er kort over brugerens position med en menu-bar i toppen. Brugeren
+trykker på "Add spot" knappen i menuen og bliver herefter præsenteret med en formular som skal udfyldes. Denne formular 
+består af tekst-felter samt muligheden for at tilføje et billed. Brugeren udfylder formularen og submiter den, hvorefter
+brugeren bliver returneret til kort-interfacen.
 \newpage
 \subsection*{Ændre indstillinger}
 \hrule\vspace{5mm}
@@ -136,6 +145,10 @@ Som det ses er der 2 aktører, brugeren og System administratoren. Brugeren kan 
 \hrule\vspace{5mm}
 \textit{Exit condition:} Indstillingerne er nu i funktion og brugeren sendes tilbage til forsiden\\
 \hrule\vspace{5mm}
+Dette use-case beskriver en bruger som gerne vil ændre den radius som app'en loade spots fra. Brugeren åbner app'en på 
+sin telefon og bliver præsenteret med kort-interfacen. Kort-interfacen er kort over brugerens position med en menu-bar i 
+toppen. Brugeren vælger indstillinger fra menuen og bliver præsenteret med slider-bar. Brugeren vælger den ønsket radius
+og trykker "accept". Bruger bliver herefter returneret til kort-interfacen.
 \pagebreak
 
 \textit{(d) Et klassediagram over jeres problemområde (solution-domain)}\\\\
@@ -155,8 +168,10 @@ forståelige også for læsere uden særligt domænekendskab.\\
 \end{figure}
 
 Sekvensdiagram over find spot information:\\
-Brugeren starter App'en på sin telefon. App'en viser kort interfacen og brugeren vælger et spot fra kortet. 
-App'en henter spot informationerne fra database og viser dem i et overlay.
+Brugeren starter App'en, ved at trykke på iconet for App'en, på sin telefon. App'en viser kort interfacen, 
+som er et kort over brugerens nuværende position med en menu-bar i toppen. Spotsne vil blive repræsenteret 
+på kortet i form af faner. Brugeren vælger et spot fra kortet ved at trykke på en fane. App'en henter
+informationerne om spottet, fra database, og viser dem i et overlay hen over kortet.
 \newpage
 
 \begin{figure}[h]
@@ -164,9 +179,11 @@ App'en henter spot informationerne fra database og viser dem i et overlay.
 \end{figure}
 
 Sekvensdiagram over add spot funktionen:\\
-Brugeren starter App'en på sin telefon. App'en viser kort interfacen og brugeren vælger add spot fra menuen.
-App'en viser en add spot formular. Brugeren udfylder formularen med spot informationerne og submiter den.
-App'en sender spotet til databasen.
+Brugeren starter App'en, ved at trykke på iconet for App'en, på sin telefon. App'en viser kort interfacen, 
+som er et kort over brugerens nuværende position med en menu-bar i toppen. Brugeren vælger add spot fra menuen, 
+ved at trykke på knappen markeret "Add Spot" i menu-baren. App'en viser en add spot formular, som er en række 
+tekst-felter der skal udfyldes, samt en mulighed for at tilføje et billed. Brugeren udfylder formularen med spot 
+informationerne og trykker på knappen markeret "Add" for at submite den. App'en sender spot-informationerne til databasen.
 
 \newpage
 
@@ -175,9 +192,11 @@ App'en sender spotet til databasen.
 \end{figure}
 
 Sekvensdiagram over indstillinger:\\
-Brugeren starter App'en på sin telefon. App'en viser kort interfacen og brugeren vælger settings fra menuen.
-App'en viser en radius slider. Brugeren vælger en radius og og submiter den. App'en gemmer den nye radius.
-
+Brugeren starter App'en, ved at trykke på iconet for App'en, på sin telefon. App'en viser kort interfacen, 
+som er et kort over brugerens nuværende position med en menu-bar i toppen. Brugeren vælger settings fra menuen, 
+ved at trykke på knappen markeret med tandhjul i menu-baren. App'en viser en radius slider, som er en knap man kan hive i
+for at indikere hvor lang en radius man vil loade spots fra. Brugeren vælger en radius, ved at hive knappen til den ønsket
+radius og derefter trykke på knappen markeret "Accept" for at submite den. App'en gemmer den nye radius.
 
 \pagebreak
 
