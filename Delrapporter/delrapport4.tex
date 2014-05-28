@@ -23,8 +23,18 @@ Instructor: Kasper Passov
 \pagebreak
 \section{Abstract}
 We have choosen to work on a project for a local bike shop called "bmx-butikken". Bmxbutikken is specialised in the freestyle BMX community. They sell all you need as a BMX rider, which is everything from cloths and shoes to complete bikes and parts. They have a phsyical shop on Nørrebrogade, and a webshop at \url{www.bmxbutikken.dk}. The project regards a Spotguide app for all devices, programmed as a web application. This site is supposed to help local riders to find new places to ride, and foreigners to find any places to ride and hook up with the local crew. The app can also show you where bmx-butikken is located if you need a spare part. The application is designed for all bmx riders mainly in Copenhagen, but spots can be uploaded from anywhere.
+
+\pagebreak 
+
 \section{IT-projektets formål og rammer}
-Følgende model er en FACTOR analyse af projektet og giver en kort og konkret beskrivelse af rammerne for projektet.\\
+Følgende model er en FACTOR analyse af projektet og giver en kort og konkret beskrivelse af rammerne for projektet. Modellen er udarbejdet efter inspiration fra et uddrag af Oriented Analysis og Design (2.7 The FACTOR Criterion).\\\\
+F - Functionality: beskriver hvilke værktøjer og funktionaliteter kunden får igennem appen.\\
+A - Application Domain: beskriver hvem vi prøver at ramme med projektet og altså hvem der vil have gavn af vores arbejde.\\
+C - Conditions: beskriver hvilke krav der er til kørsel af projektet (applikationen), det være sig brugerens udstyr samt appens tilgængelighed.\\
+T - Technology: beskriver hvilke udviklings værktøjer vi vil gøre brug af undervejs i projektet.\\
+O - Objects: indeholder de objekter vi arbejder med. Disse objekter er en del af løsningen til problemområdet.\\
+R -Responsibilities: Hvad er applikationens rolle, pligter og hvad er den grundlæggende løsning til problemet.\\
+
 
 \begin{raggedleft}
   \begin{tabular}{| l | l |}
@@ -51,15 +61,16 @@ De \textbf{funktionelle krav }beskriver hvad i systemet der kræver deciderede f
 De \textbf{ikke funktionelle krav} specificerer de krav der er for systemet der ikke har en direkte indvirkning op programmet. Dog er de en vigtig faktor da det er disse der er er med til at skabe interfacet, altså hvordan det ser ud og hvordan det føles at navigere igennem det hele. Altså det hvordan de vil vise det systemet gør.\\ 
 \textbf{Constraints} er hvilke begrænsninger vi har på vores system, altså hvordan tingene skal være opbygget. Disse er med til at danne en mindre struktur over hvad der er meget vigtigt for vores system.
 \subsection*{Funktionelle krav}
-\textbf{Add spot} \\ Gør det muligt for en bruger at tilføje. Dette er til for at kortet hele tiden kommer til at udvide sig med diverse nye spots som brugerne kan finde og dele med andre.\\
-\textbf{Settings}\\ Gør det muligt at bestemme hvor stor en radius man vil se spots i udfra ens egen lokation
-\textbf{Search}\\ Gør det muligt for brugeren at finde et specifikt spot udfra dens navn.
-\textbf{Streetspots}\\ Viser brugeren en liste over de forskellige spots med billede. Dette er til for hvis brugeren ikke vil se diverse spots på kortet men finder det mere overskueligt at se det på en liste.\\
-\textbf{Markers}\\ Viser på kortet 3 ting: Brugerens lokation, diverse spots og bmxbutikkens lokation\\
-\textbf{Bruger lokation}\\ Finder brugerens lokation.\\
-\textbf{Shops}\\ Skal vise en liste over de shops der er tilknyttet projekt(pt er dette dog kun en butik).
+\textbf{Add spot} \\ Gør det muligt for en bruger at tilføje nye spots til kortet. Dette er til for at kortet hele tiden kommer til at udvide sig med diverse nye spots som brugerne kan finde og dele med andre. Det fungerer sådan at man udfylder en formular med lokalitet og beskrivelse og man har samtidig mulighed for at uploade billeder. Dette er et krav idet at der vil dukke nye og spændende spots op og appen skulle helst være op to date\\
+\textbf{Settings}\\ Gør det muligt at bestemme hvor stor en radius man vil se spots i udfra ens egen lokation. Dette er især vigtigt hvis man rejser på cykel og gerne vil begrænse hvor langt man skal rejse.\\
+\textbf{Search}\\ Gør det muligt for brugeren at finde et specifikt spot udfra dens navn. Så det bliver nemmere og hurtigere for brugeren at finde lige det spot han/hun leder efter.\\
+\textbf{Streetspots}\\ Viser brugeren en liste over de forskellige spots med billede. Dette er til for hvis brugeren ikke vil se diverse spots på kortet, men finder det mere overskueligt at se det på en liste.\\
+\newpage
+\noindent{\textbf{Markers}}\\ Viser på kortet 3 ting: Brugerens lokation, diverse spots og bmxbutikkens lokation. Disse markers er nødvendige for at man kan se spots'ne på kortet.\\
+\textbf{Bruger lokation}\\ Finder brugerens lokation. Er nødvendig i forhold til at beregne forskellige funktioner ud fra brugerens placering\\
+\textbf{Shops}\\ Skal vise en liste over de shops der er tilknyttet projekt(pt er dette dog kun en butik). Er et krav idet at der ønskes at brugerne er opmærksomme på at de pågældende butikker findes og hvor de er.
 \subsection*{Ikke funktionelle krav:}
-\textbf{Sprog}\\ Siden skal være på engelsk, så den kan bruges af turister, men samtidig af de lokale da de fleste i miljøet snakker engelsk.\\
+\textbf{Sprog}\\ Siden skal være på engelsk, så den kan bruges af turister, men samtidig også af de lokale da de fleste i miljøet snakker engelsk.\\
 \textbf{Menu}\\ Der skal være en menu der indeholder 5 ting du kan trykke på der kan vejlede bruger: Spots, shops, settings, Add spot, Search\\
 \textbf{Usability}\\ Skal være til at bruge af alle at brugerer. Nemt og intuitivt at finde rundt i.
 \textbf{Reliability}\\ Skal være oppe og klar til brug, altid.\\
