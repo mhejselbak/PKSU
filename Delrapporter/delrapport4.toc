@@ -3,8 +3,8 @@
 \contentsline {section}{\numberline {2}IT-projektets form\IeC {\r a}l og rammer}{4}
 \contentsline {section}{\numberline {3}Kravspecifikation for IT-l\IeC {\o }sningen}{5}
 \contentsline {section}{\numberline {4}Systemdesign sammenfatning}{16}
-\contentsline {section}{\numberline {5}Program- og systemtest}{16}
-\contentsline {section}{\numberline {6}Brugergr\IeC {\ae }nseflade og interaktionsdesign}{17}
+\contentsline {section}{\numberline {5}Program- og systemtest}{17}
+\contentsline {section}{\numberline {6}Brugergr\IeC {\ae }nseflade og interaktionsdesign}{18}
 \contentsline {section}{\numberline {7}Versionstyring}{21}
 \contentsline {section}{\numberline {8}Projektsamarbejdet}{22}
 \contentsline {section}{\numberline {9}Review}{23}

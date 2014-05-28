@@ -219,14 +219,26 @@ udpeger I de vigtigste udestående design- og implementationsopgaver}.\\
 Vores plan vedrørende udviklingen af appen har indtil nu, været at bygge appen op i java med android developer tools. Det gav os en del udfordring, da vi ikke kunne få den simpleste udgave til at køre på en simulator. De mange timer og forsøg har gjort at vi følte os nødsaget til at gøre projektet mindre omfattende. 
 \\\\
 Derfor har vi valgt at bygge applikationen op webbaseret i html, css, javascript og mySQL, hvilket er programmer og metoder vi har erfaring med i forvejen. 
-Hele implementeringen af Google maps foregår med javascript(altså som en hjemmeside), hvor vi så bagefter vil lave en android webview app, så vi kan tilføje applikationen på google play store. vi mangler at implementere alt andet end kortet på nuværende tidspunkt.\\
+Hele implementeringen af Google maps foregår med javascript(altså som en hjemmeside), hvor vi så bagefter vil lave en android webview app, så vi kan tilføje applikationen på google play store. vi mangler at implementere alt andet end kortet på nuværende tidspunkt.\\\\
 Vi arbejder med hjemmesidens server gennem en ftp via programmet filezilla. Serveren er bygget op med phpmyadmin og kører mySQL, dette bruger vi til at hente spots udfra databasen og derefter indsætte på kortet. Altså vi henter alt data udfra databasen som vi skal bruge til kortet. Til diverse funktioner vi har køres der forskellige queries i mySQL til at få de resultater ud som vi gerne vil have. Disse vil typisk være skrevet i PHP eller javascript.
+
+\pagebreak
 
 \section{Program- og systemtest}
 \textit{Dokumenter jeres foreløbige test af IT-løsningen. I kapitlet sammenfattes hovedresultaterne af
 jeres test-aktiviteter; mens test plan, test case specification, test incident report og test report
-summary placeres som bilag}.\\\\
-Vi har tænkt os at teste det ved at få nogen mennesker til at lave think-aloud mens de prøver hjemmesiden. Dette kommer snart til at ske og vil være med i delrapport 3. Derudover vil vi selfølgelig selv teste løbenede på diverse funktioner som vi får lavet til hjemmesiden for at sikre os at det kører som det skal.
+summary placeres som bilag}.\\
+
+Test af funktionaliteter gøres løbende internt i gruppen og dermed sikres det at funktionaliteterne gør det, de rent faktisk skal. Men derudover skal vi sikre ting som usability og performance, dette gøres f.eks ved hjælp af tænke højt øvelser.
+\subsection*{Thinking out Loud}
+Opgaver:\\\\
+1. Åben appen og noter dig din egen lokation\\\\
+2. Find det spot nærmest dig\\\\
+3. Find information om spottet i fælledparken\\\\
+4. Find en liste over alle spots\\\\
+5. Find en butik\\\\
+6. Tilføj et spot der hedder abc, med adressen xxx uden et billede\\\\
+7. Ændrer afstanden i km for søgen af spots
 \pagebreak
 \section{Brugergrænseflade og interaktionsdesign}
 \textit{(a) Præsenter skærmbilleder af de mest interessante dele af jeres brugergrænseflade}
@@ -260,16 +272,10 @@ Kommer frem med et søgefelt hvor man kan søge på spots via navn/zipcode/by.\\
 \textit{(b) Illustrer flowet/dynamikken i brugerinteraktionen mellem skærmbillederne}\\\\
 Dette vil blive udfyldt i delrapport 3 eller 4 hvor vi er kommet længere med programmet.\\\\
 \textit{(c) En audio-visuel præsentation af brugergrænsefladen af den seneste kørende prototype}\\\\
-Dette punkt vil vi udfylde til delrapport 4 da vores projekt gerne skulle være færdig eller have mere funktionalitet på dette tidspunkt
-\newpage
+Dette punkt vil vi udfylde til delrapport 4 da vores projekt gerne skulle være færdig eller have mere funktionalitet på dette tidspunkt\\\\
+
 \textit{(d) Resultatet af seneste tænke-højt forsøg gennemført med een eller flere af jeres brugere}
-\subsection*{Tænk højt øvelser}
-Jesper: Find det spot nærmest dig.\\
-Umiddelbart kan jeg se at jeg er den store pil, og lige ved siden af den store pil er der en lille pil, så den vil jeg prøve at trykke på, hov der åbnede et vindue hvor der står fælledparken.\\\\
-Sebastian: Find Bmxbutikkens marker på kortet\\
-Jeg prøver at trykke på en rød først og kan se at det er en skatepark, så jeg prøver den blå pil og der var bmxbutikken.\\\\
-Kenneth: Ændrer indstillingerne.\\
-Der er 2 tandhjul det må være indstillinger, så der trykker jeg og så kan jeg trække frem og tilbage på slideren og se flere eller færre spots.\\\\
+
 
 \pagebreak
 \section{Versionstyring}
