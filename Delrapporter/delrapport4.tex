@@ -19,6 +19,8 @@ Kenneth Christensen: 02 08 93\\Michael Jensen: 01 07 93\\Rune Pedersen: 01 11 82
 Instructor: Kasper Passov
 
 \pagebreak
+\tableofcontents
+\pagebreak
 \section{Abstract}
 We have choosen to work on a project for a local bike shop called "bmx-butikken". Bmxbutikken is specialised in the freestyle BMX community. They sell all you need as a BMX rider, which is everything from cloths and shoes to complete bikes and parts. They have a phsyical shop on Nørrebrogade, and a webshop at \url{www.bmxbutikken.dk}. The project regards a Spotguide app for all devices, programmed as a web application. This site is supposed to help local riders to find new places to ride, and foreigners to find any places to ride and hook up with the local crew. The app can also show you where bmx-butikken is located if you need a spare part. The application is designed for all bmx riders mainly in Copenhagen, but spots can be uploaded from anywhere.
 \section{IT-projektets formål og rammer}
@@ -44,28 +46,37 @@ Følgende model er en FACTOR analyse af projektet og giver en kort og konkret be
 \pagebreak
 
 \section{Kravspecifikation for IT-løsningen}
+I denne sektion beskriver vi hvad der er funktionelle og ikke-funktionelle krav.\\
+De \textbf{funktionelle krav }beskriver hvad i systemet der kræver deciderede funktioner der modellerer med vores database. Altså hvordan system skal virke. Dette er vigtigt da de netop fortæller om funktioner der skal være i systemet og giver et indblik i strukturen.\\
+De \textbf{ikke funktionelle krav} specificerer de krav der er for systemet der ikke har en direkte indvirkning op programmet. Dog er de en vigtig faktor da det er disse der er er med til at skabe interfacet, altså hvordan det ser ud og hvordan det føles at navigere igennem det hele. Altså det hvordan de vil vise det systemet gør.\\ 
+\textbf{Constraints} er hvilke begrænsninger vi har på vores system, altså hvordan tingene skal være opbygget. Disse er med til at danne en mindre struktur over hvad der er meget vigtigt for vores system.
 \subsection*{Funktionelle krav}
-\textbf{Add spot} \\ Tilføjer et spot til Databasen hvor der måske kan være et billede med.\\
-\textbf{Menu}\\ Indeholder 5 ting du kan trykke på der kan vejlede bruger: Spots, shops, settings, Add spot, Search\\
-\textbf{Streetspots}\\ Viser brugeren en liste over de forskellige spots.\\
-\textbf{Markers}\\ Viser på kortet 3 ting: Brugerens lokation, spots og bmxbutikkens lokation\\
-\textbf{Rutevejledning}\\ Vejleder brugeren til det pågældende punkt på kortet ved hjælp af google maps.\\
+\textbf{Add spot} \\ Gør det muligt for en bruger at tilføje. Dette er til for at kortet hele tiden kommer til at udvide sig med diverse nye spots som brugerne kan finde og dele med andre.\\
+\textbf{Settings}\\ Gør det muligt at bestemme hvor stor en radius man vil se spots i udfra ens egen lokation
+\textbf{Search}\\ Gør det muligt for brugeren at finde et specifikt spot udfra dens navn.
+\textbf{Streetspots}\\ Viser brugeren en liste over de forskellige spots med billede. Dette er til for hvis brugeren ikke vil se diverse spots på kortet men finder det mere overskueligt at se det på en liste.\\
+\textbf{Markers}\\ Viser på kortet 3 ting: Brugerens lokation, diverse spots og bmxbutikkens lokation\\
 \textbf{Bruger lokation}\\ Finder brugerens lokation.\\
-\textbf{Shops}\\ Centrerer kortet på bmxbutikken.
+\textbf{Shops}\\ Skal vise en liste over de shops der er tilknyttet projekt(pt er dette dog kun en butik).
 \subsection*{Ikke funktionelle krav:}
 \textbf{Sprog}\\ Siden skal være på engelsk, så den kan bruges af turister, men samtidig af de lokale da de fleste i miljøet snakker engelsk.\\
-\textbf{Bruger venligt UI}\\ Nemt og intuitivt for brugeren at komme rundt.\\
+\textbf{Menu}\\ Der skal være en menu der indeholder 5 ting du kan trykke på der kan vejlede bruger: Spots, shops, settings, Add spot, Search\\
+\textbf{Usability}\\ Skal være til at bruge af alle at brugerer. Nemt og intuitivt at finde rundt i.
+\textbf{Reliability}\\ Skal være oppe og klar til brug, altid.
+\textbf{Performance}\\ Skal kunne holde til så mange brugere som muligt, altså ikke begrænse hvor mange der kan være på samtidigt med det fungerer hurtigt. 
+\textbf{Farve af Markers}\\ De forskellige typer af markers skal have forskellige farver så brugeren nemmere kan overskue det.
 \subsection*{Constraints}
 Systemet skal være kompatibelt med både computere og telefoner.[Implementation requirement]\\
 Kortet skal vise en marker ved bmxbutikken[User Interface Requirement]\\
 Koden skal være skrevet i php/javascript/html/mysql.[Implementation requirement]\\
-\pagebreak\\
+
+\pagebreak
 
 \textit{(b) En use case model, der beskriver system-funktionaliteten. Der ønskes et højniveau-diagram,
 som giver overblik over hvilke use cases de forskellige aktører har}\\
 \begin{figure}[htb]
 \begin{center}
-\includegraphics[scale = 0.75]{usecasemodel}
+\includegraphics[scale = 0.75]{UM}
 \end{center}
 \end{figure}
 
@@ -221,7 +232,7 @@ Dette vil blive udfyldt i delrapport 3 eller 4 hvor vi er kommet længere med pr
 Dette punkt vil vi udfylde til delrapport 4 da vores projekt gerne skulle være færdig eller have mere funktionalitet på dette tidspunkt
 \newpage
 \textit{(d) Resultatet af seneste tænke-højt forsøg gennemført med een eller flere af jeres brugere}
-\subsection{Tænk højt øvelser}
+\subsection*{Tænk højt øvelser}
 Jesper: Find det spot nærmest dig.\\
 Umiddelbart kan jeg se at jeg er den store pil, og lige ved siden af den store pil er der en lille pil, så den vil jeg prøve at trykke på, hov der åbnede et vindue hvor der står fælledparken.\\\\
 Sebastian: Find Bmxbutikkens marker på kortet\\
@@ -262,7 +273,7 @@ I det vi tog skridtet fra android app til webbaseret app, har vi taget de først
 
 \pagebreak
 \section{Review}
-\subsection{Cardboard computers: Mockingit- up or hands-on the future.}
+\subsection*{Cardboard computers: Mockingit- up or hands-on the future.}
 
 Artiklen handler om forholdet mellem computere og 'mennesket' som bruger dem. Artiklen argumentere for at computere skal forstås gennem mennesket brug af dem. Forfatteren starter med et hurtigt eksempel om en journalistisk process og hvordan et mock-up af et arbejdsmiljø, hvor computere er involveret, kan hjælpe med at påvirke arbejds-processen positivt.\\
 'Why mock it up?' og 'We did not make it up'\\
@@ -277,7 +288,7 @@ Artiklen dækker herefter fordelene ved at bruge computere til sit mock-up. F.ek
 Det vi i gruppen mener der er værd at tage med fra denne artikel er selve ideen om at simplificere ens system ned til et punkt, hvor det er muligt for den fremtidige bruger at kunne deltage. Det nytter ikke at snakke om f.eks kode hvor brugeren ikke kan bidrage med noget. Med et program vil dog være knapt så nyttigt at lave en hel arbejds-station (i pap), men derimod bruge f.eks et story-board til at gøre tingene forståelige for ikke programmøre. Story-boardet vil dog være bedst at lave på computer for at gøre rettelse o.lign nemmere og mindske risikoen for at miste materiale.
 
 \pagebreak
-\subsection{No Silver Bullet}
+\subsection*{No Silver Bullet}
 
 "No Silver Bullet - Essence and Accidents of Software Engineering" er en artikel omkring software udvikling, skrevet af Fred Brooks i 1986. Brooks starter ud med at tilsidesætte software udvikling med myten om en varulv. Den eneste måde at få bugt med en varulv er som bekendt ved at bruge en "silver bullet". Brooks mener imidlertid  at  "there is no single development, in either technology or management technique, which by itself promises even one order of magnitude improvement within a decade in productivity, in reliability, in simplicity.". Han fortsætter i samme dur med "we cannot expect ever to see two-fold gains every two years" in software udvikling, ligesom tilfældet har været indenfor hardware udvikling. Dermed konstaterer han at denne såkaldte "silver bullet" ikke eksisterer og ikke vil blive udviklet indenfor de næste 10 år.\\\\
 I følge Brooks kan grunden til at denne "silver bullet"  ikke findes, deles op i to problemer henholdsvis "Essence complexity - Bliver skabt af det problem der skal løses og kan altså ikke fjernes" og "Accidents complexity - Der opstår på grund af fejl udvikleren laver og som dermed kan rettes". Men samtidig hævder han at software udviklerer på dette tidspunkt(1986) bruger det meste af sin tid på "Essence complexity", og mener altså at selvom "Accidential activities" elimineres vil det ikke resulterer i en "magnitude improvement" (Tifoldig forbedring i udviklings hastigheden).  \\\\
@@ -291,7 +302,7 @@ Vi (gruppen), mener imidlertid ikke at dette er tilfældet da kompleksiteten ikk
 \pagebreak
 \section{Bilag}
 
-\subsection{Commitlog}
+\subsection*{Commitlog}
 * <73f7798> 2014-05-14 [mhejselbak]  (HEAD, master) delrapport 3 tilføjet \\
 * <8fff4f0> 2014-05-14 [mhejselbak]  delrapport 3 tilføjet \\
 * <a9c842d> 2014-05-08 [rasmus03]  (origin/master, origin/HEAD) Genupload af delrapport \\
@@ -327,7 +338,7 @@ Vi (gruppen), mener imidlertid ikke at dette er tilfældet da kompleksiteten ikk
 * <6e1b71b> 2014-04-10 [runefranch]  review update \\
 * <d81beae> 2014-04-09 [runefranch]  Review \\
 * <19705bc> 2014-04-03 [mhejselbak]  Initial commit \\
-\subsection{Referater}
+\subsection*{Referater}
 
 \subsection*{Referat fra sidste møde med kunde}
 Møde med Travis den 8/6 \\
