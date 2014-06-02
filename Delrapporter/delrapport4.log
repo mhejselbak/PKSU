@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.11.18)  28 MAY 2014 13:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.11.18)  2 JUN 2014 15:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -893,62 +893,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 323--324
  []
 
 [26]
-Underfull \hbox (badness 10000) in paragraph at lines 331--340
+Overfull \hbox (2.66795pt too wide) in paragraph at lines 331--337
+\T1/cmr/m/n/12 Abstractet til ar-tik-len af Naur om-kring "Pro-gram-m-ing as Th
+e-ory Bu-il-ding"fra
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--337
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--337
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--337
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--337
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--337
 
  []
 
 [27] [28]
-Underfull \hbox (badness 10000) in paragraph at lines 346--350
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 346--350
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 346--350
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 346--350
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 346--350
-
- []
-
-[29]
-Underfull \hbox (badness 10000) in paragraph at lines 352--356
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 352--356
-
- []
-
-[30]
-Overfull \hbox (130.80745pt too wide) in paragraph at lines 401--436
+Overfull \hbox (130.80745pt too wide) in paragraph at lines 386--421
 \T1/cmr/m/n/12 * <a8c5bbd> 2014-05-07 [ru-ne-franch] Mer-ge branch 'ma-ster' of
  htt-ps://github.com/mhejselbak/PKSU 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--436
+Underfull \hbox (badness 10000) in paragraph at lines 386--421
 
  []
 
-[31] [32] [33] (./delrapport4.aux) ) 
+[29] [30] [31] (./delrapport4.aux) ) 
 Here is how much of TeX's memory you used:
- 7118 strings out of 493315
- 92007 string characters out of 6137903
+ 7115 strings out of 493315
+ 91974 string characters out of 6137903
  207838 words of memory out of 5000000
- 10418 multiletter control sequences out of 15000+600000
+ 10415 multiletter control sequences out of 15000+600000
  16236 words of font info for 49 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,7n,32p,3243b,228s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -962,10 +953,10 @@ c/cm-super/sfrm1440.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/
 cm-super/sfrm2074.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/cm
 -super/sfti1200.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/cm-s
 uper/sftt1200.pfb>
-Output written on delrapport4.pdf (33 pages, 831013 bytes).
+Output written on delrapport4.pdf (31 pages, 826640 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
- 99 compressed objects within 1 object stream
+ 148 PDF objects out of 1000 (max. 8388607)
+ 95 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
