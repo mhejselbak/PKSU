@@ -8,11 +8,12 @@
 \contentsline {paragraph}{Start side}{18}
 \contentsline {paragraph}{Spot information}{19}
 \contentsline {paragraph}{Indstillinger}{20}
-\contentsline {paragraph}{S\IeC {\o }g}{21}
-\contentsline {paragraph}{Butikker}{22}
-\contentsline {paragraph}{Spots}{23}
-\contentsline {section}{\numberline {7}Versionstyring}{25}
-\contentsline {section}{\numberline {8}Projektsamarbejdet}{26}
-\contentsline {section}{\numberline {9}Review}{28}
-\contentsline {section}{\numberline {10}Litteratur}{32}
-\contentsline {section}{\numberline {11}Bilag}{33}
+\contentsline {paragraph}{Add Spot}{21}
+\contentsline {paragraph}{S\IeC {\o }g}{22}
+\contentsline {paragraph}{Butikker}{23}
+\contentsline {paragraph}{Spots}{24}
+\contentsline {section}{\numberline {7}Versionstyring}{26}
+\contentsline {section}{\numberline {8}Projektsamarbejdet}{27}
+\contentsline {section}{\numberline {9}Review}{29}
+\contentsline {section}{\numberline {10}Litteratur}{33}
+\contentsline {section}{\numberline {11}Bilag}{34}

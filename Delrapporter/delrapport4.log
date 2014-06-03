@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.11.18)  3 JUN 2014 10:37
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.11.18)  3 JUN 2014 10:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -814,152 +814,158 @@ File: msettings.jpg Graphic file (type jpg)
  <use msettings.jpg>
 Package pdftex.def Info: msettings.jpg used on input line 263.
 (pdftex.def)             Requested size: 162.60875pt x 289.08223pt.
- [20 <./msettings.jpg>] <search.jpg, id=82, 542.025pt x 963.6pt>
+ [20 <./msettings.jpg>] <addspotscreen.jpg, id=82, 722.7pt x 1284.8pt>
+File: addspotscreen.jpg Graphic file (type jpg)
+
+<use addspotscreen.jpg>
+Package pdftex.def Info: addspotscreen.jpg used on input line 270.
+(pdftex.def)             Requested size: 216.81166pt x 385.44298pt.
+ [21 <./addspotscreen.jpg>]
+<search.jpg, id=86, 542.025pt x 963.6pt>
 File: search.jpg Graphic file (type jpg)
  <use search.jpg>
-Package pdftex.def Info: search.jpg used on input line 270.
+Package pdftex.def Info: search.jpg used on input line 278.
 (pdftex.def)             Requested size: 162.60875pt x 289.08223pt.
-
-[21 <./search.jpg>] <shops.jpg, id=86, 542.025pt x 963.6pt>
+ [22 <./search.jpg>]
+<shops.jpg, id=90, 542.025pt x 963.6pt>
 File: shops.jpg Graphic file (type jpg)
  <use shops.jpg>
-Package pdftex.def Info: shops.jpg used on input line 277.
+Package pdftex.def Info: shops.jpg used on input line 285.
 (pdftex.def)             Requested size: 162.60875pt x 289.08223pt.
-
-[22 <./shops.jpg>] <spot.jpg, id=90, 542.025pt x 963.6pt>
+ [23 <./shops.jpg>]
+<spot.jpg, id=94, 542.025pt x 963.6pt>
 File: spot.jpg Graphic file (type jpg)
  <use spot.jpg>
-Package pdftex.def Info: spot.jpg used on input line 284.
+Package pdftex.def Info: spot.jpg used on input line 292.
 (pdftex.def)             Requested size: 162.60875pt x 289.08223pt.
-
-[23 <./spot.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 288--292
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 288--292
+ [24 <./spot.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 296--300
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 288--292
+Underfull \hbox (badness 10000) in paragraph at lines 296--300
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 288--292
+Underfull \hbox (badness 10000) in paragraph at lines 296--300
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 288--292
-
- []
-
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 299--300
+Underfull \hbox (badness 10000) in paragraph at lines 296--300
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--306
+Underfull \hbox (badness 10000) in paragraph at lines 296--300
 
  []
 
 [25]
-Underfull \hbox (badness 10000) in paragraph at lines 314--315
+Underfull \hbox (badness 10000) in paragraph at lines 307--308
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 316--319
+Underfull \hbox (badness 10000) in paragraph at lines 309--314
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 316--319
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 316--319
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 320--321
-
- []
-
-
+[26]
 Underfull \hbox (badness 10000) in paragraph at lines 322--323
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--325
+Underfull \hbox (badness 10000) in paragraph at lines 324--327
 
  []
 
-[26] [27]
-Overfull \hbox (2.66795pt too wide) in paragraph at lines 333--339
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--327
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--327
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 328--329
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 332--333
+
+ []
+
+[27] [28]
+Overfull \hbox (2.66795pt too wide) in paragraph at lines 341--347
 \T1/cmr/m/n/12 Abstractet til ar-tik-len af Naur om-kring "Pro-gram-m-ing as Th
 e-ory Bu-il-ding"fra
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 333--339
+Underfull \hbox (badness 10000) in paragraph at lines 341--347
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 333--339
+Underfull \hbox (badness 10000) in paragraph at lines 341--347
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 333--339
+Underfull \hbox (badness 10000) in paragraph at lines 341--347
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 333--339
+Underfull \hbox (badness 10000) in paragraph at lines 341--347
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 333--339
+Underfull \hbox (badness 10000) in paragraph at lines 341--347
 
  []
 
-[28] [29]
-Underfull \hbox (badness 10000) in paragraph at lines 344--352
+[29] [30]
+Underfull \hbox (badness 10000) in paragraph at lines 352--360
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--352
+Underfull \hbox (badness 10000) in paragraph at lines 352--360
 
  []
 
-[30] [31]
-Overfull \hbox (130.80745pt too wide) in paragraph at lines 400--435
+[31] [32]
+Overfull \hbox (130.80745pt too wide) in paragraph at lines 408--443
 \T1/cmr/m/n/12 * <a8c5bbd> 2014-05-07 [ru-ne-franch] Mer-ge branch 'ma-ster' of
  htt-ps://github.com/mhejselbak/PKSU 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--435
+Underfull \hbox (badness 10000) in paragraph at lines 408--443
 
  []
 
-[32] [33] [34] (./delrapport4.aux) ) 
+[33] [34] [35] (./delrapport4.aux) ) 
 Here is how much of TeX's memory you used:
- 7115 strings out of 493315
- 91974 string characters out of 6137903
+ 7120 strings out of 493315
+ 92078 string characters out of 6137903
  207838 words of memory out of 5000000
- 10415 multiletter control sequences out of 15000+600000
+ 10419 multiletter control sequences out of 15000+600000
  16236 words of font info for 49 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,7n,32p,3243b,228s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -973,10 +979,10 @@ c/cm-super/sfrm1440.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/
 cm-super/sfrm2074.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/cm
 -super/sfti1200.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/cm-s
 uper/sftt1200.pfb>
-Output written on delrapport4.pdf (34 pages, 832203 bytes).
+Output written on delrapport4.pdf (35 pages, 1161061 bytes).
 PDF statistics:
- 158 PDF objects out of 1000 (max. 8388607)
- 101 compressed objects within 2 object streams
+ 162 PDF objects out of 1000 (max. 8388607)
+ 103 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
