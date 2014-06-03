@@ -309,11 +309,15 @@ Dette er et flow-chart over vores skærmbilleder. Fra start siden kan man komme 
 7. Han finder det hurtigt under settings. Dog føler han igen det kunne være bedre forklaret.
 \pagebreak
 \section{Versionstyring}
-Vi har nu fået opdateret vores hjemmeside så istedet for der står settings og search er der nu kommet to forskellige ikoner som alle brugere kender, forstørrelsesglas og tandhjul. Der er ikke kommet noget funktionalitet bag det men designet til disse to knapper er nu kommet på. \\
-Vi har fået opdateret vores database med flere spots og gjort det muligt for vores hjemmeside at der sker noget når der bliver trykket på en marker. Det der sker nu er at der kommer et info vindue op, med en addresse og et billede af spottet.\\
-Vores app til at kunne køre hjemmesiden på android er næsten færdig.\\
-Det eneste problem vi har omkring dette er at den ikke er kompatibel med at få en brugers position men dette vil altid blive et problem når nu den skal køre kunne køre offline.\\
-Vores midlertidige projekt kan ses på \url{www.kennethchristensen.dk} det kan godt det stemmer over med hvad vi har beskrevet i rapporten da der stadig arbejdes videre på det.\\
+Vi har fået opdateret vores hjemmeside 2 gange. Først den 31-05-2014 fra kennedc med commiten hjemmeside opdateret. Her havde vi fået lavet en søge funktion der tildels virkede. Derudover havde vi også fået ryddet op i vores database og den kan nu tage UTF-8.
+
+Den næste commit der ændrer på vores projekt er fra den 03-06-2014 hvor hjemmesiden nu er stortset færdig.\\ Søge funktionen er nu blevet mere komplet og virker på postnumre, navn og addresse.\\\\
+Derudover er der blevet lavet add spot, som gør det muligt for en bruger at tilføje deres eget spot til databasen. Både med og uden billede.\\\\
+Vores største problem med de sidste opdateringer har været at få søge funktionen til at virke. \\\\
+Dette har vist sig at være et større projekt en først antaget og vi har derfor, desværre, ikke kunne få denne implementeret korrekt dog er den stadig med da det var en original plan at den skulle være der og hvis vi skulle få lyst til at arbejde videre med det ved vi hvor vi skal starte. \\\\
+Vores midlertidige projekt kan ses på \url{www.kennethchristensen.dk} Den burde nu stemme overens med vores rapporter og hvad vi har beskrevet.\\\\
+Vores app til at kunne køre hjemmesiden på android er færdig.\\
+Vi er ikke sikre på at den er kompatibel med at få en brugers position men dette vil altid blive et problem når nu den skal køre kunne køre offline.\\
 
 \pagebreak
 \section{Projektsamarbejdet}
@@ -394,43 +398,92 @@ What Designers Think} 1985
 \section{Bilag}
 
 \subsection*{Commitlog}
-* <73f7798> 2014-05-14 [mhejselbak]  (HEAD, master) delrapport 3 tilføjet \\
-* <8fff4f0> 2014-05-14 [mhejselbak]  delrapport 3 tilføjet \\
-* <a9c842d> 2014-05-08 [rasmus03]  (origin/master, origin/HEAD) Genupload af delrapport \\
-* <d58b7ea> 2014-05-08 [mhejselbak]  Delrapport 2 genafl tilfoejet \\
-* <2572462> 2014-05-08 [rasmus03]  Tilføjede en ny usecasemodel \\
-* <04acdab> 2014-05-07 [rasmus03]  Mindre opdateringer til delrapport 2 - intet nyt \\
-* <533b5cb> 2014-05-07 [mhejselbak]  added more to part 5 \\
-* <c5d6de6> 2014-05-07 [runefranch]  updateret delrapport \\
-* <c4bdcc5> 2014-05-07 [rasmus03]  Opdaterede delrapport 2 med nye sekvensdiagrammer \\
-* <e4f926b> 2014-05-07 [rasmus03]  Tilføjede gruppe reviews (igen) \\
-*   <a8c5bbd> 2014-05-07 [runefranch]  Merge branch 'master' of https://github.com/mhejselbak/PKSU \\
-|\textbackslash   \\
+* <6015312> 2014-06-03 [mhejselbak]  (HEAD, origin/master, origin/HEAD, master) Tilføjet Think-aloud \\
+* <5d3b60b> 2014-06-03 [kennedc]  Hjemmeside næsten færdig \\
+* <c2994f9> 2014-06-03 [runefranch]  gennemgang af rapport \\
+* <6dcd2a0> 2014-06-03 [runefranch]  Tilføjet flowchart med tekst\\
+* <83c5854> 2014-06-03 [rasmus03]  Tilføjede addspot screenshot\\
+* <30d072f> 2014-06-03 [rasmus03]  Opdaterede dele i delrapporten\\
+* <bbecb80> 2014-06-03 [runefranch]  tilføjet review\\
+* <e9f679d> 2014-06-02 [mhejselbak]  Udvidet forklaringer af billeder\\
+* <81b1a02> 2014-06-02 [rasmus03]  Tilføjede review af Programming as Theory Building til delrapport 4\\
+* <cba1e23> 2014-05-31 [kennedc]  Hjemmeside opdateret\\
+* <4ddf0c1> 2014-05-28 [rasmus03]  ups\\
+* <84685aa> 2014-05-28 [runefranch]  tilføjet billed og txt\\
+* <05dfe3f> 2014-05-28 [runefranch]  ups\\
+* <9617401> 2014-05-28 [rasmus03]  Billeder til mockup\\
+* <0c23f3a> 2014-05-28 [rasmus03]  nyt mobil billede\\
+* <80dac95> 2014-05-28 [rasmus03]  Opdaterede punkt 5\\
+* <1efffc2> 2014-05-28 [rasmus03]  Tilføjede mere tekst overall\\
+* <f7c9279> 2014-05-28 [mhejselbak]  Tilføjet litteratur\\
+* <94a805e> 2014-05-28 [rasmus03]  Rettede til et rigtige billede i USM\\
+* <80972ed> 2014-05-28 [rasmus03]  Use case model: mere test\\
+* <ef6a0d9> 2014-05-28 [runefranch]  tilføjet beskrivelser\\
+* <c79a247> 2014-05-28 [rasmus03]  Små fejlrettelser\\
+* <3aad81a> 2014-05-28 [rasmus03]  Opdateret PDF\\
+*   <08d758e> 2014-05-28 [mhejselbak]  Merge branch 'master' of https://github.com/mhejselbak/PKSU\\
+|\textbackslash \\ 
+* | <5f70296> 2014-05-28 [mhejselbak]  FK og IFK\\
+| * <b95bc9c> 2014-05-28 [rasmus03]  Tilføjede ny use case model \\
+|/  \\
+* <fdb8b22> 2014-05-28 [rasmus03]  Klasse diagram tekst\\
+* <f306564> 2014-05-28 [rasmus03]  oprydning\\
+* <fabd1cd> 2014-05-28 [rasmus03]  Mobil billede\\
+* <075fbeb> 2014-05-28 [rasmus03]  Tilføjede første udkast til delrapport 4\\
+* <c92cac7> 2014-05-28 [mhejselbak]  clase diagram added\\
+* <0cb3d7d> 2014-05-15 [runefranch]  lidt redigering\\
+* <a51efd6> 2014-05-14 [rasmus03]  Opdaterede små fejl i delrapport 3: klar til aflevering \\
+* <84609b5> 2014-05-14 [rasmus03]  Ingen ændringer blot opdateret PDF’en \\
+* <60d2678> 2014-05-14 [runefranch]  delrapport 3 opdate v2 \\
+* <4cf2d0d> 2014-05-14 [runefranch]  delrapport 3 opdate\\
+* <b5e97ea> 2014-05-14 [rasmus03]  Review af “Silver Bullet” \\
+*   <e963633> 2014-05-14 [mhejselbak]  Merge branch 'master' of https://github.com/mhejselbak/PKSU\\
+|\textbackslash \\
+* | <aa8f509> 2014-05-14 [mhejselbak]  delrapport3 opdateret v3\\
+* | <9f9797c> 2014-05-14 [mhejselbak]  delrapport3 opdateret v2\\
+| *   <6df32c0> 2014-05-14 [kennedc]  Merge branch 'master' of https://github.com/mhejselbak/PKSU\\
+| |\textbackslash  \\
+* | | <192e6af> 2014-05-14 [mhejselbak]  delrapport3 opdateret \\
+* | | <192e6af> 2014-05-14 [mhejselbak]  delrapport3 opdateret \\
+* | | <73f7798> 2014-05-14 [mhejselbak]  delrapport 3 tilføjet\\
+* | | <8fff4f0> 2014-05-14 [mhejselbak]  delrapport 3 tilføjet\\
+| |/  \\
+|/|   \\
+* | <a9c842d> 2014-05-08 [rasmus03]  Genupload af delrapport\\
+* | <d58b7ea> 2014-05-08 [mhejselbak]  Delrapport 2 genafl tilfoejet\\
+* | <2572462> 2014-05-08 [rasmus03]  Tilføjede en ny usecasemodel\\
+* | <04acdab> 2014-05-07 [rasmus03]  Mindre opdateringer til delrapport 2 - intet nyt\\
+| * <8fe6d52> 2014-05-07 [kennedc]  html og css\\
+|/  \\
+* <533b5cb> 2014-05-07 [mhejselbak]  added more to part 5\\
+* <c5d6de6> 2014-05-07 [runefranch]  updateret delrapport\\
+* <c4bdcc5> 2014-05-07 [rasmus03]  Opdaterede delrapport 2 med nye sekvensdiagrammer\\
+* <e4f926b> 2014-05-07 [rasmus03]  Tilføjede gruppe reviews (igen)\\
+*   <a8c5bbd> 2014-05-07 [runefranch]  Merge branch 'master' of https://github.com/mhejselbak/PKSU\\
+|\textbackslash \\  
 * | <95229b4> 2014-05-07 [runefranch]  Sekvens diagram \\
-| * <d3ad6bd> 2014-05-07 [rasmus03]  Flyttede log.log til den rette mappe\\
+| * <d3ad6bd> 2014-05-07 [rasmus03]  Flyttede log.log til den rette mappe \\
 |/  \\
 * <a0eb8ab> 2014-05-07 [mhejselbak]  Deleted style.css and edited delrapport2 \\
-* <3db9ac0> 2014-05-07 [rasmus03]  Opdaterede tekst i delrapport 2 \\
-* <b4614f0> 2014-04-28 [mhejselbak]  CSS til hjemmeside \\
-* <d0c4133> 2014-04-28 [rasmus03]  Tilføjede første udlæg til den webbaserede android application \\
-* <ba05d40> 2014-04-28 [rasmus03]  Tilføjede vores review af “Mood” \\
-* <1da40ab> 2014-04-24 [rasmus03]  Updaterede filer til delrapport 2 \\
-* <89ae7a4> 2014-04-24 [rasmus03]  Commitlog billede \\
-* <6f57d2e> 2014-04-24 [rasmus03]  Tilføjede vores udkast til hjemmesiden \\
-* <2077057> 2014-04-24 [runefranch]  Nyt sekvens diagram \\
-* <a006ca4> 2014-04-24 [runefranch]  sidste sekvens diagram \\ 
-* <f2ad5a2> 2014-04-23 [rasmus03]  Updated files and added screenshots \\
-* <c201cd9> 2014-04-23 [runefranch]  sekvens diagram \\
-* <ee33ad2> 2014-04-23 [rasmus03]  Opdaterede delrapport2 med 2/2 review og use-cases. \\
+* <3db9ac0> 2014-05-07 [rasmus03]  Opdaterede tekst i delrapport 2\\
+* <b4614f0> 2014-04-28 [mhejselbak]  CSS til hjemmeside\\
+* <d0c4133> 2014-04-28 [rasmus03]  Tilføjede første udlæg til den webbaserede android application - Ingen test af funktioner muligt\\
+* <ba05d40> 2014-04-28 [rasmus03]  Tilføjede vores review af “Mood”\\
+* <1da40ab> 2014-04-24 [rasmus03]  Updaterede filer til delrapport 2\\
+* <89ae7a4> 2014-04-24 [rasmus03]  Commitlog billede\\
+* <6f57d2e> 2014-04-24 [rasmus03]  Tilføjede vores udkast til hjemmesiden - Ingen implementeringer\\
+* <2077057> 2014-04-24 [runefranch]  Nyt sekvens diagram\\
+* <a006ca4> 2014-04-24 [runefranch]  sidste sekvens diagram\\
+* <f2ad5a2> 2014-04-23 [rasmus03]  Updated files and added screenshots\\
+* <c201cd9> 2014-04-23 [runefranch]  sekvens diagram\\
+* <ee33ad2> 2014-04-23 [rasmus03]  Opdaterede delrapport2 med 2/2 review og use-cases. Standard clean up af unødige filer.\\
 * <592de43> 2014-04-23 [runefranch]  reviewartikel \\
-* <e77b576> 2014-04-23 [rasmus03]  FACTOR model - Bruges i delrapport 2 \\
-* <599276d> 2014-04-23 [rasmus03]  Delrapport 2 - Består af punkt 1, 2 og 1/2 review \\
-* <b2271ec> 2014-04-22 [mhejselbak]  Prototype \\
-* <6e1b71b> 2014-04-10 [runefranch]  review update \\
-* <d81beae> 2014-04-09 [runefranch]  Review \\
-* <19705bc> 2014-04-03 [mhejselbak]  Initial commit \\
-\subsection*{Referater}
-
+* <e77b576> 2014-04-23 [rasmus03]  FACTOR model - Bruges i delrapport 2\\
+* <599276d> 2014-04-23 [rasmus03]  Delrapport 2 - Består af punkt 1, 2 og 1/2 review\\
+* <b2271ec> 2014-04-22 [mhejselbak]  Prototype\\
+* <6e1b71b> 2014-04-10 [runefranch]  review update\\
+* <d81beae> 2014-04-09 [runefranch]  Review\\
+* <19705bc> 2014-04-03 [mhejselbak]  Initial commit\\
 \subsection*{Referat fra sidste møde med kunde}
 Møde med Travis den 8/6 \\
 Vi mødtes med travis i bmxbutikken eller som deres butik på nørrebrogade hedder "pedal \& Co" Her fremviste vi vores program til ham og snakkede om forbedringer og evt ekstra funktionalitet, vi diskuterede også hvilken slags spots der skulle op og om man evt. skulle holde nogle spots hemmelige for brugerene for at ikke opfordre små børn til at hoppe over hegn f.eks.\\

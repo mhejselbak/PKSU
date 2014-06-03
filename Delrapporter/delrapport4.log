@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.5.28)  3 JUN 2014 11:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.5.28)  3 JUN 2014 12:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -829,98 +829,141 @@ Underfull \hbox (badness 10000) in paragraph at lines 294--311
  []
 
 [26]
-Underfull \hbox (badness 10000) in paragraph at lines 312--317
+Underfull \hbox (badness 10000) in paragraph at lines 314--321
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--321
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--321
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--321
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--321
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--321
 
  []
 
 [27]
-Underfull \hbox (badness 10000) in paragraph at lines 320--324
+Underfull \hbox (badness 10000) in paragraph at lines 324--328
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--324
+Underfull \hbox (badness 10000) in paragraph at lines 324--328
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--324
+Underfull \hbox (badness 10000) in paragraph at lines 324--328
 
  []
 
 [28]
-Overfull \hbox (2.66795pt too wide) in paragraph at lines 330--336
+Overfull \hbox (2.66795pt too wide) in paragraph at lines 334--340
 \T1/cmr/m/n/12 Abstractet til ar-tik-len af Naur om-kring "Pro-gram-m-ing as Th
 e-ory Bu-il-ding"fra
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--336
+Underfull \hbox (badness 10000) in paragraph at lines 334--340
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--336
+Underfull \hbox (badness 10000) in paragraph at lines 334--340
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--336
+Underfull \hbox (badness 10000) in paragraph at lines 334--340
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--336
+Underfull \hbox (badness 10000) in paragraph at lines 334--340
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--336
+Underfull \hbox (badness 10000) in paragraph at lines 334--340
 
  []
 
 [29] [30]
-Underfull \hbox (badness 10000) in paragraph at lines 341--349
+Underfull \hbox (badness 10000) in paragraph at lines 345--353
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 341--349
+Underfull \hbox (badness 10000) in paragraph at lines 345--353
 
  []
 
 [31] [32]
-Overfull \hbox (130.80745pt too wide) in paragraph at lines 397--432
+Overfull \hbox (131.19905pt too wide) in paragraph at lines 401--487
+\T1/cmr/m/n/12 * <08d758e> 2014-05-28 [mhej-sel-bak] Mer-ge branch 'ma-ster' of
+ htt-ps://github.com/mhejselbak/PKSU 
+ []
+
+
+Overfull \hbox (130.54643pt too wide) in paragraph at lines 401--487
+\T1/cmr/m/n/12 * <e963633> 2014-05-14 [mhej-sel-bak] Mer-ge branch 'ma-ster' of
+ htt-ps://github.com/mhejselbak/PKSU 
+ []
+
+
+Overfull \hbox (119.06033pt too wide) in paragraph at lines 401--487
+\T1/cmr/m/n/12 | * <6df32c0> 2014-05-14 [ken-nedc] Mer-ge branch 'ma-ster' of h
+tt-ps://github.com/mhejselbak/PKSU 
+ []
+
+
+Overfull \hbox (130.80745pt too wide) in paragraph at lines 401--487
 \T1/cmr/m/n/12 * <a8c5bbd> 2014-05-07 [ru-ne-franch] Mer-ge branch 'ma-ster' of
  htt-ps://github.com/mhejselbak/PKSU 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 397--432
+Underfull \hbox (badness 10000) in paragraph at lines 401--487
 
  []
 
-[33] [34] [35] (./delrapport4.aux) ) 
+[33] [34] [35] [36] [37] (./delrapport4.aux) ) 
 Here is how much of TeX's memory you used:
  7137 strings out of 493304
  91702 string characters out of 6139871
- 208362 words of memory out of 5000000
+ 212362 words of memory out of 5000000
  10442 multiletter control sequences out of 15000+600000
  16260 words of font info for 49 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,7n,32p,3243b,228s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/
-cm-super-t1.enc}</usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></us
-r/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/
-type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-supe
-r/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr
-/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf/fonts/t
-ype1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super
-/sftt1200.pfb>
-Output written on delrapport4.pdf (35 pages, 1175127 bytes).
+{/usr/share/texmf/fonts/enc/dvips
+/cm-super/cm-super-t1.enc}</usr/share/texmf/fonts/type1/public/cm-super/sfbx120
+0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/te
+xmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/publ
+ic/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440
+.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/tex
+mf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/publi
+c/cm-super/sftt1200.pfb>
+Output written on delrapport4.pdf (37 pages, 1177612 bytes).
 PDF statistics:
- 163 PDF objects out of 1000 (max. 8388607)
- 103 compressed objects within 2 object streams
+ 172 PDF objects out of 1000 (max. 8388607)
+ 110 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
