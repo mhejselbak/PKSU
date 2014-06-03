@@ -13,6 +13,6 @@
 \contentsline {paragraph}{Spots}{23}
 \contentsline {section}{\numberline {7}Versionstyring}{25}
 \contentsline {section}{\numberline {8}Projektsamarbejdet}{26}
-\contentsline {section}{\numberline {9}Review}{27}
-\contentsline {section}{\numberline {10}Litteratur}{31}
-\contentsline {section}{\numberline {11}Bilag}{32}
+\contentsline {section}{\numberline {9}Review}{28}
+\contentsline {section}{\numberline {10}Litteratur}{32}
+\contentsline {section}{\numberline {11}Bilag}{33}
