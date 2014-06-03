@@ -19,7 +19,7 @@ $db_selected = mysql_select_db($database, $connection);
 if (!$db_selected) {
   die ('Can\'t use db : ' . mysql_error());
 }
-
+mysql_query("SET NAMES 'utf8'", $connection);
 // Select all the rows in the markers table
 
 $query = "SELECT * FROM markers WHERE 1";
@@ -42,6 +42,7 @@ while ($row = @mysql_fetch_assoc($result)){
   $newnode->setAttribute("lng", $row['lng']);
   $newnode->setAttribute("type", $row['type']);
   $newnode->setAttribute("picture", $row['picture']);
+  $newnode->setAttribute("folder", $row['folder']);
 }
 
 echo $dom->saveXML();

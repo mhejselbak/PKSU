@@ -1,28 +1,23 @@
+
 <!DOCTYPE html >
 
 <html>
   <head>
-  <?php 
-  require("phpsqlajax_dbinfo.php");
-  $connection=mysql_connect ('mysql12.gigahost.dk', $username, $password);
-if (!$connection) {  die('Not connected : ' . mysql_error());}
 
-// Set the active MySQL database
-
-$db_selected = mysql_select_db($database, $connection);
-if (!$db_selected) {
-  die ('Can\'t use db : ' . mysql_error());
-}
-  ?>
      <link rel="stylesheet" type="text/css" href="styles.css">
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
     <title>SpotGuiden</title>
+      <!-- JQUERY -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
 <script src="galleria/galleria-1.3.5.min.js"></script>
     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
 
     <script type="text/javascript">
+
 function toggle(target){
     
   var artz = document.getElementsByClassName('header');
@@ -40,10 +35,10 @@ function toggle(target){
 }
 
     var customIcons = {
-      restaurant: {
+      shop: {
         icon: 'http://labs.google.com/ridefinder/images/mm_20_blue.png'
       },
-      bar: {
+      spot: {
         icon: 'http://labs.google.com/ridefinder/images/mm_20_red.png'
       }
     };  
@@ -53,8 +48,9 @@ function toggle(target){
     function load() {
       var mapOptions = {
         center: new google.maps.LatLng(55.676097, 12.568337),
-      zoom: 12,
-      mapTypeId: 'roadmap'
+      zoom: 13,
+      mapTypeId: 'roadmap',
+      disableDefaultUI: true
     };
       //Laver kortet
       var map = new google.maps.Map(document.getElementById("map"), mapOptions); 
@@ -74,20 +70,7 @@ function toggle(target){
               parseFloat(markers[i].getAttribute("lng")));
 
           var html = "<h1>" + name  +"</h1> <br/>" + address + "" + 
-          "<img src=\"" + photo + "\"><br>";
-
-               downloadUrl("phpsqlajax_genxml4.php", function(data) {
-        var xml2 = data.responseXML;
-        var pictures = xml.documentElement.getElementsByTagName("picture");
-        for (var i = 0; i < pictures.length; i++) {
-         var ID = pictures[i].getAttribute("ID");
-         var URL = pictures[i].getAttribute("URL");
-         var htmlurl = "<img src=\"" + URL + "\"><br>";
-         var html = html.concat(htmlurl);
-}});
-          
-          //"<img src=\"" + URL + "\"><br>";
-          
+          "<img src=\"" + photo + "\"><br>";          
 
           var icon = customIcons[type] || {};
           var marker = new google.maps.Marker({
@@ -151,15 +134,17 @@ function toggle(target){
     function doNothing() {}
 
 
+
   </script>
 
   </head>
 
   <body onload="load()">
  <div id="container"> 
+
   <div id="nav"> 
 
-      <li class="settings"><a href="#" onclick="toggle('settings');"></a></li>
+   <li class="settings"><a href="#" onclick="toggle('settings');"></a></li>
  <li><a href="#" onclick="toggle('spotlist');">SPOTS</a></li>
    <li><a href="#" onclick="toggle('shoplist');">SHOPS</a></li>
     <li><a href="#" onclick="toggle('add');">ADD SPOT</a></li>
@@ -168,51 +153,93 @@ function toggle(target){
     </div>
     <div id:"menucontainer">
          <div class="header" id="search" style="display:none;">
-          <form>
-             <input type="text" name="search">
-             <input type="submit" name="searchbutton">
+            <FORM>
+<INPUT TYPE="text"  id="pro"><P>
+<INPUT TYPE="button"  value="Submit"  onClick="displaysearch()">
+</FORM>
+<script>
 
+function displaysearch() {
+ var pp = document.getElementById('pro').value;
 
-             <?php
+downloadUrl("phpsqlajax_genxml3.php", function(data) {
+       
+        var xml = data.responseXML;
+        var markers = xml.documentElement.getElementsByTagName("marker");
+        var content = "<form>" +
+            "<input type=\"text\" name=\"name\" id=\"search\" />" +
+                "<input type=\"submit\" name=\"submit\" id=\"submit\" onclick=\"displaysearch()\"/>" +
+                "</form>";
+        for (var i = 0; i < markers.length; i++) {
+          var name = markers[i].getAttribute("name");
+          var address = markers[i].getAttribute("address");
+          var photo = markers[i].getAttribute("picture");
 
-             if $REQUEST['search']
-             {
-              $search = $REQUEST['search'];
-              $sql = "SELECT name, address, picture, type FROM markers WHERE address LIKE \'%$search$\'";
-                try {
-        foreach($connection->mysql_query($query) as $row) {           
-  echo        "<tr><td>Name:</td><td>".$row[0]."</td></tr>
-               <tr><td>Adress</td><td>".$row[1]."</td></tr> 
-               <tr><td>Picture</td><td>".$row[2]."</td></tr> 
-               <tr><td>type</td><td>".$row[3]."</td></tr>";
- 
-              
-                }
-    }
+          var n = address.indexOf(pp)
+        
+            if  (n > -1) {
+              var content = content + "<h1>" + name  +"</h1><p>" + address + "</p><br><img src=\"" + photo + "\">";
+   document.getElementById('search').innerHTML = content;
+            }
 
+          
 
+       
+          
+        }
 
+      });
 
-             }
-             ?>
-          </form>
+        }
+        
+</script>
+
 
          </div>
   <div class="header" id="settings" style="display:none;">
-             <input type="range" id="setDistance" min="0" max="100" step="1" value="0">
-          </form></div>
+          <form>
+          <input type="range">
+          <input type="button" value="submit">
+          </form>
+
+
+
+
+
+
+</div>
            <div class="header" id="add" style="display:none;">
-          <form <form id="upload_form" enctype="multipart/form-data" method="post" action="upload.php">
+          <form action="addSpot.php" method="post">
           	<table class="center">
-          	<tr><td> Name </td><td><input type="text" name="name"></td></tr>
-            <tr><td>Adress</td><td>  <input type="text" name="adress"></td></tr>
-            <tr><td>City</td><td> <input type="text" name="city"></td></tr>
-            <tr><td>Zip</td><td><input type="text" name="zip"></td></tr>
-             <tr><td>Billede</td><td><input type="file" id="file"></tr>
-                <tr><td></td><td><input type="submit" value="Add"></td></tr>
+          	 <tr><td>NAME</td><td>  <input type="textbox" name="name"></td></tr>
+            <tr><td>ADDRESS</td><td>  <input type="textbox" name="address"></td></tr>
+             <tr><td>TYPE</td><td><select name="type">
+                                      <option value="spot">spot</option>
+                                      <option value="shop">shop</option>
+                                    </select>
+                              </td></tr>
+              <tr><td>PICTURE URL</td><td>  <input type="textbox" name="url"></td></tr>
+                <tr><td></td><td><input type="submit"></td></tr>
              
           </form>
+       <script>
+    function codeAddress() {
+    var address = document.getElementById("address").value;
+    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        map.setCenter(results[0].geometry.location);
+        var marker = new google.maps.Marker({
+            map: map,
+            position: results[0].geometry.location
+        });
+      } else {
+        alert("Geocode was not successful for the following reason: " + status);
+      }
+    });
+  }
+  </script>   
 </table>
+
          </div>
          <div class="header" id="spotlist" style="display:none;">
             <script type="text/javascript">
