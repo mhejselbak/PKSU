@@ -82,21 +82,19 @@ Kortet skal vise en marker ved bmxbutikken[User Interface Requirement]\\
 Koden skal være skrevet i php/javascript/html/mysql.[Implementation requirement]\\
 
 \pagebreak
-
-\textit{(b) En use case model, der beskriver system-funktionaliteten. Der ønskes et højniveau-diagram,
-som giver overblik over hvilke use cases de forskellige aktører har}\\
+\section*{Use-cases}
+\subsection*{Use-case model}
 \begin{figure}[htb]
 \includegraphics[scale = 0.8]{UM.jpg}
 \end{figure}
 
 Højniveau diagram der skal illustrere de forskellige aktører\\\\
-Som det ses er der 2 aktører, brugeren og System administratoren. Brugeren benytter appen og det er altså brugeren der "initiates" eller starter en given funktion, det være sig: At klikke på Add Spot og tilføje et spot uden billede eller at ændre indstillingerne. Som det ses på modellen er alle funktioner brugeren har adgang til og brugeren selv forbundet.\\\\ Derudover har enkelte funktioner noget med hinanden at gøre. Som det ses er "Add Spot" forbundet med Markers, Spots, Med billede og uden billede. Dette er fordi at man både kan tilføje nye spots uden eller med billeder. Samtidig er det disse spots der kommer frem på kortet som "Markers" og det nye spot bliver inkluderet under den generelle mappe for "Spots".\\\\
+\newpage
+\noindent Som det ses er der 2 aktører, brugeren og System administratoren. Brugeren benytter appen og det er altså brugeren der "initiates" eller starter en given funktion, det være sig: At klikke på Add Spot og tilføje et spot uden billede eller at ændre indstillingerne. Som det ses på modellen er alle funktioner brugeren har adgang til og brugeren selv forbundet.\\\\ Derudover har enkelte funktioner noget med hinanden at gøre. Som det ses er "Add Spot" forbundet med Markers, Spots, Med billede og uden billede. Dette er fordi at man både kan tilføje nye spots uden eller med billeder. Samtidig er det disse spots der kommer frem på kortet som "Markers" og det nye spot bliver inkluderet under den generelle mappe for "Spots".\\\\
 Til sidst er der System administratoren som er forbundet med Shops, Spots, Add Spot og Markers. Dette skyldes at System Administratoren er med til at opdatere de givne funktioner.
 
 \pagebreak
-\textit{(c) Tre specificerede use cases, som er særlig vigtige i jeres system}\\
 \setlength\parindent{0pt}
-\section*{Use-cases}
 \subsection*{Få information om et spot}
 \hrule\vspace{5mm}
 \textit{Use case name:} FindSpot\\
@@ -163,34 +161,31 @@ toppen. Brugeren vælger indstillinger fra menuen og bliver præsenteret med sli
 og trykker "accept". Bruger bliver herefter returneret til kort-interfacen.
 \pagebreak
 
-\textit{(d) Et klassediagram over jeres problemområde (solution-domain)}\\\\
+\subsection*{Klassediagram}
 \begin{figure}[h]
 \includegraphics[scale = 0.5]{classdiagram}
-\end{figure}\\\\
+\end{figure}
 Klasse diagrammet viser systemets opbygning:
 Vi har et kort, dette kort har et "et-til-mange" forhold til vores spots.
 Disse spots kan være af tre typer: Bmx-spots, skate-spots og shops.
 Disse tre nedarver fra "spots" som har nogle attributer. Disse attributer er : Latitude, longitude, addresse, navn og muligvis et billed.
 \newpage
-\textit{(e) Sekvens-diagrammer over de 3 use-cases specificeret i punkt (c)}\\
-Husk at alle diagrammer skal være fulgt af tekstbeskrivelser, der gør diagrammerne fuldt
-forståelige også for læsere uden særligt domænekendskab.\\
+\subsection*{Sekvensdiagram over find spot information}
 \begin{figure}[h]
 \includegraphics[scale = 0.5]{sekdia1}
 \end{figure}
 
-Sekvensdiagram over find spot information:\\
 Brugeren starter App'en, ved at trykke på iconet for App'en, på sin telefon. App'en viser kort interfacen, 
 som er et kort over brugerens nuværende position med en menu-bar i toppen. Spotsne vil blive repræsenteret 
 på kortet i form af faner. Brugeren vælger et spot fra kortet ved at trykke på en fane. App'en henter
 informationerne om spottet, fra database, og viser dem i et overlay hen over kortet.
 \newpage
 
+\subsection*{Sekvensdiagram over add spot funktionen}
 \begin{figure}[h]
 \includegraphics[scale = 0.5]{sekdia2}
 \end{figure}
 
-Sekvensdiagram over add spot funktionen:\\
 Brugeren starter App'en, ved at trykke på iconet for App'en, på sin telefon. App'en viser kort interfacen, 
 som er et kort over brugerens nuværende position med en menu-bar i toppen. Brugeren vælger add spot fra menuen, 
 ved at trykke på knappen markeret "Add Spot" i menu-baren. App'en viser en add spot formular, som er en række 
@@ -199,11 +194,11 @@ informationerne og trykker på knappen markeret "Add" for at submite den. App'en
 
 \newpage
 
+\subsection*{Sekvensdiagram over indstillinger}
 \begin{figure}[h]
 \includegraphics[scale = 0.5]{sekdia3}
 \end{figure}
 
-Sekvensdiagram over indstillinger:\\
 Brugeren starter App'en, ved at trykke på iconet for App'en, på sin telefon. App'en viser kort interfacen, 
 som er et kort over brugerens nuværende position med en menu-bar i toppen. Brugeren vælger settings fra menuen, 
 ved at trykke på knappen markeret med tandhjul i menu-baren. App'en viser en radius slider, som er en knap man kan hive i
@@ -213,8 +208,6 @@ radius og derefter trykke på knappen markeret "Accept" for at submite den. App'
 \pagebreak
 
 \section{Systemdesign sammenfatning}
-\textit{Kapitlet resumerer jeres foreløbige system-design så kort og klart som muligt. Samtidig
-udpeger I de vigtigste udestående design- og implementationsopgaver}.\\
 
 Vores plan vedrørende udviklingen af appen har indtil nu, været at bygge appen op i java med android developer tools. Det gav os en del udfordring, da vi ikke kunne få den simpleste udgave til at køre på en simulator. De mange timer og forsøg har gjort at vi følte os nødsaget til at gøre projektet mindre omfattende. 
 \\\\
@@ -225,9 +218,6 @@ Vi arbejder med hjemmesidens server gennem en ftp via programmet filezilla. Serv
 \pagebreak
 
 \section{Program- og systemtest}
-\textit{Dokumenter jeres foreløbige test af IT-løsningen. I kapitlet sammenfattes hovedresultaterne af
-jeres test-aktiviteter; mens test plan, test case specification, test incident report og test report
-summary placeres som bilag}.\\
 
 Test af funktionaliteter gøres løbende internt i gruppen og dermed sikres det at funktionaliteterne gør det, de rent faktisk skal. Men derudover skal vi sikre ting som usability og performance, dette gøres f.eks ved hjælp af tænke højt øvelser.
 \subsection*{Thinking out Loud}
@@ -241,7 +231,6 @@ Opgaver:\\\\
 7. Ændrer afstanden i km for søgen af spots
 \pagebreak
 \section{Brugergrænseflade og interaktionsdesign}
-\textit{(a) Præsenter skærmbilleder af de mest interessante dele af jeres brugergrænseflade}
 
 \paragraph{Start side}\mbox{}\\
 Dette er start siden af app'en. Her ses kortet med menuen i toppen. De røde markører viser kortet er spots og de blå viser butikker butikker.\\
@@ -293,25 +282,18 @@ Dette er listen over spots. Den viser alle spots med deres billed og addresse.\\
 \end{figure}
 
 \newpage
-\textit{(b) Illustrer flowet/dynamikken i brugerinteraktionen mellem skærmbillederne}\\\\
 \paragraph{Flow-chart over skærmbilleder}\mbox{}\\
 Dette er et flow-chart over vores skærmbilleder. Fra start siden kan man komme til alle de andre gennem et tryk i menuen eller på en marker på kortet. I søge funktion bliver man sendt videre til en liste over resultaterne af ens søgning.
 \begin{figure}[h]
-\includegraphics[scale = 0.5]{flowDiagram}
+\includegraphics[scale = 0.8]{flowDiagram}
 \end{figure}
 \newpage
-\textbf{UDFYLD}\\\\
-\textit{(c) En audio-visuel præsentation af brugergrænsefladen af den seneste kørende prototype}\\\\
-Dette punkt vil vi udfylde til delrapport 4 da vores projekt gerne skulle være færdig eller have mere funktionalitet på dette tidspunkt\\\\
+\subsection*{Youtube video}
 
-\textit{(d) Resultatet af seneste tænke-højt forsøg gennemført med een eller flere af jeres brugere}
-
+\subsection*{Resultat af Thinking out Loud}
 
 \pagebreak
 \section{Versionstyring}
-\textit{Som bilag skal vedlægges jeres nuværende commit-log samt jeres
-programkode. Kommentér kort (ca 1/2 side) de vigtigste ændringer, der er sket i programkoden}\\
-
 Vi har nu fået opdateret vores hjemmeside så istedet for der står settings og search er der nu kommet to forskellige ikoner som alle brugere kender, forstørrelsesglas og tandhjul. Der er ikke kommet noget funktionalitet bag det men designet til disse to knapper er nu kommet på. \\
 Vi har fået opdateret vores database med flere spots og gjort det muligt for vores hjemmeside at der sker noget når der bliver trykket på en marker. Det der sker nu er at der kommer et info vindue op, med en addresse og et billede af spottet.\\
 Vores app til at kunne køre hjemmesiden på android er næsten færdig.\\
@@ -320,23 +302,9 @@ Vores midlertidige projekt kan ses på \url{www.kennethchristensen.dk} det kan g
 
 \pagebreak
 \section{Projektsamarbejdet}
-\textit{Beskriv konkret og oplysende hvordan det går med samarbejdet med brugerne
-og med arbejdet internt i gruppen. Herunder skal bl.a. oplyses antallet af møder med brugerne under
-projektforløbet (fx på en tidslinje), mødeformen i gruppen, samt hvorledes jeres referat- og
-dokumentationsform fungerer. Hvorledes prioriterer og styrer I projektindsatsen, så I sikrer
-fremdrift på de felter, som er mest risikable/afgørende for et succesfuldt resultat? Herunder, beskriv
-og diskuter:}\\
-
-\textit{(a) Hvad går godt?}\\\\
 Det interne arbejde i gruppen fungerer godt. Alle medlemmer i gruppen deltager aktivt, engageret og møder til tiden på de aftalte møde dage. Selve arbejdet prøver vi at fordele imellem os alt efter interesse og det sikrer en god stabil arbejds indsats.\\\\
- De dage vi mødes til "arbejdsdage" fungerer samarbejdet rigtig godt. Mere præcist vil det sige at vi er gode til at arbejde både selvstændigt og i mindre grupper og sørge for at alle mand er i gang. Sådan en arbejdsdag starter typisk med lidt planlægning og hvad vi skal nå, lidt snak om hvordan og hvem der skal lave hvad, hvorefter vi kommer i gang og stortset altid når dagens mål.\\
-
-\textit{(b) Hvad går mindre godt?}\\
-
-Vi har haft uventede problemer hvad angår systemdesignet da vi har måttet ændre kurs og gå over i en webbaseret udgave. Det har betydet at vi har haft nogle arbejdsspildtimer og vi er derfor ikke noget helt så langt som planlagt. Udover det, har flere funktioner voldet os problemer da vi måske teoretisk kunne løse dem, men har haltet lidt på implementeringen grundet erfaring. \\
-
-\textit{(c) Hvad vil I gøre for at effektivisere jeres udviklingsarbejde?}\\
-
+ De dage vi mødes til "arbejdsdage" fungerer samarbejdet rigtig godt. Mere præcist vil det sige at vi er gode til at arbejde både selvstændigt og i mindre grupper og sørge for at alle mand er i gang. Sådan en arbejdsdag starter typisk med lidt planlægning og hvad vi skal nå, lidt snak om hvordan og hvem der skal lave hvad, hvorefter vi kommer i gang og stortset altid når dagens mål.\\\\
+Vi har haft uventede problemer hvad angår systemdesignet da vi har måttet ændre kurs og gå over i en webbaseret udgave. Det har betydet at vi har haft nogle arbejdsspildtimer og vi er derfor ikke noget helt så langt som planlagt. Udover det, har flere funktioner voldet os problemer da vi måske teoretisk kunne løse dem, men har haltet lidt på implementeringen grundet erfaring. \\\\
 I det vi tog skridtet fra android app til webbaseret app, har vi taget de første skridt i effektiviseringen. Derudover regner vi med at kunne begynde at arbejde selvstændigt på enkelte dele af systemet når vi har fået den første prototype helt op at køre. Det skullle bevirke at det bliver nemmere for de enkelte individer i gruppen at få plads i deres skema, til at få arbejdet på projektet og dermed få arbejdet flere timer. Udover det er det selvfølgelig vigtigt at sørge for at alle arbejder på det de har mest lyst til/er bedst til hvilket vil gøre de arbejder hurtigere og dermed mere effektivt.
 
 

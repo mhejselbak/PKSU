@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.7)  3 JUN 2014 11:04
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.7)  3 JUN 2014 11:22
 entering extended mode
 **C:/Users/rune*franch/Desktop/Skole/github/PKSU/Delrapporter/delrapport4.tex
 ("C:/Users/rune franch/Desktop/Skole/github/PKSU/Delrapporter/delrapport4.tex"
@@ -588,31 +588,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--83
 [6] <UM.jpg, id=27, 570.13pt x 437.635pt>
 File: UM.jpg Graphic file (type jpg)
  <use UM.jpg>
-Package pdftex.def Info: UM.jpg used on input line 89.
+Package pdftex.def Info: UM.jpg used on input line 88.
 (pdftex.def)             Requested size: 456.10463pt x 350.10847pt.
 
-Overfull \hbox (66.10463pt too wide) in paragraph at lines 89--90
+Overfull \hbox (66.10463pt too wide) in paragraph at lines 88--89
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--95
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--95
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 92--95
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
 
 [7 <C:/Users/rune franch/Desktop/Skole/github/PKSU/Delrapporter/UM.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 93--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--95
+
+ []
+
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 97--99
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
 
@@ -627,16 +631,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--105
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
 
  []
 
 [9]
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 123--124
 
  []
@@ -647,16 +651,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--126
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
 
  []
 
 [10]
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
@@ -667,12 +671,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--148
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 158--159
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
 
@@ -680,273 +679,200 @@ Underfull \hbox (badness 10000) in paragraph at lines 158--159
 File: classdiagram.jpg Graphic file (type jpg)
 
 <use classdiagram.jpg>
-Package pdftex.def Info: classdiagram.jpg used on input line 168.
+Package pdftex.def Info: classdiagram.jpg used on input line 166.
 (pdftex.def)             Requested size: 332.74231pt x 213.79822pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 166--174
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 166--174
-
- []
-
-[12 <C:/Users/rune franch/Desktop/Skole/github/PKSU/Delrapporter/classdiagram.j
-pg>] <sekdia1.jpg, id=49, 665.48625pt x 418.56375pt>
+ [12 <C:/Users/rune franch/Desktop/Skole/github/PKSU/Delrapporter/classdiagram.
+jpg>] <sekdia1.jpg, id=49, 665.48625pt x 418.56375pt>
 File: sekdia1.jpg Graphic file (type jpg)
- <use sekdia1.jpg>
-Package pdftex.def Info: sekdia1.jpg used on input line 179.
+
+<use sekdia1.jpg>
+Package pdftex.def Info: sekdia1.jpg used on input line 175.
 (pdftex.def)             Requested size: 332.74231pt x 209.28136pt.
  [13 <C:/Users/rune franch/Desktop/Skole/github/PKSU/Delrapporter/sekdia1.jpg>]
-
-<sekdia2.jpg, id=54, 720.6925pt x 508.90125pt>
+ <sekdia2.jpg, id=54, 720.6925pt x 508.90125pt>
 File: sekdia2.jpg Graphic file (type jpg)
- <use sekdia2.jpg>
-Package pdftex.def Info: sekdia2.jpg used on input line 190.
+
+<use sekdia2.jpg>
+Package pdftex.def Info: sekdia2.jpg used on input line 186.
 (pdftex.def)             Requested size: 360.34537pt x 254.45pt.
  [14 <C:/Users/rune franch/Desktop/Skole/github/PKSU/Delrapporter/sekdia2.jpg>]
-
-<sekdia3.jpg, id=58, 591.20876pt x 458.71375pt>
+ <sekdia3.jpg, id=58, 591.20876pt x 458.71375pt>
 File: sekdia3.jpg Graphic file (type jpg)
- <use sekdia3.jpg>
-Package pdftex.def Info: sekdia3.jpg used on input line 203.
+
+<use sekdia3.jpg>
+Package pdftex.def Info: sekdia3.jpg used on input line 199.
 (pdftex.def)             Requested size: 295.60365pt x 229.35631pt.
  [15 <C:/Users/rune franch/Desktop/Skole/github/PKSU/Delrapporter/sekdia3.jpg>]
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--218
+Underfull \hbox (badness 10000) in paragraph at lines 212--217
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--224
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 219--224
+Underfull \hbox (badness 10000) in paragraph at lines 212--217
 
  []
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 230--231
+Underfull \hbox (badness 10000) in paragraph at lines 224--233
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--243
+Underfull \hbox (badness 10000) in paragraph at lines 224--233
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--243
+Underfull \hbox (badness 10000) in paragraph at lines 224--233
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--243
+Underfull \hbox (badness 10000) in paragraph at lines 224--233
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--243
+Underfull \hbox (badness 10000) in paragraph at lines 224--233
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--243
+Underfull \hbox (badness 10000) in paragraph at lines 224--233
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--243
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 234--243
+Underfull \hbox (badness 10000) in paragraph at lines 224--233
 
  []
 
 [17] <mobil1.jpg, id=68, 542.025pt x 963.6pt>
 File: mobil1.jpg Graphic file (type jpg)
  <use mobil1.jpg>
-Package pdftex.def Info: mobil1.jpg used on input line 249.
+Package pdftex.def Info: mobil1.jpg used on input line 238.
 (pdftex.def)             Requested size: 162.60875pt x 289.08223pt.
  [18 <C:/Users/rune franch/Desktop/Skole/github/PKSU/Delrapporter/mobil1.jpg>]
 <markers.jpg, id=72, 542.025pt x 963.6pt>
 File: markers.jpg Graphic file (type jpg)
  <use markers.jpg>
-Package pdftex.def Info: markers.jpg used on input line 256.
+Package pdftex.def Info: markers.jpg used on input line 245.
 (pdftex.def)             Requested size: 162.60875pt x 289.08223pt.
  [19 <C:/Users/rune franch/Desktop/Skole/github/PKSU/Delrapporter/markers.jpg>]
 
 <msettings.jpg, id=77, 542.025pt x 963.6pt>
 File: msettings.jpg Graphic file (type jpg)
  <use msettings.jpg>
-Package pdftex.def Info: msettings.jpg used on input line 263.
+Package pdftex.def Info: msettings.jpg used on input line 252.
 (pdftex.def)             Requested size: 162.60875pt x 289.08223pt.
  [20 <C:/Users/rune franch/Desktop/Skole/github/PKSU/Delrapporter/msettings.jpg
 >]
 <addspotscreen.jpg, id=81, 722.7pt x 1284.8pt>
 File: addspotscreen.jpg Graphic file (type jpg)
  <use addspotscreen.jpg>
-Package pdftex.def Info: addspotscreen.jpg used on input line 270.
+Package pdftex.def Info: addspotscreen.jpg used on input line 259.
 (pdftex.def)             Requested size: 216.81166pt x 385.44298pt.
  [21 <C:/Users/rune franch/Desktop/Skole/github/PKSU/Delrapporter/addspotscreen
 .jpg>]
 <search.jpg, id=85, 542.025pt x 963.6pt>
 File: search.jpg Graphic file (type jpg)
  <use search.jpg>
-Package pdftex.def Info: search.jpg used on input line 278.
+Package pdftex.def Info: search.jpg used on input line 267.
 (pdftex.def)             Requested size: 162.60875pt x 289.08223pt.
  [22 <C:/Users/rune franch/Desktop/Skole/github/PKSU/Delrapporter/search.jpg>]
 <shops.jpg, id=89, 542.025pt x 963.6pt>
 File: shops.jpg Graphic file (type jpg)
  <use shops.jpg>
-Package pdftex.def Info: shops.jpg used on input line 285.
+Package pdftex.def Info: shops.jpg used on input line 274.
 (pdftex.def)             Requested size: 162.60875pt x 289.08223pt.
  [23 <C:/Users/rune franch/Desktop/Skole/github/PKSU/Delrapporter/shops.jpg>]
 <spot.jpg, id=93, 542.025pt x 963.6pt>
 File: spot.jpg Graphic file (type jpg)
  <use spot.jpg>
-Package pdftex.def Info: spot.jpg used on input line 292.
+Package pdftex.def Info: spot.jpg used on input line 281.
 (pdftex.def)             Requested size: 162.60875pt x 289.08223pt.
  [24 <C:/Users/rune franch/Desktop/Skole/github/PKSU/Delrapporter/spot.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 296--297
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 296--297
-
- []
-
 <flowDiagram.jpg, id=97, 434.62375pt x 397.485pt>
 File: flowDiagram.jpg Graphic file (type jpg)
  <use flowDiagram.jpg>
-Package pdftex.def Info: flowDiagram.jpg used on input line 300.
-(pdftex.def)             Requested size: 217.31134pt x 198.742pt.
+Package pdftex.def Info: flowDiagram.jpg used on input line 288.
+(pdftex.def)             Requested size: 347.69946pt x 317.98842pt.
 
 [25 <C:/Users/rune franch/Desktop/Skole/github/PKSU/Delrapporter/flowDiagram.jp
-g>]
-Underfull \hbox (badness 10000) in paragraph at lines 303--306
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 303--306
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 303--306
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 303--306
-
- []
-
-[26]
-Underfull \hbox (badness 10000) in paragraph at lines 313--314
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 315--320
+g>] [26]
+Underfull \hbox (badness 10000) in paragraph at lines 297--302
 
  []
 
 [27]
-Underfull \hbox (badness 10000) in paragraph at lines 328--329
+Underfull \hbox (badness 10000) in paragraph at lines 305--309
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--333
+Underfull \hbox (badness 10000) in paragraph at lines 305--309
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--333
+Underfull \hbox (badness 10000) in paragraph at lines 305--309
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 330--333
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 334--335
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 336--337
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 338--339
-
- []
-
-[28] [29]
-Overfull \hbox (2.66795pt too wide) in paragraph at lines 347--353
+[28]
+Overfull \hbox (2.66795pt too wide) in paragraph at lines 315--321
 \T1/cmr/m/n/12 Abstractet til ar-tik-len af Naur om-kring "Pro-gram-m-ing as Th
 e-ory Bu-il-ding"fra
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 347--353
+Underfull \hbox (badness 10000) in paragraph at lines 315--321
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 347--353
+Underfull \hbox (badness 10000) in paragraph at lines 315--321
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 347--353
+Underfull \hbox (badness 10000) in paragraph at lines 315--321
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 347--353
+Underfull \hbox (badness 10000) in paragraph at lines 315--321
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 347--353
+Underfull \hbox (badness 10000) in paragraph at lines 315--321
 
  []
 
-[30] [31]
-Underfull \hbox (badness 10000) in paragraph at lines 358--366
+[29] [30]
+Underfull \hbox (badness 10000) in paragraph at lines 326--334
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 358--366
+Underfull \hbox (badness 10000) in paragraph at lines 326--334
 
  []
 
-[32] [33]
-Overfull \hbox (130.80745pt too wide) in paragraph at lines 414--449
+[31] [32]
+Overfull \hbox (130.80745pt too wide) in paragraph at lines 382--417
 \T1/cmr/m/n/12 * <a8c5bbd> 2014-05-07 [ru-ne-franch] Mer-ge branch 'ma-ster' of
  htt-ps://github.com/mhejselbak/PKSU 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 414--449
+Underfull \hbox (badness 10000) in paragraph at lines 382--417
 
  []
 
-[34] [35] [36]
+[33] [34] [35]
 ("C:\Users\rune franch\Desktop\Skole\github\PKSU\Delrapporter\delrapport4.aux")
  ) 
 Here is how much of TeX's memory you used:
@@ -967,9 +893,9 @@ pk> <C:\Users\rune franch\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\
 dpi600\ecrm1200.pk> <C:\Users\rune franch\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
 our\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\rune franch\AppData\Local\MiKTeX\
 2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk>
-Output written on delrapport4.pdf (36 pages, 1144880 bytes).
+Output written on delrapport4.pdf (35 pages, 1138686 bytes).
 PDF statistics:
- 515 PDF objects out of 1000 (max. 8388607)
+ 503 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
