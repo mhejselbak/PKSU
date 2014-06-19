@@ -230,49 +230,78 @@ Opgaver:\\\\
 6. Tilføj et spot der hedder abc, med adressen xxx uden et billede\\\\
 7. Ændrer afstanden i km for søgen af spots
 \pagebreak
-\section{Brugergrænseflade og interaktionsdesign}
+\subsection{Brugergrænseflade og interaktionsdesign}
+
+\begin{figure}[ht]
+\begin{minipage}[b]{0.45\linewidth}
+\centering
+\includegraphics[width=\textwidth]{mobil1}
+\caption{Startside}
+\label{fig:figure1}
+\end{minipage}
+\hspace{0.5cm}
+\begin{minipage}[b]{0.45\linewidth}
+\centering
+\includegraphics[width=\textwidth]{markers}
+\caption{Markers}
+\label{fig:figure2}
+\end{minipage}
+\end{figure}
+
 
 \paragraph{Start side}\mbox{}\\
 Dette er start siden af app'en. Her ses kortet med menuen i toppen. De røde markører viser kortet er spots og de blå viser butikker butikker.\\
-\begin{figure}[h]
-\includegraphics[scale = 0.3]{mobil1}
-\end{figure}
-
-\newpage
 \paragraph{Spot information}\mbox{}\\
 Dette er overlayet med informationerne om et spot.\\ Det viser et billede af spottet og spottets addresse.
-\begin{figure}[h]
-\includegraphics[scale = 0.3]{markers}
-\end{figure}
 
 \newpage
+\begin{figure}[ht]
+\begin{minipage}[b]{0.45\linewidth}
+\centering
+\includegraphics[width=\textwidth]{msettings}
+\caption{Indstillinger}
+\label{fig:figure3}
+\end{minipage}
+\hspace{0.5cm}
+\begin{minipage}[b]{0.45\linewidth}
+\centering
+\includegraphics[width=\textwidth]{addspotscreen}
+\caption{Add spot}
+\label{fig:figure4}
+\end{minipage}
+\end{figure}
+
+
+
 \paragraph{Indstillinger}\mbox{}\\
 Dette er indstillingerne med slideren til radius for spotsne. Den er pt ikke implementeret men planen er at en skal kunne sætte en radius for langt man vil søge spots i udfra brugerens nuværende lokation.\\
-\begin{figure}[h]
-\includegraphics[scale = 0.3]{msettings}
-\end{figure}
-
-\newpage
 \paragraph{Add Spot}\mbox{}\\
 Her ses "Add Spot" funktionen som den vil se ud i appen. Den fungerer sådan at du indtaster et navn til dit spot, adressen, vælger hvilken type spot det er (spot/shop) og lader dig uploade et billede. Indsend sender formularen og ligger dit spot op i databasen.\\
-\begin{figure}[h]
-\includegraphics[scale = 0.3]{addspotscreen}
-\end{figure}
 
 
 \newpage
+\begin{figure}[ht]
+\begin{minipage}[b]{0.45\linewidth}
+\centering
+\includegraphics[width=\textwidth]{search}
+\caption{Søg}
+\label{fig:figure5}
+\end{minipage}
+\hspace{0.5cm}
+\begin{minipage}[b]{0.45\linewidth}
+\centering
+\includegraphics[width=\textwidth]{shops}
+\caption{Shops}
+\label{fig:figure6}
+\end{minipage}
+\end{figure}
+
+
+
 \paragraph{Søg}\mbox{}\\
 Dette er søgeboksen til at søge efter spot med, man søger på addresse. Efter man har søgt vil man blive vist en liste over de steder der passer til ens søgning. Fx. hvis man søger på et postnummer vil alle spots med det postnummer blive vist i en liste.\\
-\begin{figure}[h]
-\includegraphics[scale = 0.3]{search}
-\end{figure}
-
-\newpage
 \paragraph{Butikker}\mbox{}\\
 Denne minder meget om spots dog en kortere liste. Den viser listen over vores butikker, da det pt kun er 1 butik tilknyttet findes der kun en i databasen.\\
-\begin{figure}[h]
-\includegraphics[scale = 0.3]{shops}
-\end{figure}
 
 \newpage
 \paragraph{Spots}\mbox{}\\

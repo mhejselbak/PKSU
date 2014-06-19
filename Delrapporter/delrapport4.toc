@@ -4,17 +4,17 @@
 \contentsline {section}{\numberline {3}Kravspecifikation for IT-l\IeC {\o }sningen}{5}
 \contentsline {section}{\numberline {4}Systemdesign sammenfatning}{16}
 \contentsline {section}{\numberline {5}Program- og systemtest}{17}
-\contentsline {section}{\numberline {6}Brugergr\IeC {\ae }nseflade og interaktionsdesign}{18}
+\contentsline {subsection}{\numberline {5.1}Brugergr\IeC {\ae }nseflade og interaktionsdesign}{18}
 \contentsline {paragraph}{Start side}{18}
-\contentsline {paragraph}{Spot information}{19}
-\contentsline {paragraph}{Indstillinger}{20}
-\contentsline {paragraph}{Add Spot}{21}
-\contentsline {paragraph}{S\IeC {\o }g}{22}
-\contentsline {paragraph}{Butikker}{23}
-\contentsline {paragraph}{Spots}{24}
-\contentsline {paragraph}{Flow-chart over sk\IeC {\ae }rmbilleder}{25}
-\contentsline {section}{\numberline {7}Versionstyring}{27}
-\contentsline {section}{\numberline {8}Projektsamarbejdet}{28}
-\contentsline {section}{\numberline {9}Review}{29}
-\contentsline {section}{\numberline {10}Litteratur}{33}
-\contentsline {section}{\numberline {11}Bilag}{34}
+\contentsline {paragraph}{Spot information}{18}
+\contentsline {paragraph}{Indstillinger}{19}
+\contentsline {paragraph}{Add Spot}{19}
+\contentsline {paragraph}{S\IeC {\o }g}{20}
+\contentsline {paragraph}{Butikker}{20}
+\contentsline {paragraph}{Spots}{21}
+\contentsline {paragraph}{Flow-chart over sk\IeC {\ae }rmbilleder}{22}
+\contentsline {section}{\numberline {6}Versionstyring}{24}
+\contentsline {section}{\numberline {7}Projektsamarbejdet}{25}
+\contentsline {section}{\numberline {8}Review}{26}
+\contentsline {section}{\numberline {9}Litteratur}{30}
+\contentsline {section}{\numberline {10}Bilag}{31}
